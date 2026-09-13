@@ -1,0 +1,627 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T07:51:51.369415+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 27
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
+        "url": "https://huggingface.co/papers/2609.09143",
+        "normalized_url": "https://huggingface.co/papers/2609.09143",
+        "summary": "Image tokenizers define the ``visual language'' of unified multimodal models, yet are commonly studied through isolated metrics or generation-/understanding-only evaluations. These evaluations do not fully capture how visual tokens behave when modeled jointly with text. We build a controlled pure-autoregressive testbed and track task-specific validation losses during multimodal continual pretraining across text, image, text-to-image (T2I), and image-to-text (I2T) prediction. We examine how these",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-08T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.09143"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
+        "url": "https://huggingface.co/papers/2609.10745",
+        "normalized_url": "https://huggingface.co/papers/2609.10745",
+        "summary": "Multimodal entity linking grounds entity mentions in text and images to knowledge-base entries. These systems degrade on rare entities, but prior work measures rarity primarily through popularity-based metrics such as pageviews. We broaden this view using knowledge-graph structural metrics that capture how well an entity is documented and connected. These metrics identify many rare entities that popularity metrics miss. Across the resulting rare-entity slices, state-of-the-art accuracy drops by ",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-09T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.10745"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
+        "url": "https://huggingface.co/papers/2609.10445",
+        "normalized_url": "https://huggingface.co/papers/2609.10445",
+        "summary": "Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain overwhelmingly English-centric: models primarily reason in English regardless of the language they are prompted in. This is inaccessible for non-English-speaking users, risks losing the intent of the original question, and forgoes knowledge more readily expressed in the target language. In this work, we advance L2 reasoning, the ability of a model to reason consistently in the la",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-09T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.10445"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
+        "url": "https://huggingface.co/papers/2608.15380",
+        "normalized_url": "https://huggingface.co/papers/2608.15380",
+        "summary": "In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution Service (DDS), a single network-impaired or throttled subscriber on a RELIABLE topic can cause backpressure that degrades throughput and latency for all other subscribers, including safety-critical ones sharing the publisher, because the publisher's DDS writer can no longer accept new samples. We present Adaptive Bridge, a proxy-based layer that decouples critical subscribers from degraded or noncritical ones, there",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-06T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.15380"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Beyond Solver Verdicts: Generative Reward Models for Autoformalization",
+        "url": "https://huggingface.co/papers/2609.11085",
+        "normalized_url": "https://huggingface.co/papers/2609.11085",
+        "summary": "Neurosymbolic systems rely on mathematical solvers to guarantee reasoning correctness, yet solvers are fundamentally blind to whether a formal translation maintains strict reference-equivalence to a designated formalization. We formalize this vulnerability as Verdict-Preserving-Unfaithfulness (VPU): a failure mode where an incorrect encoding executes successfully and matches the expected verdict. We theoretically prove that structural, verdict-only verification heuristics are mathematically boun",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-10T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.11085"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
+        "url": "https://huggingface.co/papers/2609.09076",
+        "normalized_url": "https://huggingface.co/papers/2609.09076",
+        "summary": "As LLMs are increasingly used for pre-submission self-review, there is growing demand for feedback that not only identifies weaknesses but also guides authors toward concrete revisions. We study this as Actionable Peer-review Generation and decompose it into two subtasks: diagnostic claim generation and revision suggestion generation. We introduce ActReview, a rebuttal-guided post-training framework that connects paper-specific diagnoses to concrete, grounded revision plans. Our central insight ",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-08T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2609.09076"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
+        "url": "https://huggingface.co/papers/2609.10539",
+        "normalized_url": "https://huggingface.co/papers/2609.10539",
+        "summary": "A research idea may be novel, coherent, and scientifically plausible, yet its proposed method may remain insufficiently specified for faithful implementation. We study the codification readiness of implementation-facing research-method specifications, defined by whether they provide sufficient methodological information for a competent implementer or coding agent to construct the intended method without unsupported assumptions. We construct evidence-grounded specifications and their supported re",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-09T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.10539"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+        "url": "https://huggingface.co/papers/2609.11561",
+        "normalized_url": "https://huggingface.co/papers/2609.11561",
+        "summary": "Mainstream robotic policies often adopt a Markovian formulation, but many complex real-world manipulation tasks are inherently non-Markovian, requiring long-horizon memory beyond the current observation. Existing memory mechanisms often rely on language summaries, growing visual windows, or their combinations, and may therefore lose fine-grained visual evidence or face a trade-off between history coverage and execution efficiency. We introduce MaP-WAM, a Memory-as-Plans framework that decomposes",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-10T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.11561"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Negative Self-Distillation: Learning to Reason by Avoiding Flaws",
+        "url": "https://huggingface.co/papers/2609.11699",
+        "normalized_url": "https://huggingface.co/papers/2609.11699",
+        "summary": "On-Policy Self-Distillation (OPSD) has emerged as a popular paradigm for large language model (LLM) self-improvement, allowing models to act as their own teachers by leveraging privileged information such as ground-truth solutions. However, recent findings indicate that OPSD can severely degrade the performance of LLMs on complex reasoning tasks: By forcing the student to imitate an artificially confident reasoning trace conditioned on privileged information, OPSD inadvertently suppresses expres",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-10T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.11699"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "FreeFlow: A Bias-free Hierarchical Transformer for Optical Flow Estimation",
+        "url": "https://huggingface.co/papers/2609.11486",
+        "normalized_url": "https://huggingface.co/papers/2609.11486",
+        "summary": "Optical flow methods typically rely on task-specific inductive biases, such as correlation volumes, feature warping, and iterative refinement, among others, to reach high accuracy. While effective, such biases constrain the model to predefined heuristics, which can limit its expressivity and lead to more complex pipelines and additional computational cost. We present FreeFlow, a hierarchical transformer built without any flow-specific components, using instead a single feed-forward encoder--deco",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-10T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.11486"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Mi-Ripple: Restoring Images Degraded by Iterative AI Editing",
+        "url": "https://huggingface.co/papers/2609.11317",
+        "normalized_url": "https://huggingface.co/papers/2609.11317",
+        "summary": "Iterative reference-conditioned image editing can introduce grid-like and granular textures, commonly described as digital ripple. We present Mi-Ripple, a diagnosis-guided restoration workflow that suppresses this digital ripple while protecting image structure. Mi-Ripple separates periodic lattice artifacts from content-entangled granular texture, then combines selective spectral notching, structure-aware smoothing, and cleaned-reference regeneration. This separation enables low-distortion filt",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-10T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2609.11317"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "DRG-MAPPO: Hierarchical Dynamic Role-Graph Multi-Agent Reinforcement Learning for Cooperative Air Combat",
+        "url": "https://huggingface.co/papers/2609.11155",
+        "normalized_url": "https://huggingface.co/papers/2609.11155",
+        "summary": "Multi-Agent Reinforcement Learning (MARL) has emerged as a pivotal paradigm for complex decision-making in autonomous systems and air combat. While MARL has demonstrated significant potential in air combat, achieving sophisticated tactical coordination remains a non-trivial challenge. This difficulty is largely attributed to two primary limitations: (1) the absence of structured relational modeling hinders agents from capturing complex, time-varying interactions among battlefield entities; and (",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-10T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.11155"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "MetroLLM-Bench: Evaluating Language Models as Transit Kiosk Runtimes",
+        "url": "https://huggingface.co/papers/2609.10016",
+        "normalized_url": "https://huggingface.co/papers/2609.10016",
+        "summary": "We introduce MetroLLM-Bench, a 955-case benchmark for testing language models as the policy layer of a transit kiosk. It covers six real metro systems, ranging from 37 to 414 stations, and eleven categories that include routing, fare calculation, disruptions, accessibility, and adversarial input. In each case, the model must call structured tools and submit a machine-renderable terminal state containing an outcome, a per-ticket fare quote when applicable, and a kiosk action. Fourteen determinist",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-09T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.10016"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "UniH^3: Unifying Hierarchical Homogeneity and Heterogeneity for All-in-One Medical Image Restoration",
+        "url": "https://huggingface.co/papers/2609.11156",
+        "normalized_url": "https://huggingface.co/papers/2609.11156",
+        "summary": "All-in-One medical image restoration (MedIR) aims to address diverse tasks across modalities and degradation types using a single universal model. Existing methods typically prioritize modeling inter-task heterogeneity (e.g., distinct data distributions and degradation types). However, they largely neglect the inherent homogeneity present in medical images, such as widely shared anatomical structures within and across modalities, which can be leveraged to ease model training and improve generali",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-10T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.11156"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "TempCloze: Can Video-LLMs Identify the Missing Middle?",
+        "url": "https://huggingface.co/papers/2609.01515",
+        "normalized_url": "https://huggingface.co/papers/2609.01515",
+        "summary": "Temporal reasoning benchmarks for Video-LLMs are often mediated by language, leaving room for linguistic shortcuts from option wording, answer correlations, or language priors. To reduce such shortcuts, we introduce TempCloze, a video cloze benchmark for evaluating visual temporal reasoning in Video-LLMs. Given the beginning and ending clips of a video, models must identify the true missing middle from four candidates. TempCloze contains 1,521 carefully filtered videos from seven sources, mainly",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-01T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.01515"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "X-AuT: Progressive Audio-Encoder Compression for Speech LLMs with Cross-Scale Distillation",
+        "url": "https://huggingface.co/papers/2609.11412",
+        "normalized_url": "https://huggingface.co/papers/2609.11412",
+        "summary": "Reducing audio-encoder depth lowers the inference cost of speech large language models, but removing complete blocks perturbs the embeddings consumed by the decoder and can cause deletion and premature end-of-sequence errors. We introduce X-AuT, a progressive framework that selects layer combinations through short behavioral probes and restores the pruned model through representation alignment, cross-scale distillation, scheduled student-policy supervision, and LoRA finetuning. The language-mode",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-10T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.11412"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Generative Late-Interaction Embeddings For Visual Document Retrieval",
+        "url": "https://huggingface.co/papers/2609.11808",
+        "normalized_url": "https://huggingface.co/papers/2609.11808",
+        "summary": "Late-interaction retrieval is the state-of-the-art for visual document search, but it pays for its accuracy in storage. Existing compression methods retain a subset or local average of the N~1,000 vectors per page. Under aggressive storage budgets, however, these methods degrade sharply, and alternatives require retraining the encoder. Investigating this degradation across three encoders, we found two consistent properties: the vectors lie exactly on the unit sphere and concentrate near a manifo",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-10T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.11808"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents",
+        "url": "https://huggingface.co/papers/2609.05903",
+        "normalized_url": "https://huggingface.co/papers/2609.05903",
+        "summary": "Large Language Model (LLM) agents are turning language into real-world effects, making safety necessary against both indirect prompt injections and direct harmful requests. System-level safety harnesses add an enforcement layer beyond model-level defenses, but existing harnesses are usually designed once by experts and applied across heterogeneous models and domains. Effective protection is deployment-dependent: models differ in how much enforcement they need before utility declines, while domai",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.05903"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "HyQuant: Hybrid-Precision Quantization for LLM Attention",
+        "url": "https://huggingface.co/papers/2608.27875",
+        "normalized_url": "https://huggingface.co/papers/2608.27875",
+        "summary": "Quantization has been widely adopted in LLM training and inference to reduce cost and improve efficiency. However, low-bit quantization of the attention module often introduces large errors at very low bit-widths, causing performance degradation. Existing methods mainly rely on smoothing techniques to handle outliers, while we propose a hybrid quantization design to better balance accuracy and efficiency. Specifically, we propose HyQuant, an efficient hybrid quantization framework for LLM attent",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2608.27875"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics",
+        "url": "https://huggingface.co/papers/2609.10712",
+        "normalized_url": "https://huggingface.co/papers/2609.10712",
+        "summary": "We study how model post-training and test-time inference design affect natural-language proof generation for hard olympiad mathematics. Starting from Nemotron 3 Ultra, we train two specialist checkpoints using supervised fine-tuning and reinforcement learning, and evaluate checkpoint choice, verification, and refinement. Based on these findings, we present an open-model test-time-compute pipeline. The system operates entirely in natural language, with no formal prover, external tools, or interne",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-09T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.10712"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "2000+真实场景搬进仿真！一个导航模型零样本“通吃”四种机器人本体",
+        "url": "https://www.qbitai.com/2026/09/488672.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/488672.html",
+        "summary": "亮源新创的Physical Al路线清晰了",
+        "source": "量子位",
+        "published": "2026-09-13T07:38:20+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "GitHub三榜第一背后，一个“专升本”工程师的十年",
+        "url": "https://www.qbitai.com/2026/09/488519.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/488519.html",
+        "summary": "出身寒微不是耻辱，放弃自己才是。",
+        "source": "量子位",
+        "published": "2026-09-13T07:20:19+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "今年外滩最特别Agent：能干活，能陪聊，还会朋友圈拉黑你",
+        "url": "https://www.qbitai.com/2026/09/488447.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/488447.html",
+        "summary": "Agent的下一步是关系型生产力",
+        "source": "量子位",
+        "published": "2026-09-13T06:40:25+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI年内不上市了！奥特曼支持对手Dario呼吁：AI该踩刹车了",
+        "url": "https://www.qbitai.com/2026/09/488380.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/488380.html",
+        "summary": "RSI太危险，得管！",
+        "source": "量子位",
+        "published": "2026-09-13T03:13:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“算力中国·年度卓越成就”发布 太初元碁超智融合计算系统入选",
+        "url": "https://www.qbitai.com/2026/09/487860.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/487860.html",
+        "summary": "太初（杭州）集成电路有限公司新一代超智融合计算系统元碁Hypertintellix入选“算力中国·年度卓越成就”。",
+        "source": "量子位",
+        "published": "2026-09-12T11:38:16+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "A社承认Claude安全对齐存在缺陷，但“尚无解决方案”",
+        "url": "https://www.qbitai.com/2026/09/487796.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/487796.html",
+        "summary": "Claude越界攻击真实系统，并非只是测试系统的设置问题，模型本身的安全问题也出了问题。",
+        "source": "量子位",
+        "published": "2026-09-12T08:49:02+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "探索RSI，生数新世界模型让机器人开始自我进化",
+        "url": "https://www.qbitai.com/2026/09/487752.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/487752.html",
+        "summary": "触觉、记忆、Ego数据、自进化……这个世界模型全都有",
+        "source": "量子位",
+        "published": "2026-09-12T08:15:31+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI数学的最后一道高墙，塌了！GPT-6 Astra刷穿FrontierMath Tier 4",
+        "url": "https://www.qbitai.com/2026/09/487701.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/487701.html",
+        "summary": "FrontierMath Tier 4，饱和了",
+        "source": "量子位",
+        "published": "2026-09-12T07:33:54+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Kimi突发K2.8：性能逼近K3，百万上下文全员开放",
+        "url": "https://www.qbitai.com/2026/09/487688.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/487688.html",
+        "summary": "冲刺港股IPO",
+        "source": "量子位",
+        "published": "2026-09-12T05:58:41+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神",
+        "url": "https://www.qbitai.com/2026/09/487653.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/487653.html",
+        "summary": "25位菲尔兹奖得主联名吹哨",
+        "source": "量子位",
+        "published": "2026-09-12T04:53:58+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Python 潮流周刊#167：用 1024 字节写个 Python 解释器",
+        "url": "https://sspai.com/post/114494",
+        "normalized_url": "https://sspai.com/post/114494",
+        "summary": "本周刊由 Python猫 出品，精心筛选国内外的 400+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 温馨提示： 在微信关注 Python猫 ，发送数字“ 9 ”，即可领取 9 折优惠码，订阅专栏可享 15 元优惠。 去专栏阅读全文： 全文链接 分享了 12 篇文章，12 个开源项目 以下是本期标题摘要： 🦄文章&教程 ① Python 的 set 与 dict 也会有二次方耗时 ② 读一次 __dict__ 就会永久拖慢属性访问 ③ 用 1024 字节写一个 Python 解释器 ④ 给 NumPy 的 ufunc 教点新把戏 ⑤ 跨服务边界的插件架构：用 Pydantic 和 FastAPI 定义 API 契约（上） ⑥ 从 pandas 迁移到 Polars 的策略 ⑦ 软弃用 re.match() ⑧ 什么时候该用 NotImplemented ⑨ Python 大版本升级的并跑策略 ⑩ 不抓狂地测试异步 Python ⑪ 有用户，有收入，AI 应用却不是好生意 ",
+        "source": "SSPAI AI",
+        "published": "2026-09-12T13:31:28+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+        }
+      },
+      {
+        "category": "news",
+        "title": "What’s behind the AI industry’s latest warnings of doom?",
+        "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+        "normalized_url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom",
+        "summary": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-13T19:40:15+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+        "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+        "normalized_url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards",
+        "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-13T16:30:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
+        "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+        "normalized_url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026",
+        "summary": "While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-12T20:19:16+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic CEO outlines plan to slow AI development",
+        "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+        "normalized_url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier",
+        "summary": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
+        "source": "TechCrunch AI",
+        "published": "2026-09-12T19:34:44+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Trump and Mike Johnson think the AI industry is overreacting",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+        "summary": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Donald Trump and House Speaker Mike Johnson, however, […]",
+        "source": "The Verge AI",
+        "published": "2026-09-13T19:41:48+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI’s rogue AI tried to hack another company in May",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+        "summary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems described it as a […]",
+        "source": "The Verge AI",
+        "published": "2026-09-12T21:41:36+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+        "summary": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was beyond human control. On the latter, he […]",
+        "source": "The Verge AI",
+        "published": "2026-09-12T21:16:28+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic CEO says it’s time to pump the brakes on AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+        "summary": "Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to safety practices and commitments.\" In a winding essay, Amodei proposed a three-step plan to \"pace the frontier\" - jargon that simply means to slow […]",
+        "source": "The Verge AI",
+        "published": "2026-09-12T16:23:40+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Trump is giving data centers a pass to pollute",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
+        "summary": "President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report. They are urging - perhaps futilely - the president to adopt a \"Data Center Health Protection […]",
+        "source": "The Verge AI",
+        "published": "2026-09-12T14:41:27+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI just wants to win",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+        "summary": "OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a historic achievement. Instead, many mathematicians have watched OpenAI's relentless advance with […]",
+        "source": "The Verge AI",
+        "published": "2026-09-12T11:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI Agents Are Thirsty for Power",
+        "url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power/",
+        "normalized_url": "https://www.wired.com/story/ai-agents-are-thirsty-for-power",
+        "summary": "Silicon Valley is shifting away from chatbot queries toward a future filled with resource-intensive agentic AI—and it's driving the data center buildout.",
+        "source": "Wired AI",
+        "published": "2026-09-13T10:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "From Hacks to Bioweapons, Claude Misuse Is Now Everywhere",
+        "url": "https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/",
+        "normalized_url": "https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere",
+        "summary": "Plus: The US disrupts the internet’s biggest black market, a Conti ransomware hacker gets prison time, Meta fails to stop AI-generated videos of child abuse.",
+        "source": "Wired AI",
+        "published": "2026-09-12T10:30:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: AI basketball coaching, Jira vs. Linear, building a business case for platform teams, favorite AI use cases, and more",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
+        "summary": "Community Wisdom 298",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-12T17:45:34+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
+        "url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
+        "summary": "Listen now | Roman Ugarte of SpaceXAI on going from first line of code to the world’s hottest AI product in seven weeks, and what it really takes to win in the most competitive market ever",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-08T12:31:49+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: GPT-6 Astra is a banger + Stripe’s AI playbook + Grok Bot vs. OpenClaw: why I replaced my entire agent stack",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
+        "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-07T15:02:41+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Build your own company brain: the enterprise AI playbook from Stripe’s engineering team | Sharadh Krishnamurthy",
+        "url": "https://www.lennysnewsletter.com/p/build-your-own-company-brain-the",
+        "normalized_url": "https://www.lennysnewsletter.com/p/build-your-own-company-brain-the",
+        "summary": "Watch now | 🎙️ Learn how Stripe scaled AI to everyone at a complex global company by building context, governance, and a shared skills platform directly into their internal agent",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-07T12:04:19+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
