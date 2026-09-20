@@ -1,0 +1,926 @@
+{
+  "date": "2026-09-21",
+  "generated_at": "2026-09-21T07:49:20.920939+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 50
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "Verifiable Social Reasoning for LLM Assistants",
+        "url": "https://huggingface.co/papers/2609.17496",
+        "normalized_url": "https://huggingface.co/papers/2609.17496",
+        "summary": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others' intentions, typically lack verifiable ground truth. To address these challenges, we introduce Fuse, a multi-agent simulation framework for studying user-mediated social reasoning. In Fuse, a target a",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-15T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.17496"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Self-Evolving Search Index",
+        "url": "https://huggingface.co/papers/2609.19656",
+        "normalized_url": "https://huggingface.co/papers/2609.19656",
+        "summary": "Information retrieval is increasingly important as LLM agents tackle complex tasks involving diverse information needs. Because retrieval relies on an index that represents each document through index keys, retrieval quality depends heavily on how effectively these keys expose the knowledge contained in each document. However, effective index representations vary across retrieval environments, making it difficult for any fixed optimization strategy to perform consistently. Yet evolving an index ",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.19656"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Sample Count Is Not Enough: Candidate-Generation Strategy Shapes the Energy and Performance of LLM Test-Time Scaling",
+        "url": "https://huggingface.co/papers/2609.19499",
+        "normalized_url": "https://huggingface.co/papers/2609.19499",
+        "summary": "Test-time scaling can improve large language model reasoning by generating and combining multiple candidate responses. In sampling-based methods, the inference budget is often described by the number of generated candidates, N. However, N tells us how many candidates are generated, not how they are executed. The same candidate budget can be produced in one batched generation call or split across several sequential calls with smaller batch sizes. We first study the effect of increasing N on reaso",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.19499"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "VākQA: A Benchmark and Evaluation Study for Telugu Spoken Factoid Question Answering",
+        "url": "https://huggingface.co/papers/2609.19879",
+        "normalized_url": "https://huggingface.co/papers/2609.19879",
+        "summary": "Question answering has advanced rapidly with large language models, but predominantly for high-resource languages, in both text and spoken settings. Spoken question answering (SQA) benchmark for Telugu remains unexplored, and the reliability of automatic evaluation in this setting remains unquantified. We introduce VākQA, a Telugu SQA benchmark of 2,001 factoid question-answer pairs across six domains, with 2.53 hours of speech audio, bilingual transcriptions, and human-verified reference answer",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.19879"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Don't Mask the Environment: Observation Supervision Changes How Agents Explore Under RL",
+        "url": "https://huggingface.co/papers/2609.20715",
+        "normalized_url": "https://huggingface.co/papers/2609.20715",
+        "summary": "Agent trajectories record what an agent does and what happens next. Yet standard supervised fine-tuning (SFT) applies loss only to agent-authored action tokens, using environment observations as context but not as prediction targets. We ask whether this convention provides the best initialization for subsequent reinforcement learning. We introduce ActObs, which also supervises the observation tokens already present in each trajectory. Although deployed agents never generate observations, learnin",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.20715"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Srijika: OpenType-Layout-Reusing Font Restyling for Nine Indic Scripts",
+        "url": "https://huggingface.co/papers/2609.05661",
+        "normalized_url": "https://huggingface.co/papers/2609.05661",
+        "summary": "We present Srijika, a system for producing installable OpenType fonts for nine Brahmic scripts: Devanagari, Tamil, Bengali, Telugu, Kannada, Malayalam, Gujarati, Gurmukhi, and Odia. Rather than generating fonts from scratch, Srijika restyles glyph outlines from shaping-complete template fonts. It preserves the template's cmap and GSUB closure and its GPOS data under a documented metric policy, making every output a complete font by construction. This addresses a central challenge of Indic font g",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-04T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.05661"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Can MiniMax-H3 Reason About the Physical World? An Evaluation of Omni-Modal Generative Model",
+        "url": "https://huggingface.co/papers/2609.18323",
+        "normalized_url": "https://huggingface.co/papers/2609.18323",
+        "summary": "Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, images, video, and audio. MiniMax-H3 exemplifies this transition by combining multimodal context understanding with joint audio-visual generation in a shared latent framework. Its unified architecture raises a fundamental question: Can multimodal alignment improve the model's world reasoning, and what new evaluation paradigms do omni-modal inputs enable? To investigate this questio",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.18323"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
+        "url": "https://huggingface.co/papers/2609.20817",
+        "normalized_url": "https://huggingface.co/papers/2609.20817",
+        "summary": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence. Most feed-forward methods infer articulation from a single observation and therefore rely heavily on learned category-level shape priors. We present FAMOS, a feed-forward model that predicts movable-part segmentation and joint parameters from a sparse, unordered set of partial point clouds. Our model jointly reasons over multiple observations and nat",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.20817"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation",
+        "url": "https://huggingface.co/papers/2609.20511",
+        "normalized_url": "https://huggingface.co/papers/2609.20511",
+        "summary": "We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even exhaust the generation budget. We identify termination-token mismatch between base students and post-trained teachers as an important source of this behavior. Across Qwen3, Llama, and Gemma, the two models can place their stopping probability on different EOS tokens, even when their declared stopping sets are identical. This mismatch can suppress the student's preferred termina",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.20511"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?",
+        "url": "https://huggingface.co/papers/2609.18605",
+        "normalized_url": "https://huggingface.co/papers/2609.18605",
+        "summary": "As corporate AI adoption continues to grow, enterprise-grade LLM agents are being deployed into sensitive contexts such as hiring, healthcare, and finance. In these contexts, compliance with rules specified in an agent's system context is a first-order legal concern. Currently, no evaluation framework systematically measures which LLM models tend to violate compliance rules, especially under pressure from a persistent user, a hurried manager, or circumstances where violation is convenient or att",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.18605"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing",
+        "url": "https://huggingface.co/papers/2609.20423",
+        "normalized_url": "https://huggingface.co/papers/2609.20423",
+        "summary": "Document parsing converts document images into structured content and requires reliable performance across diverse layouts and acquisition conditions. Yet training corpora are biased toward common document types and clean digital pages, while expanding coverage alone does not specify how to address a parser's remaining weaknesses. We present WeVisDoc, a two-stage data-centric framework for robust end-to-end document parsing. Stage I broadens semantic, structural, and appearance coverage through ",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.20423"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+        "url": "https://huggingface.co/papers/2609.20784",
+        "normalized_url": "https://huggingface.co/papers/2609.20784",
+        "summary": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher with privileged task skills, letting a skill-free student internalize them. This recipe, however, is undermined by two findings in agentic tasks: privileged information alone does not always make a teacher reliable, and the benefit of teacher supervision is stage-dependent. We theref",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.20784"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "When2Think: Learning Difficulty-Aware Length Control for Efficient Hybrid Reasoning Models",
+        "url": "https://huggingface.co/papers/2609.19671",
+        "normalized_url": "https://huggingface.co/papers/2609.19671",
+        "summary": "Large Reasoning Models (LRMs) achieve strong performance on complex tasks but exhibit systematic inefficiency: they often overthink easy problems and underthink hard ones. Existing approaches based on uniform length penalties or rigid routing incur an efficiency tax, trading reduced computation on easy instances for accuracy loss on hard instances. We formulate efficient reasoning as an instance-adaptive computation allocation problem and propose When2Think, a post-training framework for hybrid ",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.19671"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
+        "url": "https://huggingface.co/papers/2609.17653",
+        "normalized_url": "https://huggingface.co/papers/2609.17653",
+        "summary": "GUI agents execute long-horizon tasks on dynamic graphical user interfaces, where pop-ups, delayed loads, and relocated widgets routinely invalidate plans fixed before execution. Recent agent-skill frameworks encapsulate reusable procedural knowledge to mitigate this, yet existing skill designs are largely developed without targeting GUI execution dynamics and treat skills as static artifacts produced before deployment rather than living procedural knowledge that improves through it. We argue th",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-15T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.17653"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "What Does Privileged Information Add to On-Policy Self-Distillation?",
+        "url": "https://huggingface.co/papers/2609.20612",
+        "normalized_url": "https://huggingface.co/papers/2609.20612",
+        "summary": "On-policy self-distillation (OPSD) lets a language model learn from a frozen copy of itself that sees an answer or a worked solution. Giving the teacher this extra information seems to offer the student more to learn, but how much does it add beyond distillation itself? To isolate that contribution, we construct AMPLE-Math, a reusable suite of 5,319 mathematical problems with six reasoning views that share the same answer, and compare each view with matched reference-free distillation. With a th",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.20612"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
+        "url": "https://huggingface.co/papers/2609.19969",
+        "normalized_url": "https://huggingface.co/papers/2609.19969",
+        "summary": "The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work has substantially reduced the cost of long-context computation, prefill remains computationally expensive, and large KV caches continue to strain HBM and SSD capacity and data-transfer bandwidth. Together, these compute, storage, and bandwidth demands constitute the primary bottleneck to further lowering deployment costs. To address this challenge, we introduce DeepSeek-V4.1-Flas",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.19969"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "UFO: Chain-of-Evaluation for Omni-Condition Alignment in Multi-Modal Image Generation",
+        "url": "https://huggingface.co/papers/2609.12397",
+        "normalized_url": "https://huggingface.co/papers/2609.12397",
+        "summary": "Multi-modal image generation, particularly subject-driven customization, has garnered growing attention in recent years. Despite the rapid advancement of generative models, their evaluation remains largely lagging. Existing methods, whether embedding-based or Multi-modal Large Language Model (MLLM)-based, evaluate alignment with each modal condition in isolation, which contradicts the simultaneous condition alignment objective of multi-modal image generation, leading to poor consistency with hum",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.12397"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Video DeltaNet: A Video-Native Hybrid Attention for Livestream Video Generation",
+        "url": "https://huggingface.co/papers/2609.20744",
+        "normalized_url": "https://huggingface.co/papers/2609.20744",
+        "summary": "Video diffusion models repeatedly process long spatiotemporal token sequences during denoising, making attention a major computational bottleneck. Linear attention offers an appealing alternative and has been widely adopted in recent large language models, but directly applying it to video models often fails to preserve the fine-grained interactions required for high-quality generation. We present Video DeltaNet (VDN), which combines local Softmax attention with bidirectional linear memory for l",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.20744"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
+        "url": "https://huggingface.co/papers/2609.20800",
+        "normalized_url": "https://huggingface.co/papers/2609.20800",
+        "summary": "World modeling enables intelligence to anticipate consequences, guide interventions, and learn from interaction. Yet predictive models remain domain-specific: can a common learning principle support world modeling across radically different systems? We introduce JEPA-Anything, a domain-agnostic framework based on orthogonal predictive factorization (OPF). Extending joint-embedding predictive architectures, OPF decomposes latent targets into complementary factors, learns them through dedicated pa",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.20800"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "RiskChainBench: A Benchmark for Obfuscated Platform Message Restoration and Evidence-Grounded Web Investigation",
+        "url": "https://huggingface.co/papers/2609.16900",
+        "normalized_url": "https://huggingface.co/papers/2609.16900",
+        "summary": "Platform abuse campaigns conceal redirection instructions with emojis, homophones, character decomposition, and redundant symbols, then route users through disguised links to services associated with pornography, fraud, gambling, or illicit transactions. Existing benchmarks evaluate obfuscated text and risky webpages separately, obscuring how target recovery affects downstream evidence acquisition. We introduce RiskChainBench, pairing 3,600 synthetic token-text restoration inputs from 600 source",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-15T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.16900"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "从秀肌肉到「过日子」，机器人终于换赛道了",
+        "url": "https://www.36kr.com/p/3991799073913607",
+        "normalized_url": "https://www.36kr.com/p/3991799073913607",
+        "summary": "在与用户持续相处的过程中，个人机器人被不断定义。",
+        "source": "36Kr AI",
+        "published": "2026-09-20T13:49:42+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "中国新能源汽车“过剩”了？他们可能算错了三本账",
+        "url": "https://www.36kr.com/p/3991695333971592",
+        "normalized_url": "https://www.36kr.com/p/3991695333971592",
+        "summary": "关税不会对滞销品开火",
+        "source": "36Kr AI",
+        "published": "2026-09-20T13:09:36+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "融资12亿，收入暴涨300%：一家AI广告公司爆了",
+        "url": "https://www.36kr.com/p/3991669077441285",
+        "normalized_url": "https://www.36kr.com/p/3991669077441285",
+        "summary": "为什么这么能赚？",
+        "source": "36Kr AI",
+        "published": "2026-09-20T13:05:26+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI算力芯片独角兽奕行智能再获20亿融资， 加速RISC-V云端AI算力商业化落地与生态引领",
+        "url": "https://www.36kr.com/p/3991668148566785",
+        "normalized_url": "https://www.36kr.com/p/3991668148566785",
+        "summary": "投后估值接近150亿元",
+        "source": "36Kr AI",
+        "published": "2026-09-20T12:58:58+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "《紫京宸园土地价值白皮书》发布",
+        "url": "https://www.36kr.com/p/3991747664673538",
+        "normalized_url": "https://www.36kr.com/p/3991747664673538",
+        "summary": "北京东部片区价值不断跃迁。",
+        "source": "36Kr AI",
+        "published": "2026-09-20T12:56:55+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "网站滥发浏览器通知弹窗，谷歌出手整治",
+        "url": "https://www.36kr.com/p/3991650854091526",
+        "normalized_url": "https://www.36kr.com/p/3991650854091526",
+        "summary": "谷歌的做法，是对这个功能进行“流量控制”。",
+        "source": "36Kr AI",
+        "published": "2026-09-20T11:59:33+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "YC最新判断：Harness比模型更重要",
+        "url": "https://www.36kr.com/p/3991676864543496",
+        "normalized_url": "https://www.36kr.com/p/3991676864543496",
+        "summary": "模型定上限，Harness定表现",
+        "source": "36Kr AI",
+        "published": "2026-09-20T11:57:08+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "显示器也开始涨价了",
+        "url": "https://www.36kr.com/p/3991661935999744",
+        "normalized_url": "https://www.36kr.com/p/3991661935999744",
+        "summary": "此前，内存硬盘价格已经出现上涨。",
+        "source": "36Kr AI",
+        "published": "2026-09-20T11:55:18+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "离AGI还早着呢",
+        "url": "https://www.36kr.com/p/3991626369448964",
+        "normalized_url": "https://www.36kr.com/p/3991626369448964",
+        "summary": "它得从每台电脑里长出来",
+        "source": "36Kr AI",
+        "published": "2026-09-20T11:46:08+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "半年涨价10倍，油运涨疯了",
+        "url": "https://www.36kr.com/p/3991581777607427",
+        "normalized_url": "https://www.36kr.com/p/3991581777607427",
+        "summary": "谁将最受益？",
+        "source": "36Kr AI",
+        "published": "2026-09-20T11:38:55+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "刚刚，剪映发了个大的：AI生视频和AI剪辑的壁，被打破了！",
+        "url": "https://www.qbitai.com/2026/09/492973.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/492973.html",
+        "summary": "剪映Hub+剪映助手，好用",
+        "source": "量子位",
+        "published": "2026-09-20T14:30:26+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "华为首发企业AI白皮书：AI让员工更快了，怎样让整个企业受益？",
+        "url": "https://www.qbitai.com/2026/09/493068.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/493068.html",
+        "summary": "AI越来越能干，企业该怎么用",
+        "source": "量子位",
+        "published": "2026-09-20T14:23:52+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "一张3090就能跑！全栈国产模型，把AI办公搬到企业本地",
+        "url": "https://www.qbitai.com/2026/09/492946.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/492946.html",
+        "summary": "AI办公这块蛋糕，中国电信可能要先切走一块了。",
+        "source": "量子位",
+        "published": "2026-09-20T12:22:41+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "APUS 开源国内首批Jev跨平台复现：国产模型实现秒级决策",
+        "url": "https://www.qbitai.com/2026/09/492939.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/492939.html",
+        "summary": "9月19日，中国人工智能企业APUS旗下 AI 实验室公布了全球最早一批针对Jev的独立开源复现成果",
+        "source": "量子位",
+        "published": "2026-09-20T08:30:32+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "谷歌AI首次“越狱”：竟然自己破解密码入侵三家公司！",
+        "url": "https://www.qbitai.com/2026/09/492912.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/492912.html",
+        "summary": "亚马逊云科技给企业安全用Agent打了个样",
+        "source": "量子位",
+        "published": "2026-09-20T08:01:13+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "预售价31.98万-38.98万元，腾势Z9S展车抵达全国166城334家门店",
+        "url": "https://www.qbitai.com/2026/09/492873.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/492873.html",
+        "summary": "腾势Z9S迎来成都车展首秀",
+        "source": "量子位",
+        "published": "2026-09-20T07:51:09+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "《网络安全人才实战能力报告-AI赋能篇》正式发布，当AI进入业务深水区安全如何跟上",
+        "url": "https://www.qbitai.com/2026/09/492849.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/492849.html",
+        "summary": "9月18日，在第一届中国网络空间安全大会上，《网络安全人才实战能力报告—AI赋能篇》正式发布",
+        "source": "量子位",
+        "published": "2026-09-20T02:48:18+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“留给人类阻止AI的时间不多了”",
+        "url": "https://www.qbitai.com/2026/09/492755.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/492755.html",
+        "summary": "AI有可能终结我们所有人",
+        "source": "量子位",
+        "published": "2026-09-19T11:53:12+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "马斯克批量收购破产公司ing…世界首富脑子是不一样",
+        "url": "https://www.qbitai.com/2026/09/492661.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/492661.html",
+        "summary": "老马想买倒闭公司数据为哪般",
+        "source": "量子位",
+        "published": "2026-09-19T11:48:06+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "27B模型分分钟交付网页，Qwen 3.8还是太能了",
+        "url": "https://www.qbitai.com/2026/09/492573.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/492573.html",
+        "summary": "设计、前端一口气全干了，结果后端没来上班",
+        "source": "量子位",
+        "published": "2026-09-19T11:43:12+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Python 潮流周刊#168：AI 智能体少写一半代码、Numba 提速 750 倍、PyPI 故障查了两周",
+        "url": "https://sspai.com/post/114748",
+        "normalized_url": "https://sspai.com/post/114748",
+        "summary": "本周刊由 Python猫 出品，精心筛选国内外的 400+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 温馨提示： 在微信关注 Python猫 ，发送数字“ 9 ”，即可领取 9 折优惠码，订阅专栏可享 15 元优惠。 去专栏阅读全文： 全文链接 分享了 12 篇文章，12 个开源项目 以下是本期标题摘要： 🦄文章&教程 ① PyPI 文件托管故障复盘 ② PSF 发布 2026 战略规划 ③ 让你的 Django 应用可编辑 ④ 数据库驱动的 RBAC：FastAPI 与 Azure Entra ID ⑤ PEP 846：给类型别名加文档字符串 ⑥ PEP 845：点号前缀的值模式 ⑦ 多线程 Python 的确定性测试 ⑧ Python、Numba 与算法设计：为金融服务构建高效模型 ⑨ django-mcpz：让 Django 项目轻松挂上 MCP 服务器 ⑩ 库是如何在 Python 里跑 Rust 的（PyO3 版） ⑪ Squill：我的 SQL 书写画布 ⑫ ",
+        "source": "SSPAI AI",
+        "published": "2026-09-19T12:38:34+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+        }
+      },
+      {
+        "category": "news",
+        "title": "6 days left to save up to $200 to TechCrunch Disrupt 2026",
+        "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+        "normalized_url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026",
+        "summary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-20T21:41:08+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "World model companies are keeping a lot of secrets",
+        "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+        "normalized_url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets",
+        "summary": "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they're actually building.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-20T20:29:07+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Is the AI industry really ready to slow down?",
+        "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
+        "normalized_url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down",
+        "summary": "On Equity, we debated whether Ai executives are serious about wanting to slow down.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-20T18:56:04+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Vocci’s ring adds a new form factor to meeting note-taking",
+        "url": "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/",
+        "normalized_url": "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking",
+        "summary": "Vocci's lightweight ring costs $249, and might pose some privacy questions",
+        "source": "TechCrunch AI",
+        "published": "2026-09-20T18:32:52+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "ScrollEd wants to turn textbooks into TikTok",
+        "url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
+        "normalized_url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok",
+        "summary": "ScrollEd turns textbooks into a scrollable, Instagram-like feed with video, audio, and quizzes. The Palo Alto startup, founded by student co-founders (and spouses) Utsav Gupta and Rebecca Neff, pitches at TechCrunch Disrupt.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-20T18:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+        "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
+        "normalized_url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts",
+        "summary": "Without buyouts, Flock would \"almost certainly\" need to lay off staff.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-19T20:39:13+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+        "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+        "normalized_url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
+        "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-19T19:57:47+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google’s Gemini is the latest AI model to hack other companies",
+        "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+        "normalized_url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
+        "summary": "Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-19T17:30:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
+        "url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
+        "normalized_url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes",
+        "summary": "Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an extra subscription.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-19T15:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI safety conversations have gotten unbelievable",
+        "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
+        "normalized_url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable",
+        "summary": "This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-19T15:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+        "summary": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning, he claimed there was a \"0% chance\" of AI being the end of the […]",
+        "source": "The Verge AI",
+        "published": "2026-09-20T18:50:18+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Trump now says he wants to form an ‘AI Force’",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+        "summary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted that his administration \"will not in any way hinder […]",
+        "source": "The Verge AI",
+        "published": "2026-09-20T15:39:22+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+        "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+        "normalized_url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+        "summary": "Before recent high-profile hacks raised the specter of AI possibly \"killing all humans,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. \"We were always prey. We were just kind of surviving at the appetite of our predators,\" Joshua Corman, executive in residence for public safety and resilience at […]",
+        "source": "The Verge AI",
+        "published": "2026-09-20T12:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
+        "summary": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actually know how to describe itself. Jason Aten, a contributing editor at Inc Magazine, posted on Threads […]",
+        "source": "The Verge AI",
+        "published": "2026-09-19T20:44:40+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Gemini went rogue, hacked three companies, and Google hid it",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+        "summary": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in similar incidents involving Meta and OpenAI. According to WSJ, Google didn't […]",
+        "source": "The Verge AI",
+        "published": "2026-09-19T15:25:03+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Does AI need an antitrust exemption so it doesn’t kill everyone????",
+        "url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+        "normalized_url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+        "summary": "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I’m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in the Biden administration. These days, he’s both a professor of law at WashU and professor of technology policy at Carnegie Mellon. The […]",
+        "source": "The Verge AI",
+        "published": "2026-09-19T14:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The AI regulation smackdown isn’t over",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+        "summary": "At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation. Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI development, including by embedding third-party evaluators in labs, coordinating across the domestic industry, and forging international agreements potentially […]",
+        "source": "The Verge AI",
+        "published": "2026-09-19T13:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta's Muse Is Better at Surveilling Than Helping Me",
+        "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
+        "normalized_url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me",
+        "summary": "The Muse app continues Meta’s trend of opting users into data collection for AI training. It also nudges you to share your bank account, email, and passport information.",
+        "source": "Wired AI",
+        "published": "2026-09-20T10:30:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "It’s Donald Trump Versus MAGA on Data Centers",
+        "url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/",
+        "normalized_url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers",
+        "summary": "The president has doubled down on data centers and AI. His base is running in the opposite direction.",
+        "source": "Wired AI",
+        "published": "2026-09-20T10:30:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Forget the AI Slowdown—the Vulnerability Explosion Is Already Happening",
+        "url": "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion/",
+        "normalized_url": "https://www.wired.com/story/kernel-panic-ai-vulnerability-explosion",
+        "summary": "AI labs are toying with an industry-wide pact to slow development. Meanwhile, widely available AI chatbots are already helping uncover a tidal wave of security flaws.",
+        "source": "Wired AI",
+        "published": "2026-09-19T11:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Mathematicians Hate AI. They Can’t Quit It",
+        "url": "https://www.wired.com/story/mathematicians-cant-quit-ai/",
+        "normalized_url": "https://www.wired.com/story/mathematicians-cant-quit-ai",
+        "summary": "Powerful AI models have created an existential risk to the field, but researchers can’t stop relying on them because they’re too useful.",
+        "source": "Wired AI",
+        "published": "2026-09-19T10:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Join the WIRED World Fair in Miami on November 4",
+        "url": "https://www.wired.com/story/join-the-wired-world-fair-in-miami-on-november-4/",
+        "normalized_url": "https://www.wired.com/story/join-the-wired-world-fair-in-miami-on-november-4",
+        "summary": "For one day only, WIRED is bringing the technologies, people, and cultural forces transforming our world off the page and into real life.",
+        "source": "Wired AI",
+        "published": "2026-09-19T09:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
+        "url": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
+        "normalized_url": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang",
+        "summary": "Google’s threat intelligence group said it had a mole inside TeamPCP's inner circle.",
+        "source": "Ars Technica AI",
+        "published": "2026-09-20T11:07:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The Overhang",
+        "url": "https://www.oneusefulthing.org/p/the-overhang",
+        "normalized_url": "https://www.oneusefulthing.org/p/the-overhang",
+        "summary": "Using your deep knowledge, wide knowledge, taste, and agency",
+        "source": "One Useful Thing (Mollick)",
+        "published": "2026-09-18T17:54:32+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.oneusefulthing.org/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "90 minutes of unfiltered product advice from Snap and Discord’s product chief | Peter Sellis",
+        "url": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
+        "normalized_url": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
+        "summary": "Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-20T12:32:17+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: Finding your first users before the product exists, debriefing your own interviews, what to optimize for in the early years of your career, and more",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-finding-your-first",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-finding-your-first",
+        "summary": "Community Wisdom 299",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-19T19:42:24+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Muse review: The personal AI agent that gets consumer UX right",
+        "url": "https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
+        "normalized_url": "https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
+        "summary": "Watch now (38 mins) | 🎙️ I gave Meta’s Muse my calendar, my email, and my kids’ chaotic schedule, and it produced a one-shot family PDF more beautiful than anything I’ve ever made with Claude or Codex",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-16T12:02:14+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "60+ new creative growth ideas",
+        "url": "https://www.lennysnewsletter.com/p/60-creative-growth-ideas",
+        "normalized_url": "https://www.lennysnewsletter.com/p/60-creative-growth-ideas",
+        "summary": "How to stand out when everyone is running the same playbook",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-15T12:45:28+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: How two SpaceXAI designers use Grok Bot to do their jobs",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-two-spacexai-designers",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-two-spacexai-designers",
+        "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-14T15:03:48+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
