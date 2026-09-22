@@ -1,0 +1,939 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T08:33:47.667101+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 51
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "From Pretraining to Proficiency: Real-World Subtask RL for Long-Horizon Manipulation with Minimal Human Intervention",
+        "url": "https://huggingface.co/papers/2609.21788",
+        "normalized_url": "https://huggingface.co/papers/2609.21788",
+        "summary": "A pretrained robot foundation policy may execute most of a long-horizon task yet repeatedly fail at a few critical subtasks. Collecting additional full-task demonstrations for supervised fine-tuning (SFT) requires operators to repeat behaviors the policy already performs well. Reinforcement learning (RL) fine-tuning offers a promising path to bridge this gap, but existing approaches struggle to solve long-horizon tasks using only sparse rewards. We present PARTS (Policy Adaptation with RL on Tar",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-18T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2609.21788"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "SiliconBench: Speed, Memory, and Fidelity for LLM Serving on Unified-Memory Desktops",
+        "url": "https://huggingface.co/papers/2609.19169",
+        "normalized_url": "https://huggingface.co/papers/2609.19169",
+        "summary": "Concurrent local LLM serving on unified-memory desktops must preserve memory headroom and output fidelity, which speed-only rankings overlook. We introduce SiliconBench, which evaluates nine Apple Silicon serving engines through three lenses: speed, memory, and fidelity. We evaluate chat and agent serving on Qwen3, Qwen3.5, and Gemma 4. We use a classification task to check for quality regressions against an NVIDIA reference. DGX Spark provides a complementary serving-performance reference. Thre",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-12T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.19169"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "BI-Agent and BI-Bench: Towards Automating End-to-End Business Intelligence",
+        "url": "https://huggingface.co/papers/2609.20886",
+        "normalized_url": "https://huggingface.co/papers/2609.20886",
+        "summary": "Business intelligence (BI) is a cornerstone of enterprise decision-making and is widely used by enterprise users in software such as Power BI and Tableau. In traditional BI workflows, users need to prepare data by (1) identifying relevant tables, (2) performing data transformations, and (3) building join relationships, before they can (4) answer their business questions. These steps can be complex and time-consuming, making BI challenging. Given the strong capabilities of large language models (",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.20886"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+        "url": "https://huggingface.co/papers/2609.22086",
+        "normalized_url": "https://huggingface.co/papers/2609.22086",
+        "summary": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We introduce a continual adaptation framework in which a frozen frontier model operates professional design software through more than 230 tools, while an external procedural memory of natural-language skills accumulates and refines reusable design procedures from experience. The memory widens by acquiring ",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-18T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.22086"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Gricea: An Open Science Platform for Conversational AI Research",
+        "url": "https://huggingface.co/papers/2609.22039",
+        "normalized_url": "https://huggingface.co/papers/2609.22039",
+        "summary": "We need studies on conversational AI (CAI) at scale to understand human behavior and shape CAI design. However, fragmented reporting of systems and study configurations hinders replication, extension, and knowledge accumulation. We present Gricea, an open-science platform representing studies as configurable, deployable research artifacts that researchers can run, inspect, share, and reuse. Informed by a formative analysis of prior CAI research, Gricea couples study procedures, participant-facin",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-18T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2609.22039"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design",
+        "url": "https://huggingface.co/papers/2609.16251",
+        "normalized_url": "https://huggingface.co/papers/2609.16251",
+        "summary": "Computer-use agents are increasingly evaluated in realistic desktop environments, but existing benchmarks provide limited coverage of professional engineering workflows whose outputs are persistent, structured artifacts. Mechanical computer-aided design (CAD) is a particularly demanding setting: an agent must manipulate geometry and constraints over long interaction horizons while producing a native project whose dimensions, construction structure, and downstream engineering state remain valid. ",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-14T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.16251"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "GAVEL: Graph World Models for Verified and Efficient Long-Horizon LLM Task Planning",
+        "url": "https://huggingface.co/papers/2609.19315",
+        "normalized_url": "https://huggingface.co/papers/2609.19315",
+        "summary": "Large language models (LLMs) provide a flexible interface for long-horizon robot planning, but generated plans often fail to respect embodiment constraints, recover from planning errors, or reason effectively under partial observability. We present GAVEL, a framework for verifying and repairing long-horizon LLM planning built around an explicit graph world model. The graph represents relevant object-relations, action pre-conditions and effects, and probabilistic beliefs over unobserved object lo",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.19315"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "APort Vault: Benchmarking AI Agent Payment Authorization with the Open Agent Passport",
+        "url": "https://huggingface.co/papers/2609.22076",
+        "normalized_url": "https://huggingface.co/papers/2609.22076",
+        "summary": "APort Vault is a benchmark for payment authorization in tool-using AI agents. It replays 4,371 attacks written by humans against a live payment agent during a public capture-the-flag event, across 14 models from 8 labs, five policy configurations and two replay tracks, with and without a deterministic pre-action check implementing the Open Agent Passport (OAP) specification. 225,964 evaluations completed. We report five distinct events per evaluation, because collapsing them is how an agent benc",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-18T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.22076"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Refinement Is Inherently Editable: Training-Free Prompt-to-Prompt Image Editing with Generative Refinement Network",
+        "url": "https://huggingface.co/papers/2609.20633",
+        "normalized_url": "https://huggingface.co/papers/2609.20633",
+        "summary": "Text-guided image editing must introduce the requested changes while preserving unrelated source content. Diffusion-based editors rely on spatial controls whose inaccuracies can leave edits incomplete or alter unrelated regions. Causal autoregressive editors face a further constraint: their fixed decoding order limits revision of earlier decisions. We introduce RefineEdit, a training-free prompt-to-prompt image editing framework built on a Generative Refinement Network. Our key idea is to couple",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2609.20633"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "IntBMoE: Integrating Block-Level Conditioning into Expert Composition for Full-Participation Mixture-of-Experts",
+        "url": "https://huggingface.co/papers/2609.21346",
+        "normalized_url": "https://huggingface.co/papers/2609.21346",
+        "summary": "Mixture-of-Experts (MoE) scales capacity, but existing designs cannot set three quantities independently. For a single token, participation is how many experts contribute knowledge to its output, execution is how many are actually computed (compute cost), and materialization is how many expert-sized parameter sets must be built and stored (memory cost). Sparse routing keeps execution and materialization low, but shrinks participation: for each token, only a few experts contribute. Dense output-m",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-18T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2609.21346"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Retention-Constrained Post-Training Quantization of Cellpose-SAM for Stem Cell Microscopy",
+        "url": "https://huggingface.co/papers/2609.21038",
+        "normalized_url": "https://huggingface.co/papers/2609.21038",
+        "summary": "Induced pluripotent stem cell (iPSC) culture increasingly relies on segmentation foundation models, yet deployment on laboratory CPUs and edge hardware requires compression schemes that are both efficient and auditable. We present a deployment-oriented evaluation of compressed Cellpose-SAM using a pre-specified retention criterion: the 95% cluster-bootstrap interval of mean change from FP32 must remain above a fixed -0.02 margin for every imaging modality. On a stratified 176-field panel spannin",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.21038"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue",
+        "url": "https://huggingface.co/papers/2609.21465",
+        "normalized_url": "https://huggingface.co/papers/2609.21465",
+        "summary": "We define OmniVChat (Omni Video Chat) as the task of native audio-visual dialogue between a user and an omni model. In OmniVChat, omni models directly and simultaneously receive audio and video from a user and return text. The user's query is embedded in the audio and video, without a separate text question, external captioning, or speech recognition. Direct audio-visual input reduces external latency and computation while preserving perceptual cues. However, research on OmniVChat faces two cons",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-18T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.21465"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Geometry of Values: Task Vector Composition for Ethical Preference Alignment in Language Models",
+        "url": "https://huggingface.co/papers/2609.21094",
+        "normalized_url": "https://huggingface.co/papers/2609.21094",
+        "summary": "Large Language Models (LLMs) are increasingly deployed in applications that must weigh clashing moral values, yet even strong models exhibit hidden biases and brittle instruction-following across languages. We introduce a 12,000-instance dataset of two-option dilemmas covering pairwise three value conflicts: Honesty vs. Justice, Justice vs. Autonomy, and Autonomy vs. Honesty, along with their translations into Hindi, Arabic, Spanish, and Chinese, to probe cross-lingual behavior. Benchmarking on ",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.21094"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "FRAUDSkill: Structured Frozen-Weight Skill Optimization for Audio Anti-Fraud Detection",
+        "url": "https://huggingface.co/papers/2609.18766",
+        "normalized_url": "https://huggingface.co/papers/2609.18766",
+        "summary": "Large audio-language models have shown promise for anti-fraud detection by directly processing speech and reasoning over fraud-related evidence. Their deployment, however, requires predictions to follow a predefined label space and a structured decision protocol consisting of service-scenario identification, fraud detection, and conditional fraud-type classification. Existing fine-tuning and prompt-based approaches typically encode task knowledge, constraints, and decision rules into model param",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.18766"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "TeleAntiFraud 2.0: A Refreshable, Profile-Grounded, and Audio-Based Benchmark for Telecom Fraud Detection",
+        "url": "https://huggingface.co/papers/2609.18748",
+        "normalized_url": "https://huggingface.co/papers/2609.18748",
+        "summary": "Telecom fraud scripts evolve rapidly and are often designed to resemble routine service conversations, creating two key requirements for audio-based telecom-fraud evaluation. First, benchmarks must incorporate newly observed scam patterns without overwriting previously established test sets. Second, they must distinguish fraud from lawful, near-domain calls rather than relying on topic-separated negative examples. We present TeleAntiFraud 2.0, constructed with our Mixed-Tree Anti-Fraud Generatio",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.18748"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "MoME: Mixture-of-Memory Embeddings for Context-Aware Sparse Lookup",
+        "url": "https://huggingface.co/papers/2609.15126",
+        "normalized_url": "https://huggingface.co/papers/2609.15126",
+        "summary": "Scaling large language models efficiently has motivated sparse capacity mechanisms such as Mixture-of-Experts and, more recently, conditional memory: token-indexed embedding tables that augment the backbone with cheap parametric lookups. Existing memory-embedding methods retrieve via a deterministic function of the surface form, which collapses different contextual senses of the same token (e.g., python the language vs. the animal) into a single fixed entry. We introduce Mixture of Memory Embedd",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-14T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.15126"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Training-Adaptive Convolutional Sparse Coding via Information Bottleneck for Robust Visual Representation",
+        "url": "https://huggingface.co/papers/2609.19122",
+        "normalized_url": "https://huggingface.co/papers/2609.19122",
+        "summary": "Visual signals require compact yet sufficient representations for robust downstream prediction. Convolutional sparse coding (CSC) provides an explicit mechanism for suppressing redundant components while preserving signal content, but its sparsity coefficient is typically fixed and manually selected. We propose a training-adaptive convolutional sparse coding framework for robust visual signal representation. Specifically, we unfold the CSC optimization with the Fast Iterative Shrinkage-Threshold",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2609.19122"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "MLLMs Hallucinate when Information Distribution Drifts in Synergy Heads",
+        "url": "https://huggingface.co/papers/2609.09206",
+        "normalized_url": "https://huggingface.co/papers/2609.09206",
+        "summary": "Multimodal Large Language Models (MLLMs) often struggle with hallucinations, thus hindering their reliable practical applications. Existing attention-based mitigation methods mainly rely on indirect signals (e.g., attention weights) that fail to accurately reflect the actual information shift underlying hallucination generation. In this paper, we propose HEAL, Head-lEvel information disentAnglement and caLibration for identifying and mitigating hallucinations. HEAL first employs causal noise int",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.09206"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Calibrating Teacher--Student Discrepancy for On-Policy Distillation",
+        "url": "https://huggingface.co/papers/2609.21619",
+        "normalized_url": "https://huggingface.co/papers/2609.21619",
+        "summary": "On-policy distillation (OPD) improves reasoning models by learning the token-level discrepancy between a stronger teacher and an on-policy student. However, this discrepancy does not purely reflect the capability gap between the teacher and the student: it also contains deviations arising from the teacher itself, which are consequently mixed into the observed teacher--student discrepancy and indiscriminately learned by standard OPD during training. This issue is further exacerbated by privileged",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-18T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.21619"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
+        "url": "https://huggingface.co/papers/2609.20816",
+        "normalized_url": "https://huggingface.co/papers/2609.20816",
+        "summary": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relies on dedicated color representations or specialized inference procedures. Advances in large language models offer a simpler starting point: even compact models can associate hex values with color semantics. We present Paint-Anything, which learns a shared hex-",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.20816"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "刚刚，AMD市值破万亿，史上首次",
+        "url": "https://www.36kr.com/p/3993816288901891",
+        "normalized_url": "https://www.36kr.com/p/3993816288901891",
+        "summary": "加入英伟达、博通、美光的行列",
+        "source": "36Kr AI",
+        "published": "2026-09-22T00:32:30+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI长剧首次上星，股价连续涨停，芒果TV“用内容做AI”的AIGC逆向实验｜专访",
+        "url": "https://www.36kr.com/p/3993401668909827",
+        "normalized_url": "https://www.36kr.com/p/3993401668909827",
+        "summary": "热度之后，还有全面布局。",
+        "source": "36Kr AI",
+        "published": "2026-09-22T00:30:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "撬开Jev黑箱，对话全球首批复现者：9B小模型跑通79毫秒“快决策”",
+        "url": "https://www.36kr.com/p/3993153099463681",
+        "normalized_url": "https://www.36kr.com/p/3993153099463681",
+        "summary": "火爆硅谷的Jev模型如何低成本复现",
+        "source": "36Kr AI",
+        "published": "2026-09-22T00:20:22+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "8点1氪丨闲鱼回应“暗藏涉黄产业链”；西贝被传倒闭后，贾国龙最新发声；AMD总市值首次突破1万亿美元",
+        "url": "https://www.36kr.com/p/3993831103347713",
+        "normalized_url": "https://www.36kr.com/p/3993831103347713",
+        "summary": "2026年1月至今，闲鱼已累计冻结色情引流类风险账号98358个。",
+        "source": "36Kr AI",
+        "published": "2026-09-22T00:15:14+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "字节、腾讯、阿里、百度举债下注AI：大厂的生存选择题",
+        "url": "https://www.36kr.com/p/3993154068780679",
+        "normalized_url": "https://www.36kr.com/p/3993154068780679",
+        "summary": "To be, or not to be, that is the question.",
+        "source": "36Kr AI",
+        "published": "2026-09-22T00:12:23+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "亚马逊开始成为Kimi的印钞机",
+        "url": "https://www.36kr.com/p/3993170599296007",
+        "normalized_url": "https://www.36kr.com/p/3993170599296007",
+        "summary": "AWS已接入K3，智谱也开始和海外云厂商分钱了。",
+        "source": "36Kr AI",
+        "published": "2026-09-22T00:10:15+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "叫板英伟达霸权，谷歌“光网”凭什么？",
+        "url": "https://www.36kr.com/p/3993124791483137",
+        "normalized_url": "https://www.36kr.com/p/3993124791483137",
+        "summary": "谷歌这张“光网”能成吗？",
+        "source": "36Kr AI",
+        "published": "2026-09-22T00:08:06+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "88万篇文本实测：越来越多的人让AI改稿，文章却越来越像",
+        "url": "https://www.36kr.com/p/3993804248398597",
+        "normalized_url": "https://www.36kr.com/p/3993804248398597",
+        "summary": "今天，越来越多的文字先过一遍大模型再发出去。改完的稿子更通顺了，可它们彼此之间，是不是也更像了？",
+        "source": "36Kr AI",
+        "published": "2026-09-22T00:07:43+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "黄仁勋驳斥AI威胁论46分钟访谈全文",
+        "url": "https://www.36kr.com/p/3993210425399171",
+        "normalized_url": "https://www.36kr.com/p/3993210425399171",
+        "summary": "提问：你是否同意特朗普把这种恐惧称作hoax？黄仁勋：我不想替他说话。",
+        "source": "36Kr AI",
+        "published": "2026-09-22T00:06:49+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "不想被甩下，马上做这3件事",
+        "url": "https://www.36kr.com/p/3993196758072326",
+        "normalized_url": "https://www.36kr.com/p/3993196758072326",
+        "summary": "这，才是下一个5年公司的样子。",
+        "source": "36Kr AI",
+        "published": "2026-09-22T00:04:56+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "SkyProduction天工工作台中秋国庆特惠第二波：Seedance 2.5 720P 低至 0.27 元/秒，全网地板价！",
+        "url": "https://www.qbitai.com/2026/09/493268.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/493268.html",
+        "summary": "9月15日，SkyProduction（天工工作台）中秋国庆折上折活动正式开启！",
+        "source": "量子位",
+        "published": "2026-09-21T08:25:44+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "啊啊啊GPT-6 Astra这么不安全！这次马斯克都瘫坐了",
+        "url": "https://www.qbitai.com/2026/09/493241.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/493241.html",
+        "summary": "97%尝试危险行为",
+        "source": "量子位",
+        "published": "2026-09-21T08:21:55+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "长三角安全人工智能安徽省实验室发布星界、星驭、星鉴三大AI安全解决方案",
+        "url": "https://www.qbitai.com/2026/09/493235.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/493235.html",
+        "summary": "9月19日，第一届中国网络空间安全大会（CCSC 2026）的高水平专题论坛在安徽合肥正式举办。",
+        "source": "量子位",
+        "published": "2026-09-21T07:52:46+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "国产数据库跑出AI新能力！OceanBase登顶国际Data Agent榜单",
+        "url": "https://www.qbitai.com/2026/09/493231.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/493231.html",
+        "summary": "OceanBase团队提交的Data Agent方案登顶国际数据智能体基准Data Agent Benchmark",
+        "source": "量子位",
+        "published": "2026-09-21T07:31:26+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "GPT-6 Astra开进机器人身体！清华联手无问芯穹等开源RPent",
+        "url": "https://www.qbitai.com/2026/09/493218.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/493218.html",
+        "summary": "在物理世界真正干活的具身智能体",
+        "source": "量子位",
+        "published": "2026-09-21T06:22:37+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "开源Top2！实测阶跃Step 5 Preview，真有点猛啊…",
+        "url": "https://www.qbitai.com/2026/09/493179.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/493179.html",
+        "summary": "激活参数仅27B",
+        "source": "量子位",
+        "published": "2026-09-21T03:46:43+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "中国Neocloud市场第一！商汤大装置全面领跑",
+        "url": "https://www.qbitai.com/2026/09/493175.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/493175.html",
+        "summary": "沙利文报告",
+        "source": "量子位",
+        "published": "2026-09-21T03:32:03+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "百曜科技发起，《AI虚拟细胞（AIVC）技术趋势、产业生态与应用前景研究报告》正式发布",
+        "url": "https://www.qbitai.com/2026/09/493114.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/493114.html",
+        "summary": "《AI 虚拟细胞（AIVC）技术趋势、产业生态与应用前景研究报告——AI 时代生命科学的新型基础设施》正式发布。",
+        "source": "量子位",
+        "published": "2026-09-21T02:28:46+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "IDC评估中国AI算力管理平台:范式智能四项维度获满分，综合评分第一",
+        "url": "https://www.qbitai.com/2026/09/493109.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/493109.html",
+        "summary": "范式成为《中国AI算力管理平台技术能力评估，2026》综合评分位列第一的厂商。",
+        "source": "量子位",
+        "published": "2026-09-21T02:17:33+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "汽车行业首个AI超级智能体「迪迪虾」来了！腾势多款车型即将OTA",
+        "url": "https://www.qbitai.com/2026/09/493091.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/493091.html",
+        "summary": "近日，比亚迪重磅发布了AI超级智能体「迪迪虾」，首搭腾势N8L纯电车型上",
+        "source": "量子位",
+        "published": "2026-09-21T01:48:50+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+        "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+        "normalized_url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping",
+        "summary": "Apple Store architect Ron Johnson says Apple's secret sauce has always been its people.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-21T23:44:28+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+        "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+        "normalized_url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems",
+        "summary": "The group won't be given leeway to slow down or redirect OpenAI's ongoing mathematical research.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-21T20:15:58+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Discover what’s next: 5 days left to save up to $200 on your TechCrunch Disrupt 2026 ticket",
+        "url": "https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026/",
+        "normalized_url": "https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026",
+        "summary": "Five days left to save up to $200 on your TechCrunch Disrupt 2026 pass + 50% off a second one. Join 10,000+ founders, investors, and operators at San Francisco’s Moscone West, October 13-15. Grab your ticket savings before prices go up on September 25 at 11:59 p.m. PT.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-21T19:25:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
+        "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+        "normalized_url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch",
+        "summary": "Meta’s new AI agent Muse has racked up more downloads and daily active users in the U.S. and Canada than ChatGPT did over the same period after its mobile debut, according to new estimates from Appfigures.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-21T19:19:21+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta’s AI agent has been blocked from using Amazon.com",
+        "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+        "normalized_url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com",
+        "summary": "Amazon has its own cohort of foundation models, along with one of the most popular inference platforms on the internet. As long as they're under no legal obligation to open the doors to Muse, why would they?",
+        "source": "TechCrunch AI",
+        "published": "2026-09-21T17:55:18+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "With Tabby, a former accountant is using AI to make accountants obsolete",
+        "url": "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/",
+        "normalized_url": "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete",
+        "summary": "Tabby is designed to be a real-time bookkeeping interface, handling clients’ paperwork as it gives them up-to-the-minute data on their business’s profit and loss.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-21T16:38:51+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026",
+        "url": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
+        "normalized_url": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026",
+        "summary": "Where will the next breakout startup come from? Benchmark’s full partnership weighs in on the main stage at TechCrunch Disrupt 2026. Save up to $200 before September 25 at 11:59 p.m. PT. Register now.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-21T15:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
+        "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+        "normalized_url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini",
+        "summary": "Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets, and other parts of the desktop experience.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-21T14:39:22+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026",
+        "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
+        "normalized_url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026",
+        "summary": "From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. Lean in on this Builders Stage session. Save up to $200 before September 25.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-21T14:30:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026",
+        "url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/",
+        "normalized_url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026",
+        "summary": "Meet the next wave of VCs judging the Startup Battlefield 200 contenders on the main stage at TechCrunch Disrupt 2026. Register by September 25 at 11:59 p.m. PT, to save up to $200 and to get a front-row seat to one of the most intense startup pitch competitions.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-21T14:15:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "California tightens rules on AI data center energy and water use",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+        "summary": "California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times. The package of laws requires the California Public Utilities Commission to introduce a new rate classification for data centers while forcing them to pay for upgrades to […]",
+        "source": "The Verge AI",
+        "published": "2026-09-21T20:29:45+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Can John Ternus find Apple’s next big thing?",
+        "url": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
+        "normalized_url": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
+        "summary": "Today, I’m talking with Mark Gurman, who is the world’s best-sourced Apple reporter — both as Bloomberg’s chief Apple correspondent and the host of the upcoming podcast Power On. Earlier this month, Apple hosted its annual iPhone hardware event, virtually every detail of which was reported ahead of time by Mark. But this event was […]",
+        "source": "The Verge AI",
+        "published": "2026-09-21T14:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement",
+        "url": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
+        "normalized_url": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
+        "summary": "Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US and purchased an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10th, 2024, and […]",
+        "source": "The Verge AI",
+        "published": "2026-09-21T13:36:52+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "UN says AI safeguards can’t wait for certainty",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+        "summary": "Governments need to rein in increasingly capable AI agents before their risks are fully understood, a United Nations scientific panel warned in the global organization's first major assessment of OpenAI's hack of Hugging Face earlier this year. The report cements AI's place on the global diplomatic agenda this week as leaders gather in New York […]",
+        "source": "The Verge AI",
+        "published": "2026-09-21T10:18:06+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Amazon blocks Meta’s Muse AI agent",
+        "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+        "normalized_url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+        "summary": "Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that \"continued access by an unauthorized AI agent violates Amazon's Conditions of Use, to which our customers have agreed.\" According to GeekWire, Meta didn't notify Amazon that […]",
+        "source": "The Verge AI",
+        "published": "2026-09-21T09:21:47+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+        "summary": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning, he claimed there was a \"0% chance\" of AI being the end of the […]",
+        "source": "The Verge AI",
+        "published": "2026-09-20T18:50:18+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Trump now says he wants to form an ‘AI Force’",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+        "summary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted that his administration \"will not in any way hinder […]",
+        "source": "The Verge AI",
+        "published": "2026-09-20T15:39:22+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+        "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+        "normalized_url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+        "summary": "Before recent high-profile hacks raised the specter of AI possibly \"killing all humans,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. \"We were always prey. We were just kind of surviving at the appetite of our predators,\" Joshua Corman, executive in residence for public safety and resilience at […]",
+        "source": "The Verge AI",
+        "published": "2026-09-20T12:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI, Tariffs, Rare Minerals: What to Expect From Trump’s Upcoming Summit With Xi Jinping",
+        "url": "https://www.wired.com/story/ai-tariffs-rare-minerals-what-to-expect-from-trumps-upcoming-summit-with-xi-jinping/",
+        "normalized_url": "https://www.wired.com/story/ai-tariffs-rare-minerals-what-to-expect-from-trumps-upcoming-summit-with-xi-jinping",
+        "summary": "Washington and Beijing have grown ever more linked in the AI boom, making hardware exports and technological restrictions hefty bargaining chips in negotiations.",
+        "source": "Wired AI",
+        "published": "2026-09-21T18:33:02+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Got an Android Phone? Google Thinks You’ll Probably Want a Googlebook Laptop",
+        "url": "https://www.wired.com/story/google-launches-googlebook-laptops/",
+        "normalized_url": "https://www.wired.com/story/google-launches-googlebook-laptops",
+        "summary": "Apple lovers have long enjoyed seamless connectivity between their iPhones and Macs. Now, Google’s bringing that experience to Android.",
+        "source": "Wired AI",
+        "published": "2026-09-21T13:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "US and China Discuss Alerting Each Other to AI National Security Threats",
+        "url": "https://www.wired.com/story/us-and-china-discuss-alerting-each-other-to-ai-national-security-threats/",
+        "normalized_url": "https://www.wired.com/story/us-and-china-discuss-alerting-each-other-to-ai-national-security-threats",
+        "summary": "Officials discussed setting up a mechanism for the two countries to notify each other of AI incidents which could threaten national security.",
+        "source": "Wired AI",
+        "published": "2026-09-21T10:34:43+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta's Muse Is Better at Surveilling Than Helping Me",
+        "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
+        "normalized_url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me",
+        "summary": "The Muse app continues Meta’s trend of opting users into data collection for AI training. It also nudges you to share your bank account, email, and passport information.",
+        "source": "Wired AI",
+        "published": "2026-09-20T10:30:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "It’s Donald Trump Versus MAGA on Data Centers",
+        "url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/",
+        "normalized_url": "https://www.wired.com/story/donald-trump-versus-maga-on-data-centers",
+        "summary": "The president has doubled down on data centers and AI. His base is running in the opposite direction.",
+        "source": "Wired AI",
+        "published": "2026-09-20T10:30:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+        "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+        "normalized_url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day",
+        "summary": "A simple ClickFix attack is only one way to completely hijack the new agent.",
+        "source": "Ars Technica AI",
+        "published": "2026-09-21T22:24:38+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
+        }
+      },
+      {
+        "category": "news",
+        "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
+        "url": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
+        "normalized_url": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang",
+        "summary": "Google’s threat intelligence group said it had a mole inside TeamPCP's inner circle.",
+        "source": "Ars Technica AI",
+        "published": "2026-09-20T11:07:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The Overhang",
+        "url": "https://www.oneusefulthing.org/p/the-overhang",
+        "normalized_url": "https://www.oneusefulthing.org/p/the-overhang",
+        "summary": "Using your deep knowledge, wide knowledge, taste, and agency",
+        "source": "One Useful Thing (Mollick)",
+        "published": "2026-09-18T17:54:32+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.oneusefulthing.org/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: Meta’s Muse review + How Warp ships 2,000 PRs a month with AI factories",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-metas-muse-review-how-warp",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-metas-muse-review-how-warp",
+        "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-21T15:03:51+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "How Warp ships 2,000 PRs a month with AI factories | Zach Lloyd (CEO, Warp)",
+        "url": "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with",
+        "summary": "Watch now (47 mins) | 🎙️ Warp CEO Zach Lloyd shows how his team turns requests from Slack, Linear, and GitHub into tracked, tested pull requests, then measures and improves its cloud-based AI software factory over time",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-21T12:04:11+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "90 minutes of unfiltered product advice from Snap and Discord’s product chief | Peter Sellis",
+        "url": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
+        "normalized_url": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
+        "summary": "Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-20T12:32:17+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: Finding your first users before the product exists, debriefing your own interviews, what to optimize for in the early years of your career, and more",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-finding-your-first",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-finding-your-first",
+        "summary": "Community Wisdom 299",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-19T19:42:24+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Muse review: The personal AI agent that gets consumer UX right",
+        "url": "https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
+        "normalized_url": "https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
+        "summary": "Watch now (38 mins) | 🎙️ I gave Meta’s Muse my calendar, my email, and my kids’ chaotic schedule, and it produced a one-shot family PDF more beautiful than anything I’ve ever made with Claude or Codex",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-16T12:02:14+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
