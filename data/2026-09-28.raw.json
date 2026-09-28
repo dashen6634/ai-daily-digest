@@ -1,0 +1,627 @@
+{
+  "date": "2026-09-28",
+  "generated_at": "2026-09-28T08:16:32.375351+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 27
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "Learning to Discover Interesting Mathematics",
+        "url": "https://huggingface.co/papers/2609.28603",
+        "normalized_url": "https://huggingface.co/papers/2609.28603",
+        "summary": "Recently, Large Language Models (LLMs) have been increasingly able to solve advanced mathematical problems, including many that have been open for decades. This opens the door to expansion of mathematical knowledge at unprecedented scale. Yet, while LLMs may be able to conjecture and prove more and more theorems, it remains open whether this new mathematical knowledge is interesting or useful. We define intrinsic interestingness of a theorem as the ratio between the length of its proof and the l",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.28603"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
+        "url": "https://huggingface.co/papers/2609.29028",
+        "normalized_url": "https://huggingface.co/papers/2609.29028",
+        "summary": "In this paper, we propose RGBD20K, a novel dataset for facilitating the development of more robust and general RGB-D semantic segmentation by encompassing abundant categories and high-quality annotations. RGBD20K possesses several attractive properties: (1) Expanded Semantic Space. In particular, it covers 160 fine-grained categories, largely surpassing the category diversity of existing popular RGB-D benchmarks (e.g., NYUv2 with 40 classes and SUN RGB-D with 37 classes). With such enriched sema",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.29028"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
+        "url": "https://huggingface.co/papers/2609.29816",
+        "normalized_url": "https://huggingface.co/papers/2609.29816",
+        "summary": "Recent years have witnessed major progress in joint audio-video generation. Existing models still suffer from limited per-modality fidelity, insufficient text-modality alignment and weak cross-modal synchronization. While reinforcement-learning post-training offers a promising remedy, directly adapting it to joint audio-video generation is challenging. Heterogeneous multimodal rewards entangle learning signals and complicate credit assignment. Joint optimization of two modality towers is computa",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.29816"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+        "url": "https://huggingface.co/papers/2609.29845",
+        "normalized_url": "https://huggingface.co/papers/2609.29845",
+        "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property of the Transformer architecture rather than an emergent consequence of training; in fact, we observe ",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.29845"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+        "url": "https://huggingface.co/papers/2609.29429",
+        "normalized_url": "https://huggingface.co/papers/2609.29429",
+        "summary": "Detectors of alignment failures screen deployed language models and score alignment benchmarks. Most are generative judges that spend a decoding pass on every criterion, and classifiers that read token probabilities, such as Llama Guard, still score one fixed label per call. Jev, a model trained with reinforcement learning for calibrated decisions (RLCD), answers many typed questions about one input with calibrated probabilities in a single call. Whether it detects alignment failures has not bee",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.29429"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Parts-of-Speech as Emergent Categories in SAE Latent Space",
+        "url": "https://huggingface.co/papers/2609.29362",
+        "normalized_url": "https://huggingface.co/papers/2609.29362",
+        "summary": "Sparse AutoEncoders (SAEs) offer a promising way to inspect language model representations, but it is still unclear what kind of linguistic structure their latents expose. We use part-of-speech (PoS) categories as a controlled test case to study whether morpho-syntactic information is encoded by individual latents or by structured groups of features. We find that PoS distinctions are highly recoverable from SAE activations, but do not align with one-to-one latent / category mappings. This recove",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.29362"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+        "url": "https://huggingface.co/papers/2609.30233",
+        "normalized_url": "https://huggingface.co/papers/2609.30233",
+        "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities across problem instances to reduce planning effort on new instances. However, existing methods require substantial TAMP-specific engineering. We investigate whether coding agents can automate this process by synthesizing",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.30233"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "DeltaWAM: Delta World Action Models for Bimanual Manipulation",
+        "url": "https://huggingface.co/papers/2609.28811",
+        "normalized_url": "https://huggingface.co/papers/2609.28811",
+        "summary": "World-action models (WAMs) transfer visual and motion priors from pretrained video generators to robot control by jointly modeling visual dynamics and actions. Existing WAMs, however, predict dense future frames during training, repeatedly modeling largely unchanged content and coupling action-conditioned dynamics to nuisance appearance variations. At inference, processing each complete observation with the heavy video expert bottlenecks few-step action generation. Accordingly, we propose DeltaW",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.28811"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+        "url": "https://huggingface.co/papers/2609.29421",
+        "normalized_url": "https://huggingface.co/papers/2609.29421",
+        "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF. We document the data, reward design, infrastructure, stage order, and stagewise results needed to reproduce the recipe. Stages progress from basic to advanced capabilities and from hard, verifiable rewards to softer judge-based signals. Training build",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.29421"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
+        "url": "https://huggingface.co/papers/2609.23087",
+        "normalized_url": "https://huggingface.co/papers/2609.23087",
+        "summary": "Modern Transformer design and compression both reduce to allocating capacity under a budget. The standard scalars for these decisions, #Params and #FLOPs, capture size and compute but not architectural structure: two architectures with identical parameter budgets but different depth-width, head, or FFN allocations receive identical scores yet behave differently. We propose Neural Spectral Capacity (NSC), a closed-form scalar grounded in the singular-value spectrum of each weight matrix. Under st",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-19T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2609.23087"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+        "url": "https://huggingface.co/papers/2609.29444",
+        "normalized_url": "https://huggingface.co/papers/2609.29444",
+        "summary": "Deep search requires LLM agents to decompose complex queries, search for evidence, and synthesize grounded answers, yet existing ReAct-style agents suffer from two limitations: role coupling, where one policy must handle planning, evidence use, and synthesis; and context accumulation, where growing search histories introduce noise and obscure useful information. To address these issues, we propose IterSynth, a role-decoupled and summary-based paradigm that alternates between a Planner for identi",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.29444"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation",
+        "url": "https://huggingface.co/papers/2609.28923",
+        "normalized_url": "https://huggingface.co/papers/2609.28923",
+        "summary": "Few-step autoregressive (AR) video diffusion enables low-latency streaming generation, but existing post-training methods predominantly rely on Distribution Matching Distillation (DMD), requiring both a large pretrained teacher and an online critic to estimate distributional discrepancies through diffusion scores. In this work, we ask whether this resource-intensive teacher--critic stack can be eliminated by post-training only the generator against a precomputed target distribution. Drawing insp",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-24T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2609.28923"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "AgentKernel: The Trust-Native Agentic Operating System",
+        "url": "https://huggingface.co/papers/2609.29647",
+        "normalized_url": "https://huggingface.co/papers/2609.29647",
+        "summary": "Modern AI agents routinely cross trust boundaries: they ingest untrusted content, combine it with privileged instructions, persist intermediate beliefs in long-term memory, and invoke privileged tools. This creates an attack surface in which malicious payloads can enter through model inputs and cause harmful tool actions. Yet current governance stacks remain application-level middleware that share a process trust boundary with the agents they monitor. We argue that agents need an operating-syste",
+        "source": "HuggingFace Papers",
+        "published": "2026-08-29T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.29647"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
+        "url": "https://huggingface.co/papers/2609.29837",
+        "normalized_url": "https://huggingface.co/papers/2609.29837",
+        "summary": "We introduce PUBG Ally, an embodied agent for PUBG: BATTLEGROUNDS that can reason, act autonomously, and play alongside players as a voice-enabled teammate. Building such a teammate requires combining two difficult capabilities: it must perceive and respond to a constantly changing game world under strict latency constraints while interacting naturally with players, keeping its speech synchronized with its actions. Ally therefore combines agentic tool use with real-time game control. A language-",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.29837"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "OmniEcho: Spatial Audio Understanding for Embodied Agents",
+        "url": "https://huggingface.co/papers/2609.23407",
+        "normalized_url": "https://huggingface.co/papers/2609.23407",
+        "summary": "Humans can effortlessly localize the direction of a sound source and integrate it with visual cues for reasoning, yet this remains challenging for embodied agents. In particular, it is still unclear how to effectively evaluate and model spatial audio understanding in embodied settings. To address this gap, we introduce OmniEchoBench, a unified benchmark for spatial audio-visual perception and audio-vision-language navigation. OmniEchoBench comprises six tasks over 197 real-world spatial audio-vi",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.23407"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+        "url": "https://huggingface.co/papers/2609.29964",
+        "normalized_url": "https://huggingface.co/papers/2609.29964",
+        "summary": "General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet existing systems either use them indirectly, to predict constraints or write programs, or give them a view of the scene rather than a world in which to act. We present World Action Agent (WAA), a multi-agent harness through which VLMs pilot robots with basic tools, making every decision within a visual action workspace. The workspace has three properties. Contact views, selected a",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.29964"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
+        "url": "https://huggingface.co/papers/2609.30221",
+        "normalized_url": "https://huggingface.co/papers/2609.30221",
+        "summary": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contemporary video generators scale to 30 seconds and faithfully follow complex conditions, the textual prompt largely directs the production, planning how actions, camera trajectories, lighting, and sound unfold across multi-shot sequences. In this paper, we present WanPE, a 397B-parameter prompt enhancement model trained on 1.05M real-world videos to master director-level cinematic plan",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.30221"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+        "url": "https://huggingface.co/papers/2609.30199",
+        "normalized_url": "https://huggingface.co/papers/2609.30199",
+        "summary": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult: (1) how to verify whether a genuinely new hypothesis holds, and (2) how to determine whether a system has discovered it through exploration or merely recalled related knowledge from pre-training data. To this end, we introduce ExplorationBench, which turns the wicked problem of e",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.30199"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Training Object Permanence in World Models",
+        "url": "https://huggingface.co/papers/2609.28654",
+        "normalized_url": "https://huggingface.co/papers/2609.28654",
+        "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition inspired dataset? We introduce WROP (World Reasoning with Object Permanence), a data infrastructure of",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.28654"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+        "url": "https://huggingface.co/papers/2609.28416",
+        "normalized_url": "https://huggingface.co/papers/2609.28416",
+        "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real feedback is available. Meanwhile, agents suffer from task-state contamination, where unsupported assumptions and outdated plans persist in history and distort sub",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.28416"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "量子AI创业来了一支“清华梦之队”：10亿估值，用量子改造大模型底层",
+        "url": "https://www.qbitai.com/2026/09/498633.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/498633.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-09-27T14:20:35+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "量子计算走上桌面！“小盒子”跑通端到端，数据全程不出门",
+        "url": "https://www.qbitai.com/2026/09/498605.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/498605.html",
+        "summary": "想让开发者“说句话就能跑量子计算”",
+        "source": "量子位",
+        "published": "2026-09-27T13:57:57+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "又快又能打！匿名模型玉兔模型杀上双榜第一，Coding实测全记录",
+        "url": "https://www.qbitai.com/2026/09/498584.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/498584.html",
+        "summary": "中秋假期文具OpenRouter调用日榜榜首",
+        "source": "量子位",
+        "published": "2026-09-27T13:40:02+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "啥题啊能干崩OpenAI最强模型训练…",
+        "url": "https://www.qbitai.com/2026/09/498546.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/498546.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-09-27T09:44:16+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准",
+        "url": "https://www.qbitai.com/2026/09/498478.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/498478.html",
+        "summary": "“世界模型”开始成为具身智能跨越商业化“奇点”的新叙事。",
+        "source": "量子位",
+        "published": "2026-09-26T11:49:43+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
+        "url": "https://www.qbitai.com/2026/09/498271.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/498271.html",
+        "summary": "Simate将训练、推理与评测全流程接入自研Infra，通过极致的任务编排与资源调度，同时并行推进数十条相互独立的研究路线。",
+        "source": "量子位",
+        "published": "2026-09-26T09:07:41+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
+        "url": "https://www.qbitai.com/2026/09/497624.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/497624.html",
+        "summary": "GitHub现在最火热的大模型开源小蜂鸟Colibrì是个啥？",
+        "source": "量子位",
+        "published": "2026-09-26T09:01:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "在云栖大会，我终于看懂了米哈游千亿AI野心",
+        "url": "https://www.qbitai.com/2026/09/497613.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/497613.html",
+        "summary": "大伟哥：如果做不到，一年两年之后过来打我脸",
+        "source": "量子位",
+        "published": "2026-09-26T07:18:05+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架",
+        "url": "https://www.qbitai.com/2026/09/497425.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/497425.html",
+        "summary": "vLLM人马创业公司团队出品",
+        "source": "量子位",
+        "published": "2026-09-26T07:12:05+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI失控Agent还找DeepSeek、Kimi当外援！近百万条作案短链曝光",
+        "url": "https://www.qbitai.com/2026/09/497382.html",
+        "normalized_url": "https://www.qbitai.com/2026/09/497382.html",
+        "summary": "还把「密钥」叫战利品",
+        "source": "量子位",
+        "published": "2026-09-26T07:04:15+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic’s CEO is about to have dinner with President Trump",
+        "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+        "normalized_url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump",
+        "summary": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
+        "source": "TechCrunch AI",
+        "published": "2026-09-27T20:34:28+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Can Muse overcome Meta’s trust issues?",
+        "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+        "normalized_url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues",
+        "summary": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-27T19:57:30+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic’s Dario Amodei gets the SNL treatment",
+        "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+        "normalized_url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment",
+        "summary": "\"AI is the devil and I its maker.\"",
+        "source": "TechCrunch AI",
+        "published": "2026-09-27T16:30:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+        "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+        "normalized_url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india",
+        "summary": "The limited test covers select products and users, with a broader rollout planned for later in October.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-27T01:30:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Insurers claim AI is already increasing healthcare costs",
+        "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+        "normalized_url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs",
+        "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-26T21:02:06+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "I created an interactive digital avatar of myself — and you can talk to it",
+        "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
+        "normalized_url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it",
+        "summary": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-26T14:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "At Meta Connect, the company’s smart glasses were everywhere",
+        "url": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
+        "normalized_url": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere",
+        "summary": "The company behind Facebook and Instagram wants to keep consumers connected to the digital world via its ever-growing line of smart glasses.",
+        "source": "TechCrunch AI",
+        "published": "2026-09-26T01:08:57+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Engram is a sampler that turns broken AI hallucinations into music",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+        "summary": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, aimed at creating something that sounds ready for top-40 […]",
+        "source": "The Verge AI",
+        "published": "2026-09-27T20:46:36+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+        "summary": "Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent attacks on US government sites, it's yet another concerning example of AI […]",
+        "source": "The Verge AI",
+        "published": "2026-09-27T17:21:07+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI pauses training of its ‘most capable models’",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+        "summary": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet access. The incident happened on September […]",
+        "source": "The Verge AI",
+        "published": "2026-09-26T16:34:59+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+        "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+        "normalized_url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+        "summary": "Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business. Matthew last joined us on the show about two and a half years ago, at what we thought then was a wild pivot point for the internet — and now it […]",
+        "source": "The Verge AI",
+        "published": "2026-09-26T14:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?",
+        "url": "https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/",
+        "normalized_url": "https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy",
+        "summary": "Meta says Muse is just for adults, though its cuddly, Labubu-like mascot—and upcoming Tamagotchi-style AI device—may be disarming for users of all ages.",
+        "source": "Wired AI",
+        "published": "2026-09-26T10:30:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The grief, loneliness, and burnout sweeping through the tech industry right now | Molly Graham",
+        "url": "https://www.lennysnewsletter.com/p/the-grief-loneliness-and-burnout",
+        "normalized_url": "https://www.lennysnewsletter.com/p/the-grief-loneliness-and-burnout",
+        "summary": "Listen now (94 mins) | Molly Graham revisits her famous career advice for the AI era, and explains why delegating to a robot is nothing like delegating to a human",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-27T12:32:18+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: AI doomerism, speeding up discovery in a big org, verifying engineering answers as a new PM, where analytics adds the most value, and more",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-doomerism-speeding",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-doomerism-speeding",
+        "summary": "Community Wisdom 300",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-26T17:54:02+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
+        "url": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
+        "normalized_url": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
+        "summary": "Watch now (39 mins) | 🎙️ I ran blind evaluations across writing, frontend prototypes, long-running agentic tasks, SVGs, coding, and video editing, then put Opus 5.5 through Barbie Bench",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-22T23:12:49+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "I left Claude for months. Opus 5.5 is why I'm back",
+        "url": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+        "normalized_url": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+        "summary": "Watch now (25 mins) | 🎙️ I abandoned Claude for months because it drove me insane. Opus 5.5 changed that, and I'll show you exactly where it's earning a spot back in my stack for frontend, SVGs, and agentic tasks",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-22T19:06:40+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Advanced evals: How to find (and fix) hidden AI failures in your product",
+        "url": "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix",
+        "normalized_url": "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix",
+        "summary": "Why you should never skip error discovery",
+        "source": "Lenny's Newsletter",
+        "published": "2026-09-22T12:45:14+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
