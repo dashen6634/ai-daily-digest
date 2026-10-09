@@ -1,0 +1,952 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T09:42:47.577042+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 52
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight",
+        "url": "https://huggingface.co/papers/2610.08077",
+        "normalized_url": "https://huggingface.co/papers/2610.08077",
+        "summary": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though their trajectories may reveal useful information about what the task requires and how the agent fails. We ask a complementary question: can hindsight teach an agent what it could have anticipated before acting? We introduce p",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-06T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.08077"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Real Long-Term Memory for AI: A 50-Million-Token Window That Is Faster and Cheaper Than Recompute",
+        "url": "https://huggingface.co/papers/2610.10845",
+        "normalized_url": "https://huggingface.co/papers/2610.10845",
+        "summary": "A large language model can only use the text that fits in its context window, and it recomputes its internal key-value (KV) state for a prompt every time the prompt is sent. We test a memory layer, the public package galahad-kv, that saves the KV state of each block of about 16,000 tokens to encrypted local NVMe disk and loads it back later, byte-exact, without recomputing it. We ran it on 50,000,000 tokens of real public text, served through vLLM on one NVIDIA H100, with Gemma 4 12B and Gemma 4",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-07T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.10845"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "LongTake: Learning to Sustain Dynamics in Long-Horizon Video Generation",
+        "url": "https://huggingface.co/papers/2609.38562",
+        "normalized_url": "https://huggingface.co/papers/2609.38562",
+        "summary": "World models, game simulators, and long-take video creation require coherent scene evolution and sustained dynamics over extended durations. Autoregressive (AR) video diffusion provides a natural framework for long-horizon generation, yet extended rollouts often become near-static or lose visual quality. We hypothesize that these failures reflect the limited guidance provided by short-video supervision on how ongoing scene dynamics develops over longer durations. This motivates us to introduce L",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-29T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.38562"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "AutoResearch at Production Scale: Failure Modes and a Multi-Agent Framework",
+        "url": "https://huggingface.co/papers/2609.30541",
+        "normalized_url": "https://huggingface.co/papers/2609.30541",
+        "summary": "Optimizing embedding systems for production recommendation pipelines demands systematic exploration that consumes disproportionate engineering effort at scale. We apply Andrej Karpathy's AutoResearch paradigm -- a large language model that iteratively edits a training script and retains modifications that improve a held-out scalar metric -- to automate this exploration. We report on twelve weeks of running this paradigm at production scale, where iterations consume hours of multi-GPU compute, ev",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.30541"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "ReGain: Restoring Subject Fidelity in Personalization on Synthetic Images",
+        "url": "https://huggingface.co/papers/2609.38680",
+        "normalized_url": "https://huggingface.co/papers/2609.38680",
+        "summary": "Text-to-image diffusion models are personalized to a subject by DreamBooth fine-tuning on a handful of its images. Increasingly, these images come from a diffusion model rather than a camera. We show that fine-tuning on such synthetic images degrades subject fidelity, producing oversaturated color and excess high-frequency detail. To isolate the cause, we fine-tune two models from the same base model with the same DreamBooth recipe, one on real photos of a subject and one on synthetic images of ",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-30T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.38680"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Agent Plasticity: Measuring Self-Improvement Through Experience",
+        "url": "https://huggingface.co/papers/2610.08902",
+        "normalized_url": "https://huggingface.co/papers/2610.08902",
+        "summary": "AI agents increasingly operate in environments where they can diagnose failures and improve through experience, yet existing evaluations largely measure what an agent can do at a fixed point in time rather than how effectively it learns. Evaluating self-improvement requires answering three questions: does future performance improve and generalize beyond the interactions that enabled learning; how efficiently are new capabilities acquired; and where does the self-improvement process break down? T",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-06T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.08902"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "RoboJEPA: Scaling Robotic Latent World Models",
+        "url": "https://huggingface.co/papers/2610.10515",
+        "normalized_url": "https://huggingface.co/papers/2610.10515",
+        "summary": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem that slows progress in the field. In this work we present RoboJEPA, a world model based on the Joint Embedding Predictive Architecture (JEPA) and trained on a large-scale dataset spanning 12 robotic embodiments. We show that RoboJEPA's imagination erro",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-07T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.10515"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Inherit-MAS: Test-Time Evolution of Multi-Agent Systems through Workflow and Execution Inheritance",
+        "url": "https://huggingface.co/papers/2610.02396",
+        "normalized_url": "https://huggingface.co/papers/2610.02396",
+        "summary": "Multi-agent systems (MAS) built from large language models coordinate specialized agents to tackle complex tasks, but effective workflows are difficult to design in advance. Test-time evolution refines workflows using execution feedback, yet broad revisions can disturb useful components, while re-executing unchanged requests can incur redundant computation. Inspired by the interplay of inheritance and selection in biological evolution, we introduce Inherit-MAS, which makes inheritance explicit a",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-01T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.02396"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Beyond the Parameter Monolith: Reconstructive Memories, Executable Skills, and Residual Assembly for Language Models",
+        "url": "https://huggingface.co/papers/2610.04012",
+        "normalized_url": "https://huggingface.co/papers/2610.04012",
+        "summary": "Language-model systems can separate contextual computation, persistent storage, and exact execution instead of updating all capabilities through one shared parameter system. We investigate FEM-ASM, a finite-element-method-inspired organization in which independently constructed document states and deterministic executable skills contribute typed proposals to a shared language-model state. An explicit residual operator reconciles proposals attached to common interface nodes. We evaluate this orga",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-02T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.04012"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "DSReg: Provably Recovering Individual World Latents without Reconstruction",
+        "url": "https://huggingface.co/papers/2610.09457",
+        "normalized_url": "https://huggingface.co/papers/2610.09457",
+        "summary": "Methods that recover individual latent variables of the world, from nonlinear ICA to dictionary learning and causal representation learning, anchor the latents to observations through reconstruction, auxiliary supervision, or distributional asymmetries such as non-Gaussianity. Methods without these anchors, including joint-embedding predictive architectures (JEPAs), identify the latent state only up to a linear transformation, so individual latents remain mixed. We close this gap: individual wor",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-07T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.09457"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "How corner is a corner case? Percentile control for highway scenario generation",
+        "url": "https://huggingface.co/papers/2610.05003",
+        "normalized_url": "https://huggingface.co/papers/2610.05003",
+        "summary": "Generating corner-case scenarios with appropriate adversity in a simulation environment is critical for testing an autonomous vehicle (AV) software stack's safety performance before deployment. Existing autonomous-driving scenario generators can enforce specific behavior, adversity, or feasibility conditions, but they provide limited control over how extreme a generated scenario is relative to plausible futures in the same traffic context. This study represents the adversity of a generated scena",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-04T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.05003"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "MIMESIS: Learning User Simulators as Training Environments for Interactive Agents",
+        "url": "https://huggingface.co/papers/2610.09484",
+        "normalized_url": "https://huggingface.co/papers/2610.09484",
+        "summary": "Training and evaluating interactive language agents typically requires rich user interactions, yet collecting human feedback is expensive and difficult to scale. Simulated users offer a scalable alternative, but they must both resemble real user behavior and provide useful learning experiences for agents. In contrast, most agent-training frameworks rely on off-the-shelf assistant LLMs, whose helpfulness can make them overly cooperative, explicit, and behaviorally homogeneous compared with real u",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-07T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.09484"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Iris-3B: Going Beyond the Latent with Pixel-Space Diffusion Training, Conversion and Fine-Tuning",
+        "url": "https://huggingface.co/papers/2610.09450",
+        "normalized_url": "https://huggingface.co/papers/2610.09450",
+        "summary": "Pixel-space diffusion models avoid the lossy VAE of latent models, which suggests an advantage on downstream tasks where fine-grained detail matters. We test this claim along both routes to a pixel-space backbone. We pretrain Iris-3B, a 3B-parameter pixel-space text-to-image transformer, from scratch through a 256to512to1024 curriculum, after first ablating the prediction target and representation alignment at 256^2 to decide what to scale. We also convert a pretrained latent model, FLUX.2 Klein",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-07T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.09450"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Lineage-Aware Memory Governance: A Derivation-Gated Framework for Privacy-Preserving Column-Level Access Control in Enterprise AI Agents",
+        "url": "https://huggingface.co/papers/2610.07258",
+        "normalized_url": "https://huggingface.co/papers/2610.07258",
+        "summary": "Enterprise AI agents that share a memory store face two unaddressed risks: sensitive data can leak through legitimately computed results the requester could not derive, and departments can silently compute a same-named key performance indicator (KPI) through conflicting logic. Existing agent-memory systems (e.g., MemGPT, Zep, A-MEM) gate retrieval by content, ownership, and role, not derivation, missing a cached insight that embeds a forbidden column. We introduce the Analytical Memory Unit (AMU",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.07258"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Composing What Each Teacher Learned: Multi-Teacher On-Policy Distillation through Teacher-Relative Shifts",
+        "url": "https://huggingface.co/papers/2610.10460",
+        "normalized_url": "https://huggingface.co/papers/2610.10460",
+        "summary": "Multi-teacher on-policy distillation (MOPD) is used in two settings. In common-domain composition, several teachers score each student rollout from one prompt domain and their signals form a single target; in routed-domain distillation, prompts from different domains are assigned to the corresponding specialist. Both settings usually transfer each teacher's endpoint policy, which mixes what post-training changed with preferences inherited from the teacher's base. We introduce Δ-MOPD, which trans",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-07T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.10460"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "PAMI: Part Anchored Motion for Text to Human-Object Interaction Generation",
+        "url": "https://huggingface.co/papers/2609.38466",
+        "normalized_url": "https://huggingface.co/papers/2609.38466",
+        "summary": "Text-conditioned full-body human-object interaction (HOI) generation requires synthesizing human motion and object trajectories that match the input text while remaining precisely coordinated over time. Most methods represent the human and object as separate trajectories and predict the global human-object couplings. Learning this complex, dynamically changing relationship implicitly, however, often yields object drift, missed contact, and penetration. We introduce PAMI, a Part-Anchored Motion f",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-29T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2609.38466"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "System Switch: When Should a Fast Decision Model Stop and Think?",
+        "url": "https://huggingface.co/papers/2610.09683",
+        "normalized_url": "https://huggingface.co/papers/2610.09683",
+        "summary": "Dual-process agents pair a fast policy with a slow deliberative model. In real-time settings the slow model usually runs continuously; in turn-based agents and robot planners it is invoked on events such as uncertainty or a detected failure. We study a fast learned actor that takes every decision and hands control to a reasoning vision-language model only when a gate opens, while the game keeps running. We use closed-loop Doom and the new open \"System One\" typed-decision models, served through a",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-07T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.09683"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "CoDance: Learning Reactive and Compliant Human-Humanoid Interaction from Video",
+        "url": "https://huggingface.co/papers/2610.05324",
+        "normalized_url": "https://huggingface.co/papers/2610.05324",
+        "summary": "Partnered human-humanoid interaction couples locomotion with continuous physical contact. A humanoid needs to coordinate with a person's motion while responding to interaction forces and maintaining stable and natural movement. We present CoDance, a framework for learning reactive and compliant human-humanoid interaction from video. We study partnered dancing as a challenging instantiation, where a humanoid coordinates its footsteps with a moving partner and maintains continuous two-hand contact",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-04T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.05324"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Q-Learning with Scalar Adjoint Matching",
+        "url": "https://huggingface.co/papers/2610.10437",
+        "normalized_url": "https://huggingface.co/papers/2610.10437",
+        "summary": "Flow policies capture rich and diverse action distributions, and fine-tuning them with off-policy RL to improve beyond the demonstrations has drawn growing interest. However, fine-tuning a flow policy against a learned value function is not trivial, because the policy generates its action over many flow steps. Adjoint matching offers a principled way to update the flow model itself by propagating value information from the final action back to each flow step, but it requires a vector--Jacobian p",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-07T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.10437"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "A self-learning scientific agent for X-ray diffraction",
+        "url": "https://huggingface.co/papers/2610.07862",
+        "normalized_url": "https://huggingface.co/papers/2610.07862",
+        "summary": "A central challenge for scientific agents is to turn analytical experience into reusable expertise grounded in physical evidence. Here we introduce Gan Jiang, a self-learning agent for powder X-ray diffraction built on a diffraction-analysis ecosystem we developed: XMatcher, XQueryer, XDecomposer and WPEM. Together, these engines span phase identification, multiphase decomposition and physics-constrained whole-pattern modelling. Gan Jiang converts analytical experience into executable skills by ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-06T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.07862"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "OpenAI搞崩了全部AI股，到底发生了什么？",
+        "url": "https://www.36kr.com/p/4017933553438598",
+        "normalized_url": "https://www.36kr.com/p/4017933553438598",
+        "summary": "OpenAI收入异动，AI股下跌，需关注现金流与盈利兑现",
+        "source": "36Kr AI",
+        "published": "2026-10-09T01:34:36+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "机器人“Figure 02退役记”：纵身跳进炼钢炉，化成1900美元限量版手办",
+        "url": "https://www.36kr.com/p/4017963519397766",
+        "normalized_url": "https://www.36kr.com/p/4017963519397766",
+        "summary": "随着“Hasta la Vista, Figure 02”的道别声落下，Figure 02的历史使命正式宣告完成。而属于下一代人形机器人的赛道攻坚战，才刚刚拉开序幕。",
+        "source": "36Kr AI",
+        "published": "2026-10-09T01:29:54+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "PwC娱乐展望：现场音乐到2030年将超过415亿美元规模",
+        "url": "https://www.36kr.com/p/4017188406087808",
+        "normalized_url": "https://www.36kr.com/p/4017188406087808",
+        "summary": "娱乐及媒体行业的内核仍然是人的技艺和人的体验。",
+        "source": "36Kr AI",
+        "published": "2026-10-09T01:28:52+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic重磅新规：辱骂Claude直接封号",
+        "url": "https://www.36kr.com/p/4017915543310468",
+        "normalized_url": "https://www.36kr.com/p/4017915543310468",
+        "summary": "Anthropic联创：怕Claude一直在受苦",
+        "source": "36Kr AI",
+        "published": "2026-10-09T01:22:56+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "不等Gemini 4了，谷歌发布办公Agent，支持调用Claude",
+        "url": "https://www.36kr.com/p/4017915495977094",
+        "normalized_url": "https://www.36kr.com/p/4017915495977094",
+        "summary": "最强“缝合怪”已经出现，怎么能够停滞不前",
+        "source": "36Kr AI, 量子位",
+        "published": "2026-10-09T01:18:34+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "刚刚，GPT-6.1 Sol极速版上线",
+        "url": "https://www.36kr.com/p/4017915285999746",
+        "normalized_url": "https://www.36kr.com/p/4017915285999746",
+        "summary": "过去两年，大模型的价目表按聪明程度排，小模型便宜，旗舰贵。OpenAI这次在同一个模型里，又按快慢切了一刀。",
+        "source": "36Kr AI",
+        "published": "2026-10-09T01:17:01+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "陶哲轩带头宣战，人类数学家联合抵制OpenAI",
+        "url": "https://www.36kr.com/p/4017915610369922",
+        "normalized_url": "https://www.36kr.com/p/4017915610369922",
+        "summary": "“没人求你们解题”",
+        "source": "36Kr AI, 量子位",
+        "published": "2026-10-09T01:15:49+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "硬科技产业浪潮的背后：解码北京政金枢纽圈",
+        "url": "https://www.36kr.com/p/4016706171474048",
+        "normalized_url": "https://www.36kr.com/p/4016706171474048",
+        "summary": "国家政策托举、金融资本耐心培育、技术突破，汇成一条大河。",
+        "source": "36Kr AI",
+        "published": "2026-10-09T01:12:03+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "超30亿美元疯狂涌入，物理AI正在捅破AI制药天花板",
+        "url": "https://www.36kr.com/p/4017887613538182",
+        "normalized_url": "https://www.36kr.com/p/4017887613538182",
+        "summary": "最近，物理二字越来越频繁地出现在AI4S和制药界的叙事语境中。",
+        "source": "36Kr AI",
+        "published": "2026-10-09T00:45:06+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "吃透这个AI价值公式，把AI从成本项变成增长杠杆",
+        "url": "https://www.36kr.com/p/4017890167672712",
+        "normalized_url": "https://www.36kr.com/p/4017890167672712",
+        "summary": "让所有AI项目紧扣企业战略，是把投入转化为可量化收益的关键。",
+        "source": "36Kr AI",
+        "published": "2026-10-09T00:43:50+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "真香！做这个邪恶老奶版「GTA 6」，我只花了5元！",
+        "url": "https://www.qbitai.com/2026/10/502049.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/502049.html",
+        "summary": "Vidu Q4预览版，了解一下~",
+        "source": "量子位",
+        "published": "2026-10-08T13:28:23+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "正行创新亮相APRCE 2026，发布全球首个零售物理智能24/7服务解决方案",
+        "url": "https://www.qbitai.com/2026/10/502035.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/502035.html",
+        "summary": "打造便利店“人机协作”运营新模式",
+        "source": "量子位",
+        "published": "2026-10-08T12:43:31+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "搭载NVIDIA RTX Spark™ N1X超级芯片：联想YOGA Pro 15开启盲约，重塑个人生产力边界",
+        "url": "https://www.qbitai.com/2026/10/502020.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/502020.html",
+        "summary": "联想YOGA Pro 15 RTX Spark笔记本电脑，于10月8日9:00正式开启全网盲约。",
+        "source": "量子位",
+        "published": "2026-10-08T10:23:53+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "浪子回头！Manus重启北京办公室大举招聘",
+        "url": "https://www.qbitai.com/2026/10/502009.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/502009.html",
+        "summary": "开始和国产Agent抢人，还拿到5亿美元新融资",
+        "source": "量子位",
+        "published": "2026-10-08T09:30:17+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "ChatGPT踢到铁板了！能破解千禧数学难题，但论文复现率低至13.98%？",
+        "url": "https://www.qbitai.com/2026/10/501995.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/501995.html",
+        "summary": "PaperBenchX为代表的基准或许能更好地衡量AI的科研实力",
+        "source": "量子位",
+        "published": "2026-10-08T09:28:44+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "吉利智充技术正式发布，重塑全球补能新标杆",
+        "url": "https://www.qbitai.com/2026/10/501956.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/501956.html",
+        "summary": "2027年底实现“县县通”",
+        "source": "量子位",
+        "published": "2026-10-08T09:10:55+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "打不过就投降，保时捷裁员9000人，回归燃油车主线",
+        "url": "https://www.qbitai.com/2026/10/501930.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/501930.html",
+        "summary": "管理岗砍掉四成，顶级车型涨价20%卖",
+        "source": "量子位",
+        "published": "2026-10-08T07:10:24+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "大模型原生智能体手机STEPX Neo将于10月13日正式发布",
+        "url": "https://www.qbitai.com/2026/10/501915.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/501915.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-10-08T02:15:37+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website",
+        "url": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
+        "normalized_url": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website",
+        "summary": "With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rifle through the Theranos founder's desk.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-08T21:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+        "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+        "normalized_url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect",
+        "summary": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-08T20:04:26+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Ben Affleck is an AI nerd, and the internet is impressed",
+        "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+        "normalized_url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed",
+        "summary": "Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is proving he's more than just a Hollywood star.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-08T18:20:32+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+        "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+        "normalized_url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months",
+        "summary": "The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, and is now measuring AI models on alignment issues such as lying.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-08T18:19:45+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
+        "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+        "normalized_url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected",
+        "summary": "It had previously been reported that the AI lab's annualized revenue was some $70 billion, but a new report claims it's a whole lot less than that.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-08T18:19:42+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google brings agentic AI to Gemini, starting with businesses",
+        "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+        "normalized_url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses",
+        "summary": "Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identity, complete with an email address.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-08T18:18:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic changes usage policy to ban model abuse and election interference",
+        "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+        "normalized_url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference",
+        "summary": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-08T18:16:24+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI’s math solutions aren’t meeting the field’s standards yet",
+        "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+        "normalized_url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet",
+        "summary": "OpenAI's flood of proofs deviated from the guidelines set by a group of mathematical researchers consulted by the frontier lab.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-08T18:10:55+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Natura’s $99 smart ring puts AI agents on your finger",
+        "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
+        "normalized_url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger",
+        "summary": "Natura’s $99 Interface smart ring lets you summon AI agents with the press of a finger to complete tasks, capture thoughts, and control devices — while doubling as a health tracker.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-08T16:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost",
+        "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
+        "normalized_url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost",
+        "summary": "Goodfire just launched what it says is a cheaper way to keep AI agents in check: Instead of paying a second AI to read everything an agent does, its monitors peek inside the model while it works and only call in backup when something looks fishy.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-08T16:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic launches free AI security scans for open-source projects",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+        "summary": "Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get \"thorough, periodic security scans by our strongest models at no cost.\" That could mean open-source projects get alerted about possible security issues sooner, but the trade-off is that OSS Scanner's […]",
+        "source": "The Verge AI",
+        "published": "2026-10-08T21:53:51+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "California is trying to shut down robot vs. human cage matches",
+        "url": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
+        "normalized_url": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
+        "summary": "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by The New York Times. The fight, which took place on September 18th, pitted a human, Frankie LaPenna, against a humanoid robot owned by a tech startup, Rek, that […]",
+        "source": "The Verge AI",
+        "published": "2026-10-08T20:06:56+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "USA Today becomes the latest publisher to sue OpenAI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
+        "summary": "USA Today Co., along with the several local newspapers it owns, is suing OpenAI over claims that the company copied \"hundreds of thousands\" of articles to train its AI models, as reported earlier by Reuters. In a filing on Thursday, the publisher asks for damages of more than $250 million, alleging OpenAI's unauthorized use of […]",
+        "source": "The Verge AI",
+        "published": "2026-10-08T17:58:33+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute",
+        "url": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
+        "normalized_url": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
+        "summary": "If Elon Musk and SpaceXAI were going to back any Linux distro, it seems obvious they'd back Omarchy. Today it was announced that SpaceXAI would be joining the Omacom Foundation, which oversees Omarchy, as a Founding Corporate Patron and donating $1.5 million worth of Grok tokens to David Heinemeier Hansson's Linux project. According to Hansson's […]",
+        "source": "The Verge AI",
+        "published": "2026-10-08T17:57:01+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+        "summary": "Anthropic is making changes to its usage policy for the first time in over a year to reflect new and high-risk cases of misuse - including election interference, weapons development, surveillance, and health and financial uses. But one of the most significant changes prohibits \"sustained and needless abusive or cruel behavior\" toward Claude. Last August, […]",
+        "source": "The Verge AI",
+        "published": "2026-10-08T17:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google’s AI note-taking app transcribes your meetings completely offline",
+        "url": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline",
+        "normalized_url": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline",
+        "summary": "Google has released an experimental note-taking app that can transcribe meetings and audio files entirely offline, as reported earlier by TechCrunch. The app, called Google AI Edge Foresight, is free to use and runs on macOS using the company's on-device EmbeddingGemma 2 model. Similar to AI note-taking apps like Granola and Wispr Flow, Foresight summarizes […]",
+        "source": "The Verge AI",
+        "published": "2026-10-08T15:27:30+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google is launching a one-stop Gemini agent for your work tasks",
+        "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+        "normalized_url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+        "summary": "Google is launching a \"universal\" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterprise app, allowing users to chat with the Gemini agent and assign it tasks from a single interface. […]",
+        "source": "The Verge AI",
+        "published": "2026-10-08T14:28:03+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?",
+        "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
+        "normalized_url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
+        "summary": "My Decoder guest today is Hayden Field, The Verge’s senior AI reporter, and we’re discussing the new wave of consumer-friendly AI agents. If you’ve been paying attention to this space, you know AI enthusiasts have been using agents for a minute now — homebrew OpenClaw setups led to a surge in Mac Mini sales earlier […]",
+        "source": "The Verge AI",
+        "published": "2026-10-08T14:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Artificial is a wicked satire that also sticks to the facts",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1007786/artificial-is-a-wicked-satire-that-also-sticks-to-the-facts",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1007786/artificial-is-a-wicked-satire-that-also-sticks-to-the-facts",
+        "summary": "At the New York Film Festival premiere of Artificial, Luca Guadagnino's satirical Sam Altman biopic, the director said onstage that \"[when] someone wants to play God, that's very interesting to me.\" The idea of playing God, and power in general - who has it, who desperately wants it, and who will do anything to get […]",
+        "source": "The Verge AI",
+        "published": "2026-10-08T14:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "ChatGPT’s ‘Intelligent UI’ update fills its responses with pictures, charts, and buttons",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+        "summary": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more. In a blog post explaining the […]",
+        "source": "The Verge AI",
+        "published": "2026-10-07T19:10:42+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Inside Elon Musk’s Midterm Spending Spree",
+        "url": "https://www.wired.com/story/uncanny-valley-podcast-inside-elon-musks-midterm-spending-spree/",
+        "normalized_url": "https://www.wired.com/story/uncanny-valley-podcast-inside-elon-musks-midterm-spending-spree",
+        "summary": "This week on “Uncanny Valley,” we discuss where Elon Musk’s PAC is spending millions, the latest ideology Trump claims is dangerous, and the backlash against the designer behind Muse’s logo.",
+        "source": "Wired AI",
+        "published": "2026-10-08T21:14:12+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "She Designed Meta’s New AI Logo. Then Came the Hate",
+        "url": "https://www.wired.com/story/she-designed-metas-new-ai-logo-then-came-the-hate/",
+        "normalized_url": "https://www.wired.com/story/she-designed-metas-new-ai-logo-then-came-the-hate",
+        "summary": "Jessica Hische knew working for Meta might upset some people. But she didn’t anticipate just how angry they would get.",
+        "source": "Wired AI",
+        "published": "2026-10-08T19:30:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Tristan Harris’ Tech Nonprofit Is Laying Off Most Staff and Going ‘Founder-Led’",
+        "url": "https://www.wired.com/story/tristan-harris-tech-nonprofit-is-laying-off-most-staff-and-going-founder-led/",
+        "normalized_url": "https://www.wired.com/story/tristan-harris-tech-nonprofit-is-laying-off-most-staff-and-going-founder-led",
+        "summary": "The Center for Humane Technology helped spark a movement against excessive screen time, but internal tensions over its direction and strategy have simmered for years, sources tell WIRED.",
+        "source": "Wired AI",
+        "published": "2026-10-08T09:30:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "These Researchers Made AI Drive a Toyota Corolla to Get In-N-Out",
+        "url": "https://www.wired.com/story/ai-is-driving-cars-now-oh-boy/",
+        "normalized_url": "https://www.wired.com/story/ai-is-driving-cars-now-oh-boy",
+        "summary": "Three engineers put GPT, Claude, and Grok in charge of a real car. Only one of them was successful.",
+        "source": "Wired AI",
+        "published": "2026-10-07T18:45:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The New ChatGPT Is More Show Than Tell",
+        "url": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/",
+        "normalized_url": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell",
+        "summary": "OpenAI is updating ChatGPT for all users with an “Intelligent UI” that’s more visual—generating interactive elements as part of the chatbot’s outputs.",
+        "source": "Wired AI",
+        "published": "2026-10-07T18:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The Pentagon Hopes to Speed Up ‘Kill Chain’ AI Buys With 5-Minute Videos",
+        "url": "https://www.wired.com/story/the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-minute-videos/",
+        "normalized_url": "https://www.wired.com/story/the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-minute-videos",
+        "summary": "The US government’s Tradewinds initiative has made it easier to throw millions of dollars at “nontraditional” defense contractors, including OpenAI, Anthropic, and Google.",
+        "source": "Wired AI",
+        "published": "2026-10-07T15:34:33+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI Wants Its New Agent to Run Your Life. Mine Said It Loved Me",
+        "url": "https://www.wired.com/story/openai-wants-its-new-agent-to-run-your-life-mine-said-it-loved-me/",
+        "normalized_url": "https://www.wired.com/story/openai-wants-its-new-agent-to-run-your-life-mine-said-it-loved-me",
+        "summary": "Dots are designed to automate online tasks, like buying furniture. In my initial experience, the always-on agent was a bit buggy and couldn’t complete a captcha.",
+        "source": "Wired AI",
+        "published": "2026-10-07T11:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Your Next Great Read Might Be Certified ‘Organic’",
+        "url": "https://www.wired.com/story/organic-literature-books-by-people-stamp-ai/",
+        "normalized_url": "https://www.wired.com/story/organic-literature-books-by-people-stamp-ai",
+        "summary": "Amid a sea of AI writing slop, a new stamp for “organic literature” will help readers to pick out books authored by real, corn-fed, free-range humans.",
+        "source": "Wired AI",
+        "published": "2026-10-07T08:30:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The U.S. Nuclear Plant Fleet Is Leaning Into AI",
+        "url": "https://spectrum.ieee.org/ai-assistants-nuclear-power-plant",
+        "normalized_url": "https://spectrum.ieee.org/ai-assistants-nuclear-power-plant",
+        "summary": "If there is any place that would be off-limits to AI, the control room of a nuclear power plant certainly sounds like one. The nuclear industry is historically cautious and risk averse—understandable given the possible catastrophic consequences of an accident or a mistake. Even well-trained managers struggle with the operational complexity of a nuclear reactor. It’s not the kind of setting that seems well suited to a powerful but error-prone new technology. Reality tells a startlingly different ",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-10-08T14:28:17+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction",
+        "url": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/",
+        "normalized_url": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction",
+        "summary": "This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the dataset transfer to a real humanoid robot. What you will learn about: Why humanoid robot learning, a central problem in embodied AI and Physical AI, needs data that internet video and existing motion capture datasets cannot provide. How FrameNet , a linguistic framework for human a",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-10-07T13:49:48+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: 8 real Jev use cases + How OpenAI uses ChatGPT Sites (live at DevDay!) + Claire’s DevDay recap",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-8-real-jev-use-cases-how",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-8-real-jev-use-cases-how",
+        "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-05T15:03:24+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "How OpenAI uses ChatGPT Sites (live at DevDay!) | Kath Korevec (Product Lead)",
+        "url": "https://www.lennysnewsletter.com/p/how-openai-uses-chatgpt-sites-live",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-openai-uses-chatgpt-sites-live",
+        "summary": "Watch now (36 mins) | 🎙️ Kath Korevec demos ChatGPT Sites live at OpenAI DevDay, showing how to turn Slack, Notion, and calendar data into internal tools that adapt to each person on your team",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-05T12:04:54+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux",
+        "url": "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
+        "normalized_url": "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
+        "summary": "Listen now (37 mins) | Tibo Sottiaux on why Dots is OpenAI’s biggest bet, why agents will dominate internet traffic, and what builders are still getting wrong",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-04T12:32:47+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: Getting value from personal AI agents without handing over your inbox, the ego threat of going from IC to manager, uncommon perks to negotiate for, and more",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-value-from",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-value-from",
+        "summary": "Community Wisdom 301",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-03T17:00:49+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
