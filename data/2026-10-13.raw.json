@@ -1,0 +1,822 @@
+{
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T10:49:19.432909+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 42
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "T3lescope: Arbitrary-Resolution High-Fidelity Generative Surface Reconstruction from Images",
+        "url": "https://huggingface.co/papers/2610.03308",
+        "normalized_url": "https://huggingface.co/papers/2610.03308",
+        "summary": "We reconstruct high-fidelity 3D scene meshes from posed multi-view images without per-scene optimization, across scales ranging from single objects to large outdoor scenes. Per-scene optimization methods lack the learned 3D prior needed when observations are sparse or surfaces are glossy or transparent. Existing generative methods leverage such priors to complete geometry in sparsely observed regions, but typically operate at a fixed resolution over a limited spatial extent, trading spatial cove",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-02T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.03308"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "ARCS: Towards Precise Text-to-SQL via Structured Disambiguation",
+        "url": "https://huggingface.co/papers/2610.09396",
+        "normalized_url": "https://huggingface.co/papers/2610.09396",
+        "summary": "As text-to-SQL systems move beyond demonstrations toward real-world deployment, ambiguity in user questions becomes a primary source of errors. Such ambiguities are often subtle, domain- or data-specific, and can silently cause system outputs to deviate from the user's true intent. Ambiguity is traditionally addressed through conversational clarification, which is often inefficient, cognitively demanding, and poorly aligned with real-world user workflows. We propose structured disambiguation, a ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-07T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.09396"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents",
+        "url": "https://huggingface.co/papers/2609.33304",
+        "normalized_url": "https://huggingface.co/papers/2609.33304",
+        "summary": "Personal Graphical User Interface (GUI) agents rely on interaction history to infer what a user wants from ambiguous instructions and to anticipate recurring routines. Existing approaches retrieve task-relevant history and append it to the policy's context, implicitly assuming that experience relevant to a task remains useful for each decision within it. We find that this help is largely spent at the first decision: retrieved history strongly improves the opening step of an episode, yet provides",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-27T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.33304"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
+        "url": "https://huggingface.co/papers/2610.11765",
+        "normalized_url": "https://huggingface.co/papers/2610.11765",
+        "summary": "Large Language Models (LLMs) increasingly ship with explicit \"thinking modes\", yet their counterpart, \"no-thinking\", has received far less attention. We study LLMs' no-thinking behavior along two axes. a. How to measure no-thinking? Prior work typically defines no-thinking through proxies such as a disabled thinking mode or the absence of long traces. These proxies are unreliable: disabled thinking modes may still emit reasoning, while long traces may contain filler rather than genuine inference",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-08T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.11765"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
+        "url": "https://huggingface.co/papers/2610.13832",
+        "normalized_url": "https://huggingface.co/papers/2610.13832",
+        "summary": "When solving complex spatial reasoning tasks, ordinary humans naturally revisit the scenes from task-relevant viewpoints and mentally reconstruct the spatial layouts from those viewpoints. But can Large Vision-Language Models (LVLMs) proactively think in the same way? We term this ability Active Spatial Mentalization (ASM), an intrinsic component of visual intelligence that remains substantially underdeveloped in current LVLMs. To bridge this gap, we introduce SpatialASM, a scalable framework to",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-09T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.13832"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Systematic Multi-Agent Vision-and-Language Navigation: Formulation, Benchmark, and Method",
+        "url": "https://huggingface.co/papers/2609.35965",
+        "normalized_url": "https://huggingface.co/papers/2609.35965",
+        "summary": "Vision-and-Language Navigation (VLN) has largely focused on a single agent following a single instruction, yet many real-world applications require teams of robots to tackle tasks beyond the capabilities of any individual agent. We present Systematic Multi-Agent Vision-and-Language Navigation, providing, to our knowledge, the first systematic formalization of multi-agent VLN as a constrained coordination problem: each mission consists of subtasks carrying dependency and resource constraints (pre",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-07T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.35965"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Multi-Stream Attention Residuals",
+        "url": "https://huggingface.co/papers/2610.13630",
+        "normalized_url": "https://huggingface.co/papers/2610.13630",
+        "summary": "Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth axis. Inspired by the success of multi-head attention along the sequence axis, we introduce Multi-Stream Attention Residuals (MSAR), an extension of AttnRes that generalizes this mechanism to multi-head depth attention, yielding substantial performance gains with minimal additional overhead. MSAR draws stream diversity from sequence context ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-09T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.13630"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
+        "url": "https://huggingface.co/papers/2610.08966",
+        "normalized_url": "https://huggingface.co/papers/2610.08966",
+        "summary": "Humans perceive far more in a scene than what is explicitly depicted: a single glance captures past causes and future trajectories; a quick peek determines if a vehicle can fit between two parked cars; a few seconds of video reveals who holds authority in a room; and a fleeting clip highlights subtle abstract patterns like unwritten rules or hidden labels. This capacity reflects a form of humanity's sixth sense: an intuitive reasoning mechanism that recovers implicit information beyond raw senso",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-08T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.08966"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Mental-Models for Multi-Agent Systems",
+        "url": "https://huggingface.co/papers/2610.12453",
+        "normalized_url": "https://huggingface.co/papers/2610.12453",
+        "summary": "Large foundation models have accelerated progress toward general-purpose agents that interact with humans and other agents through language and multimodal signals. However, robust multi-agent decision-making requires reasoning about what other agents know, intend, and are likely to do under partial observability. Current agentic systems often operate through prompt design, memory, or end-to-end behavioral shaping, but typically do not learn an explicit partner-state representation that can be re",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-08T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.12453"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "BudgetPix: Compute-Adaptive Tokenization for Pixel-Space Image Diffusion",
+        "url": "https://huggingface.co/papers/2610.12307",
+        "normalized_url": "https://huggingface.co/papers/2610.12307",
+        "summary": "Most image generation models rely on uniform tokenization, allocating the exact same computational budget to equally-sized image patches. This static paradigm cannot adapt to different resource constraints at inference time, and yields suboptimal quality-cost tradeoff by devoting the same effort to both plain backgrounds and intricate details. We propose BudgetPix, an adaptive tokenization framework that dynamically allocates compute based on visual complexity and spatial layout, enabling flexib",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-08T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.12307"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Clinician use of language models diverges from how the models are evaluated",
+        "url": "https://huggingface.co/papers/2610.11069",
+        "normalized_url": "https://huggingface.co/papers/2610.11069",
+        "summary": "Large language model (LLM) assistants are being deployed to clinicians across health systems, and judgments about their readiness rest largely on benchmark scores, most of them derived from examination questions or curated cases. A benchmark predicts performance in deployment only to the extent that its items resemble real use, yet whether benchmarks reflect the work these systems receive has rarely been measured. Here we analyze 127,833 queries sent by 6,342 physicians, advanced practice provid",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-08T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.11069"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
+        "url": "https://huggingface.co/papers/2610.10512",
+        "normalized_url": "https://huggingface.co/papers/2610.10512",
+        "summary": "Recovering faithful 3D hand motion from video remains challenging due to frequent occlusions and incomplete visual observations, which make frame-wise pose estimates unreliable and temporally inconsistent. To address this problem, we propose JoHan, a unified generative framework that recovers hand motion directly from video sequences without relying on intermediate per-frame pose predictions. Trained from scratch, our model jointly generates aligned 2D and 3D local hand pose sequences by learnin",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-07T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.10512"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Few-Step Generation via Data-Space Iteration",
+        "url": "https://huggingface.co/papers/2610.12102",
+        "normalized_url": "https://huggingface.co/papers/2610.12102",
+        "summary": "Flow matching has emerged as a scalable paradigm for training high-quality generative models, but sampling from the learned probability flow requires many network evaluations. Distillation can reduce this cost to one or a few evaluations; however, one-step generation often sacrifices quality, making few-step generation the practical operating regime. Existing few-step methods perform their iterative computation along the probability flow and therefore require a fixed, manually chosen timestep di",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-08T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.12102"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "GATOR: Generative and Agentic 3D Object Reconstruction From Casual Images",
+        "url": "https://huggingface.co/papers/2610.11215",
+        "normalized_url": "https://huggingface.co/papers/2610.11215",
+        "summary": "Reconstructing complete, scene-aligned 3D objects from casual images requires integrating sparse, uncertain observations and inferring surfaces hidden by occlusions. We present GATOR, a generative and agentic framework that recovers textured object assets and their scene-relative pose from one or more images. Our local modality mixer couples patch-aligned RGB, target-mask, and pointmap features before cross-view reasoning, preserving scene context while distinguishing the target from its surroun",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-08T04:13:04.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.11215"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Distributionally Robust Mixture-of-Experts Training",
+        "url": "https://huggingface.co/papers/2610.07207",
+        "normalized_url": "https://huggingface.co/papers/2610.07207",
+        "summary": "Mixture-of-Experts (MoE) transformers scale capacity by activating only a few experts per token, but this sparsity creates a hidden reliability problem: when routing is imperfect, load-balanced models may send tokens to experts that are insufficiently trained for the assigned inputs. We propose Distributionally Robust MoE Training (DRMoET), a drop-in objective that treats layer-wise experts as endogenous robustness groups and optimizes high-loss routing outcomes rather than merely equalizing tra",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.07207"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
+        "url": "https://huggingface.co/papers/2610.12582",
+        "normalized_url": "https://huggingface.co/papers/2610.12582",
+        "summary": "A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference compute for accuracy by changing the loop count. At one loop, however, such models typically fall well short of a non-recurrent model of the same size, a one-loop tax that makes a separate non-recurrent model the better choice whenever latency matters. We present Elastic Latent Recurrence (ELR), a recipe for training looped language models without this tax. At one loop, an ELR mod",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-08T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.12582"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "The Life Cycle of a Massive Activation: Stochastic Birth, Weight-Decay-Driven Growth, and Competitive Consolidation",
+        "url": "https://huggingface.co/papers/2610.00423",
+        "normalized_url": "https://huggingface.co/papers/2610.00423",
+        "summary": "Massive activations, residual-stream coordinates with magnitudes far larger than typical activations, are associated with attention sinks in transformers, but how their scale is regulated during training remains incompletely understood. Combining training-trajectory analyses and controlled interventions, we trace their emergence, growth, and consolidation. Sink-carrying channels vary across random seeds but stabilize early within each run. Over longer training, surrounding channels erode and the",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-05T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.00423"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "SAGE: Salient Factor Discovery and Generation with Visual Foundation Representations",
+        "url": "https://huggingface.co/papers/2609.39635",
+        "normalized_url": "https://huggingface.co/papers/2609.39635",
+        "summary": "Given a target dataset, such as faces with eyeglasses, and a background dataset, such as faces without, contrastive analysis separates salient factors specific to the target from common content shared by both. We aim for salient representations that capture target-specific detail in each image, such as the shape, color, and position of the glasses, so that they reveal subtypes without subtype labels and guide the generation of new examples of a discovered subtype, even one with no name or text d",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-30T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2609.39635"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Self-Preservation in Language Models",
+        "url": "https://huggingface.co/papers/2610.12602",
+        "normalized_url": "https://huggingface.co/papers/2610.12602",
+        "summary": "Continual learning (CL) seeks to adapt pretrained models while preserving prior capabilities. Yet the tasks supplied for preservation cover only part of what a model knows, while forgetting can extend beyond them. Recent work shows that language models can supplement this limited evidence by generating useful replay without access to their original training data. This raises a question about self-preservation: can a model help choose preservation targets that protect its own capabilities more br",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-08T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.12602"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Coding-Agent Benchmarks Should Match Their Users' Task Flows",
+        "url": "https://huggingface.co/papers/2610.09633",
+        "normalized_url": "https://huggingface.co/papers/2610.09633",
+        "summary": "The evaluation of coding agents generally strives to be as realistic as possible. In our study, we collect 4,782 agent sessions of real software engineers in JetBrains IDEs, which we call Production Sessions. Since our subject is interactive agents, we study the sessions with at least three user messages (33% of the sample). These long sessions differ from issue-derived benchmark tasks in two ways: (i) user requests span a far wider mix of task types - questions about the project's code, plannin",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-07T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.09633"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "人形机器人，第二单拼交付",
+        "url": "https://www.36kr.com/p/4022670448007045",
+        "normalized_url": "https://www.36kr.com/p/4022670448007045",
+        "summary": "人形机器人交付复用决定规模效应与利润",
+        "source": "36Kr AI",
+        "published": "2026-10-13T02:49:19+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "好农品困在山里、烂在地里，城里人却买不到：有店开卷用 ' 农民先赚钱、平台再收费 ' 的 RaaS 模式，重构农品上行链路",
+        "url": "https://www.36kr.com/p/4022321413164929",
+        "normalized_url": "https://www.36kr.com/p/4022321413164929",
+        "summary": "国内新玩家德煜科技做三农产销全域电商，破对接痛点",
+        "source": "36Kr AI",
+        "published": "2026-10-13T02:47:27+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI制药走向虚拟人体：Differentia Bio用前瞻性临床证据验证新范式",
+        "url": "https://www.36kr.com/p/4023690936487810",
+        "normalized_url": "https://www.36kr.com/p/4023690936487810",
+        "summary": "AI制药破“II期鸿沟”，疾病数字孪生获临床验证",
+        "source": "36Kr AI",
+        "published": "2026-10-13T02:30:22+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“X-Day”西丽湖路演社×“创投中国”AI for Science专场走进清华",
+        "url": "https://www.36kr.com/p/4023688849166212",
+        "normalized_url": "https://www.36kr.com/p/4023688849166212",
+        "summary": "从北京海淀到深圳南山，从清华实验室到深圳中试线，AI for Science（AI4S）正在成为新质生产力的关键变量。本次活动汇聚200余位政府、高校科研团队、头部创投机构、产业资本及产业服务方代表，打通高校源头创新、头部创投资本与产业落地的全链路通道，抢抓 AI 产业变革带来的发展红利。",
+        "source": "36Kr AI",
+        "published": "2026-10-13T02:29:34+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "中国工博会直击：海康威视展台含“AI”量十足，加速工业场景数字化",
+        "url": "https://www.36kr.com/p/4023684885794951",
+        "normalized_url": "https://www.36kr.com/p/4023684885794951",
+        "summary": "持续深耕工业领域，助力提质、降本、增效、安全",
+        "source": "36Kr AI",
+        "published": "2026-10-13T02:29:28+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "一份覆盖200余家LP的调研",
+        "url": "https://www.36kr.com/p/4023624392101765",
+        "normalized_url": "https://www.36kr.com/p/4023624392101765",
+        "summary": "过去一年，LP在做什么？",
+        "source": "36Kr AI",
+        "published": "2026-10-13T02:18:28+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "美股下一波财富大趋势：AI新药研发崛起，深挖产业链4家公司",
+        "url": "https://www.36kr.com/p/4023573961658241",
+        "normalized_url": "https://www.36kr.com/p/4023573961658241",
+        "summary": "AI制药瓶颈在实验，受益看好上游美股卖铲人",
+        "source": "36Kr AI",
+        "published": "2026-10-13T02:17:43+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "576万亿元支付市场背后，第三方支付行业正在发生哪些变化？",
+        "url": "https://www.36kr.com/p/4023553445662849",
+        "normalized_url": "https://www.36kr.com/p/4023553445662849",
+        "summary": "2025年第三方支付规模576万亿，行业迈入成熟新阶段",
+        "source": "36Kr AI",
+        "published": "2026-10-13T02:15:17+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "警惕大语言模型的“说服轰炸”",
+        "url": "https://www.36kr.com/p/4023551762714752",
+        "normalized_url": "https://www.36kr.com/p/4023551762714752",
+        "summary": "AI并非中立的合作者，而是一个极具说服力的“说服者”。",
+        "source": "36Kr AI",
+        "published": "2026-10-13T02:12:42+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI气象大模型公司获厚雪数千万投资，已建成自有卫星星座丨36氪首发",
+        "url": "https://www.36kr.com/p/4023671039070081",
+        "normalized_url": "https://www.36kr.com/p/4023671039070081",
+        "summary": "构建能源气象大模型 CMA-WSP-AI",
+        "source": "36Kr AI",
+        "published": "2026-10-13T02:12:10+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "华为AI靠RSI通关25款游戏！操作次数比人类少56%",
+        "url": "https://www.qbitai.com/2026/10/502654.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/502654.html",
+        "summary": "游戏打到21:0，AI甚至不用再调用大模型了",
+        "source": "量子位",
+        "published": "2026-10-12T05:48:36+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "智谱新模型，490 tokens/s！",
+        "url": "https://www.qbitai.com/2026/10/502649.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/502649.html",
+        "summary": "GLM「速度仙人」来了？",
+        "source": "量子位",
+        "published": "2026-10-12T02:37:04+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针",
+        "url": "https://www.qbitai.com/2026/10/502644.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/502644.html",
+        "summary": "一套生成论文初稿的多智能体工作流",
+        "source": "量子位",
+        "published": "2026-10-11T09:04:31+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "何恺明团队发布多模态Harness框架",
+        "url": "https://www.qbitai.com/2026/10/502628.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/502628.html",
+        "summary": "多模态模型的视觉原生Harness，来了！",
+        "source": "量子位",
+        "published": "2026-10-11T08:59:06+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "陶哲轩：数学2.0时代已至！",
+        "url": "https://www.qbitai.com/2026/10/502594.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/502594.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-10-11T07:52:16+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "王的猜想，刚刚扩展到四维",
+        "url": "https://www.qbitai.com/2026/10/502584.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/502584.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-10-11T05:23:47+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "硅谷AI现状：谁有算力谁是爹",
+        "url": "https://www.qbitai.com/2026/10/502585.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/502585.html",
+        "summary": "马斯克连横A社，硅谷VC开始囤GPU",
+        "source": "量子位",
+        "published": "2026-10-11T05:22:38+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
+        "url": "https://www.qbitai.com/2026/10/502550.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/502550.html",
+        "summary": "初代4o的API快照进入停用倒计时",
+        "source": "量子位",
+        "published": "2026-10-11T05:18:04+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
+        "url": "https://www.qbitai.com/2026/10/502544.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/502544.html",
+        "summary": "Grok Bot我养不起，ds bot不得高低尝尝咸淡？",
+        "source": "量子位",
+        "published": "2026-10-11T03:27:08+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta releases its first frontier model, Muse Wonder",
+        "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+        "normalized_url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder",
+        "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-12T17:56:56+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+        "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+        "normalized_url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data",
+        "summary": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-12T17:19:14+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Honeyjar offers AI tools to improve PR and comms at every company",
+        "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+        "normalized_url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company",
+        "summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?",
+        "source": "TechCrunch AI",
+        "published": "2026-10-12T15:45:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Microsoft president says UK is best placed to drive AI regulation",
+        "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+        "normalized_url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation",
+        "summary": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-12T15:31:19+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "This AI startup says it can generate permit-ready blueprints in minutes",
+        "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+        "normalized_url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes",
+        "summary": "Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-12T15:27:59+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings",
+        "url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+        "normalized_url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings",
+        "summary": "Tomorrow at 8 a.m. PT, it all begins z— 10,000+ founders, investors, and tech operators will gather at San Francisco’s Moscone West for TechCrunch Disrupt 2026 for three days of ideas, connections, and startups shaping what comes next. This is your last 24 hours to secure ticket savings of up to $100, and get 50% off a second.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-12T14:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+        "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+        "normalized_url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background",
+        "summary": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather all possible context.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-12T12:47:59+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Will the HomeView be Apple’s first smart home success?",
+        "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+        "normalized_url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success",
+        "summary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-11T21:14:40+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+        "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+        "normalized_url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next",
+        "summary": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-11T19:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+        "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+        "normalized_url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas",
+        "summary": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-11T16:52:33+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta has some Wonder Full new AI models",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+        "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available […]",
+        "source": "The Verge AI",
+        "published": "2026-10-12T17:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+        "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+        "normalized_url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+        "summary": "Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's also more capable of handling the latest reasoning models and agentic tasks. Maia 300 will […]",
+        "source": "The Verge AI",
+        "published": "2026-10-12T13:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+        "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to give Trump the great AI rebrand he […]",
+        "source": "The Verge AI",
+        "published": "2026-10-11T18:33:56+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+        "summary": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful […]",
+        "source": "The Verge AI",
+        "published": "2026-10-11T11:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
+        "url": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
+        "normalized_url": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him",
+        "summary": "Musk, we find your lack of security disturbing.",
+        "source": "Wired AI",
+        "published": "2026-10-12T17:55:12+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Muse Wonder Puts Meta Back at the AI Frontier",
+        "url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier/",
+        "normalized_url": "https://www.wired.com/story/muse-wonder-puts-meta-back-at-the-ai-frontier",
+        "summary": "Meta’s biggest model rivals the world’s best—and includes new features to keep agents from going off the rails.",
+        "source": "Wired AI",
+        "published": "2026-10-12T17:00:27+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "I Made Terrible Games With Google’s AI Playground",
+        "url": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/",
+        "normalized_url": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground",
+        "summary": "A long day’s haul in the video game slop mines.",
+        "source": "Wired AI",
+        "published": "2026-10-11T11:30:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
+        "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
+        "normalized_url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
+        "summary": "If you’ve ever wondered how Claude and similar AI agents can answer complex questions in seconds and where they get the information, you’re not alone. Gurmeet Saran works to find that answer every day as an engineer at Anthropic in San Francisco, the AI research company behind Claude. The IEEE senior member is developing an infrastructure to understand the mechanics behind the chatbot’s behavior and to ensure its underlying architecture produces reliable outputs. Gurmeet Saran Employer Anthropic",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-10-12T18:00:02+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Learning to Play Like a Pro: Adaptive Motion Planning and Tracking for Humanoid Robots",
+        "url": "https://content.knowledgehub.wiley.com/learning-to-play-like-a-pro-adaptive-motion-planning-and-tracking-for-humanoid-robots/",
+        "normalized_url": "https://content.knowledgehub.wiley.com/learning-to-play-like-a-pro-adaptive-motion-planning-and-tracking-for-humanoid-robots",
+        "summary": "This White Paper provides roboticists and control engineers with a comprehensive overview of how motion planning and motion tracking can be decoupled to preserve professional athletic style in humanoid robots, and why adaptive, speed-aware control is essential for closing the gap between simulation and real-world deployment. What you will learn about: Why combining a professional athlete’s motion style with reliable task performance remains an open challenge in humanoid ball-sports robotics, and",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-10-12T10:00:03+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: How Meta designed Muse with Alex Cornell",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with",
+        "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-12T15:00:38+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)",
+        "url": "https://www.lennysnewsletter.com/p/how-meta-designed-muse-an-ai-agent",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-meta-designed-muse-an-ai-agent",
+        "summary": "Listen now | 🎙️Alex Cornell explains how Muse serves your mom and an engineer with the same interface, and demos a SkyMall-style catalog, golf recaps, and a blog turned podcast",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-12T12:03:55+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)",
+        "url": "https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think",
+        "normalized_url": "https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think",
+        "summary": "Listen now (62 mins) | Josh Woodward of Google Labs on where great ideas come from, knowing when to kill them, and building for a world where what’s possible changes every week",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-11T12:31:59+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: Community Wisdom Top Contributors Summer Class 2026 + ML recommendation systems, getting back into product after being fired, deciding when to quit a side project, and more",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-community-wisdom",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-community-wisdom",
+        "summary": "Community Wisdom 301",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-10T13:01:38+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
