@@ -1,0 +1,692 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T07:52:59.834124+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 32
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "Mine, Sample, Render: Test-Time Diversity Alignment Of Generative Models",
+        "url": "https://huggingface.co/papers/2610.21185",
+        "normalized_url": "https://huggingface.co/papers/2610.21185",
+        "summary": "Modern generative models produce high-quality individual outputs but struggle to sample diversely, even when explicitly instructed to do so. We introduce MINE-SAMPLE-RENDER (MSR), a test-time approach that externalizes the diversity into an explicit, corpus-derived sampling procedure. Our pipeline (i) mines an interpretable categorical schema from a corpus of real artifacts and supplies statistics for sampling; (ii) samples attribute configurations from the corpus-derived statistics; (iii) uses ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-15T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.21185"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
+        "url": "https://huggingface.co/papers/2610.21261",
+        "normalized_url": "https://huggingface.co/papers/2610.21261",
+        "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which measure the behavioral variation left unexplained above a chosen interaction order. Under independent feature subset sampling, population SAR is exactly the normalized energy of interactions above that order and bounds coalition ordering error for the optimal low order approximat",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-15T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.21261"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Diminishing Returns of Data in Sparse Autoencoders: Functional Behavior does not Guarantee Feature Reproducibility",
+        "url": "https://huggingface.co/papers/2610.20680",
+        "normalized_url": "https://huggingface.co/papers/2610.20680",
+        "summary": "Sparse autoencoders (SAEs) are typically trained on hundreds of millions to billions of activation tokens, yet little work has tested whether this scale is necessary. We study how much activation data SAEs need by training four SAE architectures on three language models with budgets ranging from 5M tokens to a 500M-token reference. We measure two notions of convergence: functional behavior on standard evaluations and one-to-one reproducibility of learned features. Functional data requirements ar",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-14T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.20680"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
+        "url": "https://huggingface.co/papers/2610.22280",
+        "normalized_url": "https://huggingface.co/papers/2610.22280",
+        "summary": "Computer-use agents increasingly tackle long-horizon tasks, where running a frontier model at every step is expensive and a small open-weight model alone often fails. Weak-to-strong escalation offers a middle ground where a weak agent acts by default and hands control to a strong one only when needed. The core challenge is deciding when to escalate, which requires an uncertainty signal cheap enough to check at every step. However, even after handoff, the strong agent can still get lost, but a bl",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-15T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.22280"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Scalable Weak-to-Strong Verifier Hardening for Agent Environments",
+        "url": "https://huggingface.co/papers/2610.15924",
+        "normalized_url": "https://huggingface.co/papers/2610.15924",
+        "summary": "Agent environments are essential for large language model (LLM) development. They use programmatic verifiers to turn complex outcomes into rewards. Verifiers can be attacked into awarding full credit to cheating agents without completing the intended task, causing inaccurate evaluation and misalignment in training. As agent environments scale in numbers and difficulty, so must the repairing of exploitable verifiers. To this end, we ask whether today's model with scaled compute can automatically ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-11T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.15924"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "LeanPRM: Lean-Grounded Process Supervision for Natural Language Proof Verification",
+        "url": "https://huggingface.co/papers/2610.17697",
+        "normalized_url": "https://huggingface.co/papers/2610.17697",
+        "summary": "AI systems now write long and difficult mathematical proofs, and checking their step-by-step validity is becoming a bottleneck. A learned verifier could check proofs cheaply, but training one requires a correctness label on every step, and such labels are hard to obtain for open-ended proofs. Existing methods take them from human annotators, which is costly, or derive them from final answers, which proofs do not have, and formalizing each proof in Lean requires expert effort. We introduce LeanPR",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-13T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.17697"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Equal CER, Unequal Damage: Severity-Weighted Character Error Rate for OCR",
+        "url": "https://huggingface.co/papers/2610.20461",
+        "normalized_url": "https://huggingface.co/papers/2610.20461",
+        "summary": "Character Error Rate (CER), the standard metric for OCR and vision-language models (VLMs), charges a typo as much as a wrong name. We introduce semCER, which keeps CER's alignment and denominator and charges each grapheme edit a severity from an LLM judge, with no word segmentation. Normalized CER keeps the score of a whole transcription, where it tracks readers as well as semCER or better, and semCER breaks that score down into named edits. The charges track readers' ratings edit by edit in Eng",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-14T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.20461"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
+        "url": "https://huggingface.co/papers/2610.22358",
+        "normalized_url": "https://huggingface.co/papers/2610.22358",
+        "summary": "Time series foundation models are becoming increasingly popular for general-purpose forecasting. However, most leading models predict marginal quantiles, leaving the dependence structure of future trajectories unspecified. This distinction matters for trajectory-dependent quantities such as cumulative demand, peak load, and event timing, yet point and marginal scores do not reveal it. To model this dependence, we introduce PathFM, a trajectory-based forecasting model that uses flow matching to g",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-15T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.22358"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Learning to Read Out: Unembedding Dynamics in Language Model Pretraining",
+        "url": "https://huggingface.co/papers/2610.21025",
+        "normalized_url": "https://huggingface.co/papers/2610.21025",
+        "summary": "When does a language model acquire a capability? Developmental studies usually answer this by tracking when models start producing the correct token. But that prediction passes through the unembedding matrix, or readout, which is itself still being learned during pretraining. We show that a model's hidden states can encode task information before its own readout expresses it, so timelines read from outputs conflate what the model encodes with what its readout expresses. To track the readout dire",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-14T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.21025"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Copy-Paste Language Models",
+        "url": "https://huggingface.co/papers/2610.19247",
+        "normalized_url": "https://huggingface.co/papers/2610.19247",
+        "summary": "Transformers are intuitively considered to be efficient at copying from their inputs. We actually show that the ability of LLMs to copy in context can be improved through explicit modeling. We propose Copy-Paste Language Models (CPLMs), which add a lightweight Copy-Paste head to the conventional language modeling (LM) head. CPLMs improve training efficiency, downstream performance, and offer new operating points in long-context and retrieval setups. We validate our approach by pretraining models",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-13T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.19247"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Explaining the Roles of Experts in Mixture-of-Experts LLMs for Personalization",
+        "url": "https://huggingface.co/papers/2610.22127",
+        "normalized_url": "https://huggingface.co/papers/2610.22127",
+        "summary": "Personalization of Large Language Models (LLMs) is increasingly important for user-centric applications, yet prior methods mainly adapt dense LLMs, whose polysemantic neurons, each encoding multiple unrelated concepts, hinder localizing the components behind personalization, and thus understanding and controlling it. We propose to personalize Mixture-of-Experts (MoE) LLMs, which sparsely route each token to a few specialized experts, reducing polysemanticity and enabling such localization. We ad",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-15T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.22127"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "PAIR: Bridging Perception and Action in Vision-Language-Action Models",
+        "url": "https://huggingface.co/papers/2610.09016",
+        "normalized_url": "https://huggingface.co/papers/2610.09016",
+        "summary": "Vision-language-action (VLA) models map visual observations and language instructions to continuous robot actions. This task requires a transition from representations that describe the scene and instruction to representations that support action generation. Many continuous-action VLAs leave this transition implicit and supervise it mainly through the final action-prediction loss. We introduce PAIR, a framework that learns a shared perception-action representation between these two spaces. Durin",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-06T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.09016"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Beyond Policy Rollouts: Embedding-Space Directional Exploration with Anchored Noise for LLM RLVR",
+        "url": "https://huggingface.co/papers/2610.16105",
+        "normalized_url": "https://huggingface.co/papers/2610.16105",
+        "summary": "Reinforcement learning with verifiable rewards (RLVR) typically uses small rollout groups per prompt, where repeated sampling from the same policy can yield highly similar trajectories, reducing within-group reward variation and weakening group-relative advantage signals. Existing remedies such as higher sampling temperature, entropy bonuses, asymmetric clipping, and larger rollout budgets broaden sampling or modify policy updates but leave rollout conditioning unchanged. In this paper, we propo",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-12T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.16105"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "One Bias Score, Two Factors: How Mitigations Affect Option Bias in Multiple-Choice Evaluation",
+        "url": "https://huggingface.co/papers/2610.20993",
+        "normalized_url": "https://huggingface.co/papers/2610.20993",
+        "summary": "Reordering multiple-choice options can change a model's answer, an effect studied as selection bias (a preference for certain option letters) and as order sensitivity (changes in answers across option orderings). We connect these perspectives through the pooled selection-rate standard deviation (pooled SD), which measures how unevenly option letters are selected across questions and orderings. When every option of each question appears equally often at each position, the pooled SD is exactly the",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-14T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.20993"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Gen4P: Video Generators are 4D Perceivers",
+        "url": "https://huggingface.co/papers/2610.22371",
+        "normalized_url": "https://huggingface.co/papers/2610.22371",
+        "summary": "We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pretrained video generator can be repurposed into a feed-forward 4D perceiver without iterative denoising. Building on on-demand querying, Gen4P processes clean video latents in a single encoder pass and predicts the requested 4D attributes through a lightweight cross-attention decoder. The on-demand query formulation enables flexible spatial sampling, and our proposed continuous-ti",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-15T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.22371"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "When the KV Cache Is Slower Than the GPU: Scaling Remote KV Tiers for Context-Parallel Prefill",
+        "url": "https://huggingface.co/papers/2610.21500",
+        "normalized_url": "https://huggingface.co/papers/2610.21500",
+        "summary": "Reusing the attention KV cache across requests is a standard way to cut prefill cost in long-context LLM serving, and production systems increasingly back the per-engine cache with a remote tier shared by every engine. We study such a tier in a disaggregated deployment of GLM-5.3, an FP8 mixture-of-experts model with multi-head latent attention (MLA), on 8xB300 nodes running prefill context parallelism (PCP8). Enabling the remote tier (LMCache with a Valkey store) left median time-to-first-token",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-15T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.21500"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Virtual Head Attention",
+        "url": "https://huggingface.co/papers/2610.17959",
+        "normalized_url": "https://huggingface.co/papers/2610.17959",
+        "summary": "The design of attention mechanisms in long-context large language models faces an ``impossible triangle'' among KV cache size, training and prefill FLOPs, and model quality. GQA achieves strong quality but incurs high KV cache overhead; alternative approaches such as MLA and MFA can compress the cache, but MLA suffers from quality loss while MFA substantially increases training and prefill compute. We propose Virtual Head Attention (VHA), which simultaneously improves all three vertices through ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-13T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.17959"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Speech event detector: Timestamped detection of non-verbal vocalizations and background sounds for rich speech transcription",
+        "url": "https://huggingface.co/papers/2610.14232",
+        "normalized_url": "https://huggingface.co/papers/2610.14232",
+        "summary": "Automatic speech recognition produces words but drops the non-verbal content of a recording: the breaths, coughs, sighs and laughter of the speaker, and the horns, music or barking around them. We describe Speech Event Detector, a 5.8-million-parameter convolutional-Transformer model that outputs probabilities every 40 ms for 54 event classes (20 speaker vocalizations and 34 background sounds), together with post-processing that converts these probabilities into timestamped events and a procedur",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-09T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.14232"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "FlashMask-3: Efficient and Expressive Mask-Aware Distributed Attention",
+        "url": "https://huggingface.co/papers/2610.17901",
+        "normalized_url": "https://huggingface.co/papers/2610.17901",
+        "summary": "Long-context training of large language and multimodal models couples structured attention masks (document, prefix-LM, share-question, sliding-window, block-sparse) with multi-node context parallelism, making the mask a dominant bottleneck. FlashMask's column-wise sparse mask compresses them from O(n^2) to O(n) via four query-axis boundary vectors, covering broad structured patterns. Implemented for Ampere GPUs, it neither exploits FlashAttention-3's TMA/WGMMA warp-specialized pipeline on Hopper",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-13T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.17901"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "SUPRA-TEX: 3D Generation with Super-Aligned Texture",
+        "url": "https://huggingface.co/papers/2610.22352",
+        "normalized_url": "https://huggingface.co/papers/2610.22352",
+        "summary": "Single image 3D generation aims to dress a given 3D mesh with relightable materials while faithfully preserving the visual details of a reference image. Existing methods either introduce artifacts when fusing inconsistent multi-view predictions or struggle to preserve fine details through implicit image-feature conditioning. To resolve these challenges, we introduce SUPRA-Tex, built on the principle of decoupling visible-material estimation, surface alignment, and observation-guided 3D completio",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-15T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.22352"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "看似强大的 AI，也逃不过那条商业铁律",
+        "url": "https://www.36kr.com/p/4028361590575496",
+        "normalized_url": "https://www.36kr.com/p/4028361590575496",
+        "summary": "大模型训练耗资巨大，但多回答一个问题成本近乎为零。很多人以为是新技术带来的奇迹，其实早有一套早已存在的经济逻辑。",
+        "source": "36Kr AI",
+        "published": "2026-10-18T23:30:59+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "护城河与软件行业的“杠铃化”",
+        "url": "https://www.36kr.com/p/3997074926686339",
+        "normalized_url": "https://www.36kr.com/p/3997074926686339",
+        "summary": "未来的软件业也许只剩下少数寡头以及无数小微企业",
+        "source": "36Kr AI",
+        "published": "2026-10-18T23:18:08+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "所谓“一万小时定律”全是鬼话，决定差距的只有这一万次迭代",
+        "url": "https://www.36kr.com/p/3996042054307712",
+        "normalized_url": "https://www.36kr.com/p/3996042054307712",
+        "summary": "像前0.004%那样实现目标的OAATI模型",
+        "source": "36Kr AI",
+        "published": "2026-10-18T23:06:23+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "从记者到千亿富豪，“最牛文科生”赌中AI",
+        "url": "https://www.36kr.com/p/4031197049100169",
+        "normalized_url": "https://www.36kr.com/p/4031197049100169",
+        "summary": "Anthropic联创宣称“奇点已经到来”。",
+        "source": "36Kr AI",
+        "published": "2026-10-18T09:48:11+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "有多少大作暴死在2026？",
+        "url": "https://www.36kr.com/p/4031156676366983",
+        "normalized_url": "https://www.36kr.com/p/4031156676366983",
+        "summary": "如何破局？",
+        "source": "36Kr AI",
+        "published": "2026-10-18T09:19:32+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "美光崛起背后：美国内存“独苗”的生存战、资本博弈与AI重生",
+        "url": "https://www.36kr.com/p/4031049472579208",
+        "normalized_url": "https://www.36kr.com/p/4031049472579208",
+        "summary": "独特的“美国与东亚二象性”",
+        "source": "36Kr AI",
+        "published": "2026-10-18T09:00:40+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "600亿公司总裁，59岁，要接UP主儿子的“班”",
+        "url": "https://www.36kr.com/p/4031113146175875",
+        "normalized_url": "https://www.36kr.com/p/4031113146175875",
+        "summary": "一个把职业经理人做到极致的父亲，一个白手起家的儿子，在一张工商登记表上同框。",
+        "source": "36Kr AI",
+        "published": "2026-10-18T08:43:11+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "重磅！OpenAI之后，AI再破广义黎曼猜想",
+        "url": "https://www.36kr.com/p/4031090627858820",
+        "normalized_url": "https://www.36kr.com/p/4031090627858820",
+        "summary": "如果AI连这种级别的底层结构都能看透，人类数学家还有什么存在的价值？",
+        "source": "36Kr AI",
+        "published": "2026-10-18T08:14:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "老板们不再把钱交给VC了",
+        "url": "https://www.36kr.com/p/4031081236042116",
+        "normalized_url": "https://www.36kr.com/p/4031081236042116",
+        "summary": "家办，正在成为中国一级市场上冉冉升起的一股新势力。",
+        "source": "36Kr AI",
+        "published": "2026-10-18T07:55:27+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“不务正业”的江浙沪70后男人，狂赚老外2个亿",
+        "url": "https://www.36kr.com/p/4030990480446085",
+        "normalized_url": "https://www.36kr.com/p/4030990480446085",
+        "summary": "小圈子做到极致，也能成为大生意。",
+        "source": "36Kr AI",
+        "published": "2026-10-18T06:59:02+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
+        "url": "https://www.qbitai.com/2026/10/504136.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/504136.html",
+        "summary": "让人人都能自由创造并体验可交互世界",
+        "source": "量子位",
+        "published": "2026-10-18T11:49:49+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+        "url": "https://www.qbitai.com/2026/10/504067.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/504067.html",
+        "summary": "新版本V4.1-Flash-1017，还开放了自研搜索API",
+        "source": "量子位",
+        "published": "2026-10-17T12:21:09+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "智谱新模型，懂法方面全球第一了",
+        "url": "https://www.qbitai.com/2026/10/503965.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/503965.html",
+        "summary": "AI的风还是刮到了法律圈",
+        "source": "量子位",
+        "published": "2026-10-17T12:13:45+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改",
+        "url": "https://www.qbitai.com/2026/10/503935.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/503935.html",
+        "summary": "整套系统原生支持MCP",
+        "source": "量子位",
+        "published": "2026-10-17T12:10:35+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Claude半小时解开密码学悬案，学界集体走偏20年",
+        "url": "https://www.qbitai.com/2026/10/503910.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/503910.html",
+        "summary": "谜底指向时间",
+        "source": "量子位",
+        "published": "2026-10-17T12:06:51+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "科技企业出海，为啥我推荐你去迪拜？",
+        "url": "https://www.qbitai.com/2026/10/503893.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/503893.html",
+        "summary": "通往全球市场的超级跳板",
+        "source": "量子位",
+        "published": "2026-10-17T09:05:08+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+        "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+        "normalized_url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund",
+        "summary": "Anthropic said that it will commit 5% of its shares to the fund.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-18T20:37:40+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+        "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+        "normalized_url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce",
+        "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-18T16:30:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta removes language that raised scraping and AI training concerns",
+        "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+        "normalized_url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns",
+        "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-17T21:31:32+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+        "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+        "normalized_url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings",
+        "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-17T20:21:19+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+        "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+        "normalized_url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+        "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-17T18:48:08+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "A woman was arrested in Philly for blocking a delivery robot",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+        "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front […]",
+        "source": "The Verge AI",
+        "published": "2026-10-18T18:28:10+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta removes language that may have allowed it to scrape news sites",
+        "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+        "normalized_url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+        "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, […]",
+        "source": "The Verge AI",
+        "published": "2026-10-17T15:04:36+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Websites are closing their doors to AI agents",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+        "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, […]",
+        "source": "The Verge AI",
+        "published": "2026-10-17T13:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OnlyFans Creators Are Pissed That Meta Lets Muse Talk Dirty",
+        "url": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty/",
+        "normalized_url": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty",
+        "summary": "Adult performers are questioning why Meta allows its AI agent to sext while restricting their social media accounts.",
+        "source": "Wired AI",
+        "published": "2026-10-18T10:30:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Data Centers Have a New PR Plan: Your Kid’s Field Trip",
+        "url": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids/",
+        "normalized_url": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids",
+        "summary": "Amid a wave of backlash, some industry-friendly groups are employing creative and time-tested strategies to woo the youth.",
+        "source": "Wired AI",
+        "published": "2026-10-18T10:30:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
+        "url": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
+        "normalized_url": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes",
+        "summary": "The DNA inside our cells isn’t just a series of instructions, but something far more dynamic. Like scientists, AI models don't yet have the data to properly decode it.",
+        "source": "Wired AI",
+        "published": "2026-10-17T09:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
+        "url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
+        "normalized_url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
+        "summary": "Listen now (72 mins) | Emmanuel Ameisen of Anthropic explains what looking inside language models reveals about planning, consciousness, and AI safety",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-18T12:31:36+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: PRDs for agents, tracking competitor messaging, whether software moats still exist, exercising startup options when you leave, and more",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-prds-for-agents",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-prds-for-agents",
+        "summary": "Community Wisdom 302",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-17T13:53:57+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta’s new ‘Muse Wonder’ model: good for AI agents, bad for design",
+        "url": "https://www.lennysnewsletter.com/p/metas-new-muse-wonder-model-good",
+        "normalized_url": "https://www.lennysnewsletter.com/p/metas-new-muse-wonder-model-good",
+        "summary": "Watch now (24 mins) | 🎙️Meta launched Muse Wonder with claims of frontier agentic performance, so I ran it headlessly through Claude Code against nearly 20 tasks to find out if any of it is true",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-14T12:04:05+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "How to tell if a startup has a moat",
+        "url": "https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat",
+        "summary": "A framework for assessing whether the company you’re considering joining is built to last",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-13T12:45:41+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: How Meta designed Muse with Alex Cornell",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with",
+        "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-12T15:00:38+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
