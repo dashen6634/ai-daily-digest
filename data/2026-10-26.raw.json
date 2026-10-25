@@ -1,0 +1,549 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T07:45:49.974434+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 21
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+        "url": "https://huggingface.co/papers/2610.30043",
+        "normalized_url": "https://huggingface.co/papers/2610.30043",
+        "summary": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs. Existing embodied-agent systems often focus on specified goals or abstract execution into symbolic actions, limiting evaluation in an evolving world. We introduce TARSphere, a robot-oriented full-stack framework for physically and socially grounded long-horizon embodied agents. TARSphere-Infra runs robot policies in a physics simulator with embodied NPCs and constrained dialogue.",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-21T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.30043"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
+        "url": "https://huggingface.co/papers/2610.22722",
+        "normalized_url": "https://huggingface.co/papers/2610.22722",
+        "summary": "Split language models keep input text on a client but send intermediate representations to a server. Attacks can reconstruct text from these messages. Comparing privacy evaluations is difficult when attackers see different messages, know different model weights or use different datasets and recovery measures. We present LLM-Attacker, a framework that records these choices and lets researchers check, compare and extend an evaluation. Compatible attacks reuse recorded messages, and their predictio",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-15T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.22722"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
+        "url": "https://huggingface.co/papers/2610.04184",
+        "normalized_url": "https://huggingface.co/papers/2610.04184",
+        "summary": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration. Human experts reduce this cost by selecting benchmark subsets or designing compact suites. We ask whether AI agents can automate this design process and introduce EvalResearchBench (ERB), a benchmark for autonomous evaluation research. Given target materials, development references, candidate APIs, and fixed time an",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.04184"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
+        "url": "https://huggingface.co/papers/2610.25835",
+        "normalized_url": "https://huggingface.co/papers/2610.25835",
+        "summary": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend. Two outputs of the same token length can therefore vary a lot in cost. To understand the underlying factors of this cost variation, we analyze two diffusion models across 10 tasks. We find that the number of forward passes per token depends heavily on the task. Text copied or lightly edited from the input is cheap, while open-ended writing is costly. In DiffusionGem",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-19T05:47:58.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.25835"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
+        "url": "https://huggingface.co/papers/2610.31198",
+        "normalized_url": "https://huggingface.co/papers/2610.31198",
+        "summary": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements across denoising steps. We further show that these patterns can be predicted without groundtruth labels or task-specific evaluation metrics. Building on these findings, we introduce T 2Quant, a task and time-aware mixedprec",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.31198"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
+        "url": "https://huggingface.co/papers/2610.24385",
+        "normalized_url": "https://huggingface.co/papers/2610.24385",
+        "summary": "Effective test-time personalization requires LLM agents to adapt to query-dependent user preferences from lightweight interaction. We study persona selection with binary comparisons between candidate responses as the online signal. We present ID-TAP, a scalable, IDS-inspired neural dueling-bandit framework for large discrete persona spaces. ID-TAP combines a query-conditioned neural utility model with a lightweight Bradley-Terry explorer, and transfers comparison evidence across related queries ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.24385"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
+        "url": "https://huggingface.co/papers/2610.24383",
+        "normalized_url": "https://huggingface.co/papers/2610.24383",
+        "summary": "Improving every agent in an LLM-based multi-agent system can be prohibitively costly, making it important to identify which agent should be prioritized to achieve the greatest system-level gain with limited resources. Failure attribution can inform this decision, but an agent's responsibility for failures does not directly reveal the system-level gains achievable by improving it. We therefore introduce IF-MAP, an influence-function-inspired method for identifying agents with high potential for s",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.24383"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+        "url": "https://huggingface.co/papers/2610.30418",
+        "normalized_url": "https://huggingface.co/papers/2610.30418",
+        "summary": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them. This mosaic effect creates a critical risk for agents operating over confidential data. We quantify its realization with 30 synthetic cybersecurity, medical, and military examples, yielding 10,800 final answers from three LLM agents in controlled simulation and 1,440 answers from live agents in two open-source harnesses. Even under benign queries designed to be answ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-21T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.30418"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
+        "url": "https://huggingface.co/papers/2610.28950",
+        "normalized_url": "https://huggingface.co/papers/2610.28950",
+        "summary": "We present HyperDrone, an extremely fast quadrotor simulator focused on high-performance batch rendering that is more than 20x faster than existing state-of-the-art batch quadrotor simulators. HyperDrone combines highly optimized multirotor dynamics with HyperLux, a new ray-tracing engine that supports Nvidia OptiX, Vulkan, Apple Metal and WebGPU backends that takes full advantage of modern ray-tracing hardware, capable of running both components entirely on the GPU. HyperLux renders RGB, depth,",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.28950"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+        "url": "https://huggingface.co/papers/2610.31651",
+        "normalized_url": "https://huggingface.co/papers/2610.31651",
+        "summary": "Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for assembling builds and verifying their physical feasibility is sufficient for them to produce physically valid assemblies that still adhere to input prompts. Focusing on the domain of LEGO brick builds,",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.31651"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans",
+        "url": "https://huggingface.co/papers/2610.27148",
+        "normalized_url": "https://huggingface.co/papers/2610.27148",
+        "summary": "As language-model agents grow more capable, they can carry more of a task without asking anyone for help. Falling reliance on a human partner is easy to read as a failure of collaboration when it may instead be a correct division of labor, and the rate of human involvement alone cannot tell the two apart. We study this systematically by placing an agent and a person under a shared objective while varying who holds the advantage: the human has a clear advantage, neither does, or the agent does. T",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.27148"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
+        "url": "https://huggingface.co/papers/2610.30753",
+        "normalized_url": "https://huggingface.co/papers/2610.30753",
+        "summary": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging. We introduce FilmFlow, an agentic framework that converts natural-language instructions or reference videos into explicit camera trajectories for dynamic 3D environments. To generate these trajectories, a Director agent constructs executable camera plans by composing high-level motions from concurrent atomic operations that jointly",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.30753"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention",
+        "url": "https://huggingface.co/papers/2610.31372",
+        "normalized_url": "https://huggingface.co/papers/2610.31372",
+        "summary": "Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validity, reproducibility, or faithfulness of the research process. We present RIDAR, a framework for automated RIV detection and runtime intervention. First, we introduce RIVT, a comprehensive taxonomy of 14 RIV types spanning the full research lifecycle. Building on RIVT, we present RIDAR-post-hoc, a framew",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.31372"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective",
+        "url": "https://huggingface.co/papers/2610.12586",
+        "normalized_url": "https://huggingface.co/papers/2610.12586",
+        "summary": "Event sequences are chains of random events, each described by heterogeneous (numerical and categorical) features. The problem of event sequence forecasting occurs in finance, healthcare, business process intelligence, and other fields. In this work, we study multi-horizon forecasting of event sequences as a conditional generative modeling problem. We evaluate forecasts not only for prediction accuracy, but also for distributional realism. To this end, we present a benchmark comprising metrics f",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-08T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.12586"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models",
+        "url": "https://huggingface.co/papers/2610.22951",
+        "normalized_url": "https://huggingface.co/papers/2610.22951",
+        "summary": "Vision-language-action (VLA) models have shown strong promise for generalist robotic manipulation, but their inference cost remains a major bottleneck for real-time control. This limitation is especially pronounced in flow-matching VLAs such as π_{0.5}, where the action expert is evaluated repeatedly during iterative denoising. We introduce MambaAct, an efficient Mamba action expert for flow-matching VLA policies. MambaAct retains the pretrained visual-language prefix encoder of π_{0.5}, while r",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.22951"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "SplatLab: Autonomous Scientific Discovery for 3DGS Research",
+        "url": "https://huggingface.co/papers/2610.30468",
+        "normalized_url": "https://huggingface.co/papers/2610.30468",
+        "summary": "Reproducing a published 3DGS paper takes weeks of expert engineering before any extension can be proposed. Prior autonomous-research systems read papers, draft hypotheses, and write code, but are limited by short fixed templates, low executability, and weak traceability, and none has been demonstrated end-to-end in a live computer-vision subfield with intense activity. SplatLab is an autonomous research system for 3D Gaussian Splatting that addresses these limitations. Given a research prompt, a",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-21T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.30468"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation",
+        "url": "https://huggingface.co/papers/2610.20091",
+        "normalized_url": "https://huggingface.co/papers/2610.20091",
+        "summary": "Video scene graph generation (VidSGG) aims to capture objects and their evolving relationships in videos. This requires accounting for both the persistence of object identities and abrupt changes in relationships. Existing methods aggregate information across frames to exploit temporal context, but an emphasis on consistency can obscure these changes. As a result, a model may retain its previous prediction even after the underlying relation has changed. We refer to this failure mode as relationa",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-14T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.20091"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+        "url": "https://huggingface.co/papers/2610.30949",
+        "normalized_url": "https://huggingface.co/papers/2610.30949",
+        "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates; (2) fine-grained mid-training, expanding the data mixture across domains and forma",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.30949"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+        "url": "https://huggingface.co/papers/2610.31329",
+        "normalized_url": "https://huggingface.co/papers/2610.31329",
+        "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization at any user-specific granularity, from points and boxes to masks and alpha matte",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.31329"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models",
+        "url": "https://huggingface.co/papers/2610.23987",
+        "normalized_url": "https://huggingface.co/papers/2610.23987",
+        "summary": "Fine-grained visual understanding requires distinguishing subtle differences in local attributes and spatial relations, yet remains challenging for existing vision-language models. Unified multimodal models (UMMs) offer a new opportunity through generation pathways that preserve rich visual information complementary to understanding. However, existing generation-assisted understanding methods mainly rely on generative supervision or explicit generation and have not systematically explored direct",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-14T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.23987"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "60 元打造你的 vibe coding 神器：小米蓝牙遥控器 2 pro",
+        "url": "https://sspai.com/post/114741",
+        "normalized_url": "https://sspai.com/post/114741",
+        "summary": "Matrix 首页推荐 Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。 文章代表作者个人观点，少数派仅对标题和排版略作修改。 0. 为什么想给 AI 编程配个手持遥控器？ 最近用终端跑 AI 编程（比如 OpenAI Codex、Claude Code、WorkBuddy 或者各种 CLI Agent）越来越多。用了一段时间后，能明显感觉到工作流里最大的变化是： 打字量变少了，但对话和确认变多了 。 以前写代码大部分时间是在敲键盘，现在很多时候是： 整理一段思路，用自然语言向 Agent 描述需求； 看着它输出代码和 Diff； 敲回车确认执行命令，或者在中途按中断； 在几个不同的终端窗口或工作区之间切来切去，看各个 Agent 跑完了没有。 在这样的节奏下，语音输入确实是一个实打实的效率提升——说话往往比手打一段长 Prompt 快得多。但如果纯靠键盘上的按键去唤醒语音，人还是得一直坐在桌子正前方、手放在键盘上。 前段时间 OpenAI 的硬件原型 Codex Mi",
+        "source": "SSPAI AI",
+        "published": "2026-10-25T06:30:31+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Python 潮流周刊#172：3.15 的 JIT 终于见效、自由线程 Python 进入下一阶段",
+        "url": "https://sspai.com/post/117293",
+        "normalized_url": "https://sspai.com/post/117293",
+        "summary": "本周刊由 Python猫 出品，精心筛选国内外的 400+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 重要提示： 本期有读者福利抽奖活动， 满 100 人自动开奖 ，奖品是一份 周刊专栏的年度订阅码 。参与方式：给公众号 Python猫 发送数字“ 6172 ”，获取抽奖小程序码。 温馨提示： 在微信关注 Python猫 ，发送数字“ 9 ”，即可领取 9 折优惠码，订阅专栏可享 15 元优惠。 去专栏阅读全文： 全文链接 分享了 12 篇文章，12 个开源项目，2 则热门讨论 以下是本期标题摘要： 🦄文章&教程 ① Python 分代与增量垃圾回收能否兼得 ② 自由线程 Python 的下一阶段 ③ 实测 CPython 3.15 JIT 几何平均提速 2.47 倍 ④ Python 3.15 与 3.14 及更早版本速度实测对比 ⑤ Python 3.15 最值得关注的新特性 ⑥ Hello Python 3.15，告别 3.10，终于能用上 3.11 ⑦ Pytho",
+        "source": "SSPAI AI",
+        "published": "2026-10-24T11:49:31+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+        "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+        "normalized_url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey",
+        "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-25T21:31:16+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+        "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+        "normalized_url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+        "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+        "source": "TechCrunch AI",
+        "published": "2026-10-25T16:57:32+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The hottest AI wearables and gadgets you should know about",
+        "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+        "normalized_url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about",
+        "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-25T14:10:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+        "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+        "normalized_url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+        "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-24T19:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Block’s new voice model sounds eerily human",
+        "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+        "normalized_url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human",
+        "summary": "Block said that the voice model can run locally on a MacBook M4 Max",
+        "source": "TechCrunch AI",
+        "published": "2026-10-24T16:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+        "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+        "normalized_url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats",
+        "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-24T15:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Here are the top AI agents that can live in your text messages",
+        "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+        "normalized_url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages",
+        "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-24T14:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "r/opensource just banned AI, non-English speakers, and more",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+        "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source […]",
+        "source": "The Verge AI",
+        "published": "2026-10-25T13:25:32+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google’s AI search changes upended online publishing",
+        "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+        "normalized_url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+        "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on […]",
+        "source": "The Verge AI",
+        "published": "2026-10-25T12:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Blue Planet III is keeping the rough edges in the age of AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+        "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue […]",
+        "source": "The Verge AI",
+        "published": "2026-10-24T21:29:12+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Pennsylvania will require labels on AI-generated ads",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+        "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as […]",
+        "source": "The Verge AI",
+        "published": "2026-10-24T18:32:21+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+        "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+        "normalized_url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else",
+        "summary": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ireland to New Zealand.",
+        "source": "Wired AI",
+        "published": "2026-10-25T10:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+        "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+        "normalized_url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable",
+        "summary": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
+        "source": "Wired AI",
+        "published": "2026-10-24T12:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "30 Months on the Exponential (in Charts)",
+        "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
+        "normalized_url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
+        "summary": "My new book is out today... what happened since the last one",
+        "source": "One Useful Thing (Mollick)",
+        "published": "2026-10-20T15:57:59+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.oneusefulthing.org/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
+        "url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
+        "normalized_url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
+        "summary": "Listen now (86 mins) | The founder who helped over 50 startups hit $1M ARR shares his PULL framework for finding real product-market fit",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-25T12:31:34+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: Negotiating a lowball offer, designers earning a seat in product decisions, resources for building an MCP server, and more",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-negotiating-a-lowball",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-negotiating-a-lowball",
+        "summary": "Community Wisdom 303",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-24T15:11:42+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Claude Duet is beautiful. I still forgot to use it",
+        "url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
+        "normalized_url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
+        "summary": "Watch now (16 mins) | 🎙️ I tested Claude Duet, Anthropic's beautifully designed new personal agent, on real work to see if it can beat my personal agent fatigue and make the cut",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-21T20:25:18+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: Meta Muse Wonder + How Brooke Lacey is scaling video with AI",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-meta-muse-wonder-how-brooke",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-meta-muse-wonder-how-brooke",
+        "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-19T15:03:35+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey",
+        "url": "https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator",
+        "normalized_url": "https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator",
+        "summary": "Watch now (37 mins) | 🎙️ Brooke Lacey shows live how Claude Code turns a raw phone video into a captioned, jump-cut TikTok in about 15 seconds",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-19T12:04:52+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
