@@ -1,0 +1,666 @@
+{
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T09:04:46.673353+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 30
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "How Much Feedback Is Needed to Break Template Protection? The Geometric Vulnerability of Biometric Authentication",
+        "url": "https://huggingface.co/papers/2610.25118",
+        "normalized_url": "https://huggingface.co/papers/2610.25118",
+        "summary": "Biometric authentication systems increasingly use privacy-preserving mechanisms to protect sensitive templates. However, the authentication interface itself may still leak information that enables reconstruction attacks. Prior attacks exploit released similarity scores, whereas more advanced systems reveal only the binary accept/reject decision. This binary feedback provides substantially less information, making template reconstruction far more challenging. In this work, we introduce query-effi",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-18T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.25118"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows",
+        "url": "https://huggingface.co/papers/2610.21109",
+        "normalized_url": "https://huggingface.co/papers/2610.21109",
+        "summary": "When humans collaborate with AI agents on long-horizon tasks, what happens to the agents' contributions? For solving long-horizon tasks, humans place greater importance on ongoing interaction with AI agents (e.g., revising plans) than on an agent's ability to complete the task in a single attempt. However, most agentic benchmarks have focused more on automation. Strong performance on such benchmarks does not imply effective real-world collaboration. Professional workflows offer a useful setting,",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-15T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.21109"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Predictive Closure: A Set-Level Characterization of JEPA's Feature Selection",
+        "url": "https://huggingface.co/papers/2610.27364",
+        "normalized_url": "https://huggingface.co/papers/2610.27364",
+        "summary": "In joint-embedding predictive architectures (JEPA), an encoder and a predictor are trained together to produce a representation that minimizes the error in predicting the representation of the next observation. Because the representations of both the current and the next observation are learned, it is unclear which features they will include. Earlier characterizations describe the features JEPA selects in terms of their individual predictability, raising the concern that unpredictable features, ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-19T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.27364"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Judging the Justification: Decision Certificate Supervision for Generative Reward Models",
+        "url": "https://huggingface.co/papers/2610.27528",
+        "normalized_url": "https://huggingface.co/papers/2610.27528",
+        "summary": "Generative reward models (GenRMs) generate natural language rationales to justify preference judgments, yet a correct verdict does not guarantee a sound justification. Existing approaches often rely on reference explanations to supervise rationales, but obtaining such references can be costly and does not necessarily establish whether generated rationales support the resulting verdict. To address these limitations, we propose DeCert, a framework that evaluates the validity and verdict consistenc",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.27528"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
+        "url": "https://huggingface.co/papers/2610.31572",
+        "normalized_url": "https://huggingface.co/papers/2610.31572",
+        "summary": "Recent methods for injecting graph structure into LLM prompts include graph soft prompting, in which a graph neural network (GNN) learns graph-specific tokens that capture relational information among entities in textual prompts. G-Retriever combines graph soft prompts with a verbalized description of the same graph to strengthen the textual prompt signal. We conduct an in-depth analysis of G-Retriever and uncover a pathological behavior we term token collapse. Across three benchmarks, three gra",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.31572"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
+        "url": "https://huggingface.co/papers/2610.31779",
+        "normalized_url": "https://huggingface.co/papers/2610.31779",
+        "summary": "The life-cycle of robotics foundation models crucially depends on data labels. Outcome reward labels are needed for monitoring real-world deployments. Process reward labels are needed during RL post-training. Timestamped captions are needed for filtering and balancing pretraining data. We present Flora, an industrial-quality data engine used for training GR00T models, that simultaneously covers these capabilities. Flora achieves SOTA scores on the captioning benchmark WGO-Bench and reward benchm",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.31779"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "KANLab: TensorFlow Playground for Kolmogorov-Arnold Networks",
+        "url": "https://huggingface.co/papers/2610.20117",
+        "normalized_url": "https://huggingface.co/papers/2610.20117",
+        "summary": "KANLab is a browser-based visualization tool designed to interactively teach the core concepts of Kolmogorov-Arnold Networks (KAN), forked from the widely successful TensorFlow Playground. To maximize educational clarity, KANLab omits residual connections and learnable scaling parameters found in modern KAN implementations, ensuring that displayed B-spline activation curves directly correspond to their underlying trainable control points. Users can inspect and modify activation functions, initia",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-14T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.20117"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "LLM2Cert: LLM Synthesis of Certificates with SMT/Lean Verification",
+        "url": "https://huggingface.co/papers/2610.30524",
+        "normalized_url": "https://huggingface.co/papers/2610.30524",
+        "summary": "Lyapunov functions and barrier certificates give state-space guarantees of stability and safety, but synthesizing and verifying them---especially for nonlinear, high-dimensional systems---remains an open challenge. Existing pipelines verify candidates with numerical solvers (sum-of-squares programs), interval methods, or satisfiability-modulo-theories (SMT) solvers, which often require relaxations, are conservative, or scale poorly with model dimension and nonlinearity. These limitations have al",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-21T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.30524"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "JockeyBench: Evaluating LLM Agents on Horse-Racing Decision-Making",
+        "url": "https://huggingface.co/papers/2610.19589",
+        "normalized_url": "https://huggingface.co/papers/2610.19589",
+        "summary": "Repeated event forecasting requires extracting predictive signals from noisy evidence and evaluating their value across successive decisions. We introduce JockeyBench, a benchmark and evaluation protocol that studies this problem through historical Japanese horse racing. The protocol combines time-gated evidence, priced tools, paired frozen-program controls, and two workflows: executing an LLM-written predictor or acquiring evidence for a fresh per-race LLM forecast. Evaluation separates forecas",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-14T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.19589"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "PaperFormalizer: Author-in-the-Loop Autoformalization of Research Papers in Lean",
+        "url": "https://huggingface.co/papers/2610.31810",
+        "normalized_url": "https://huggingface.co/papers/2610.31810",
+        "summary": "Even a carefully proofread paper can leave small gaps in its proofs or its stated assumptions. We introduce PaperFormalizer, a Lean-based agentic pipeline that helps authors find and close such gaps in their own papers and turn each paper into a Lean-verified version. Starting from the LaTeX source, PaperFormalizer transcribes the paper into a dependency graph of statements, audits each statement in natural language for faithfulness, ambiguity and correctness, and then formalizes and proves the ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.31810"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Speculative Diffusion is a Tale of Two Tradeoffs",
+        "url": "https://huggingface.co/papers/2610.31819",
+        "normalized_url": "https://huggingface.co/papers/2610.31819",
+        "summary": "Speculative decoding is a technique that accelerates the inference speed of autoregressive large language models (LLMs) by sampling from a faster, lower quality draft model. Traditionally, a fundamental characteristic of speculative decoding is that it is lossless with respect to the verifier distribution, guaranteeing speed without sacrificing quality. This differs from recently developed diffusion LLMs (dLLMs), which are notably able to achieve substantial speedups by degrading the quality of ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.31819"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "What Git Does Not Record: Provenance Legibility in Two AI-Assisted Research Repositories",
+        "url": "https://huggingface.co/papers/2610.28655",
+        "normalized_url": "https://huggingface.co/papers/2610.28655",
+        "summary": "Publishers and funders increasingly ask authors to disclose how AI tools contributed to a piece of research. In computational work the repository is where an author or an auditor would look for the answer, and we ask what it can actually supply. We audit two single-investigator repositories by the same author in the same field, each carrying a different class of agent residue: a prescriptive trace of standing rule files and a narrative trace of a running agent scratchpad, in repositories of 466 ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-09T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.28655"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models",
+        "url": "https://huggingface.co/papers/2610.31423",
+        "normalized_url": "https://huggingface.co/papers/2610.31423",
+        "summary": "Vision-language-action (VLA) models have become an important paradigm for robotic manipulation by unifying visual perception, language understanding, and action generation. Since reliable manipulation requires sufficient observation of objects, end-effectors, and their spatial relationships, multi-view inputs are widely used to provide complementary spatial information. However, our experiments show that existing VLA models do not fully exploit such multi-view complementarity. The policy tends t",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.31423"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Does LeWorldModel Preserve Local Action Geometry?",
+        "url": "https://huggingface.co/papers/2610.31716",
+        "normalized_url": "https://huggingface.co/papers/2610.31716",
+        "summary": "We examine how closely pretrained LeWorldModel (LeWM) reproduces the effects of small action changes. Using matched simulator and model responses, we measure action sensitivity with Gram matrices at three perturbation scales. Across nearly a thousand states from Reacher and OGBench Cube, the most sensitive action directions differ by median angles of about 36^circ and 42^circ, respectively, at the smallest scale. Increasing the perturbation tenfold reduces median normalized Gram discrepancy by r",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.31716"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+        "url": "https://huggingface.co/papers/2610.31668",
+        "normalized_url": "https://huggingface.co/papers/2610.31668",
+        "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as a partial, lossy, and temporally ordered projection of a latent temporal world, w",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.31668"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation",
+        "url": "https://huggingface.co/papers/2610.27782",
+        "normalized_url": "https://huggingface.co/papers/2610.27782",
+        "summary": "Video generation models are promising foundations for embodied world models, but only if their generated rollouts are physically valid and faithful to task instructions. Multimodal large language models (MLLMs) are increasingly used to judge these properties, yet their agreement with human judgments on embodied videos has not been systematically evaluated. To address this gap, we introduce RoboJudge-Bench, a benchmark for evaluating MLLMs as judges of embodied video generation. The benchmark mea",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.27782"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "SliderEdit++: Improved Slider Trajectories in Instruction-Based Image Editing",
+        "url": "https://huggingface.co/papers/2610.14253",
+        "normalized_url": "https://huggingface.co/papers/2610.14253",
+        "summary": "Slider-based control aims to give users continuous, fine-grained control over the intensity of individual edits in instruction-based image editing. However, existing approaches fail to deliver reliable continuous controllability: traversing a slider can produce abrupt visual jumps and non-monotonic changes, while jointly controlled sliders can interfere with one another. To systematically study these limitations, we introduce SlideBench, a comprehensive benchmark for continuous image editing spa",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-14T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.14253"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "MMVistaReason: Toward Open-Data and Post-Training Recipes for Multimodal Reasoning",
+        "url": "https://huggingface.co/papers/2610.01352",
+        "normalized_url": "https://huggingface.co/papers/2610.01352",
+        "summary": "Open multimodal reasoning models have benefited from large-scale reasoning supervision, yet reliable post-training remains challenging due to uneven data quality, inefficient supervision construction, imbalanced difficulty, and cross-domain interference. We introduce MMVistaReason (MVR), an open-data post-training recipe with three components: (1) broader capability coverage across complementary Analytical and Real-World reasoning groups, emphasizing structured reasoning versus visual perception",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.01352"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Co-adaptive Rule Routing and Constraining for Structured Knowledge Retrieval",
+        "url": "https://huggingface.co/papers/2610.14465",
+        "normalized_url": "https://huggingface.co/papers/2610.14465",
+        "summary": "Structured knowledge retrieval acquires task-relevant evidence from structured knowledge sources for downstream tasks. Existing methods rely on unconstrained retrieval or predefined query-rule supervision, such as author-paper rules for scientific discovery and anatomy-drug rules for precision medicine. Such supervision is rarely available in practice. We propose Co-Adaptive Rule Routing and Constraining Retrieval (CoRE), which jointly learns which reasoning rule to assign to each query and how ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.14465"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "DISC: Domain-Integrated Similarity Cost for Time-Series Dataset",
+        "url": "https://huggingface.co/papers/2610.31288",
+        "normalized_url": "https://huggingface.co/papers/2610.31288",
+        "summary": "The growth of time-series datasets and foundation models has made dataset comparison a central part of time-series workflows. Assessing source-target transfer before model adaptation requires similarity estimates that can summarize transfer-related dataset relationships without exhaustive source-target evaluation over every candidate pair. Many metrics have been proposed for measuring similarity between time-series datasets, but they capture different dataset relationships and vary in how well t",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.31288"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+        "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+        "normalized_url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked",
+        "summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-26T16:49:42+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+        "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+        "normalized_url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo",
+        "summary": "The financing gives SpaceX another way to fund its rapidly expanding AI ambitions without relying solely on traditional debt markets.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-26T16:46:36+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic officially files for its public debut",
+        "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+        "normalized_url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut",
+        "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-26T14:35:22+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+        "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+        "normalized_url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey",
+        "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-25T21:31:16+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+        "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+        "normalized_url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+        "summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+        "source": "TechCrunch AI",
+        "published": "2026-10-25T16:57:32+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The hottest AI wearables and gadgets you should know about",
+        "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+        "normalized_url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about",
+        "summary": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-25T14:10:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+        "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in […]",
+        "source": "The Verge AI",
+        "published": "2026-10-26T23:34:58+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic is burning gas to feed the AI boom",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+        "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exchange Commission Monday, Anthropic acknowledges that data centers are becoming increasingly reliant on \"natural gas\" […]",
+        "source": "The Verge AI",
+        "published": "2026-10-26T21:45:31+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The RealReal won’t let AI agents hog designer clothing",
+        "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+        "normalized_url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+        "summary": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The RealReal's item reserve system. On the retailer's website, […]",
+        "source": "The Verge AI",
+        "published": "2026-10-26T17:30:55+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Five weird details from Anthropic’s IPO filing",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+        "summary": "Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give investors a look under the hood of its business, from how much its executives are making and plans for spending its IPO billions to the risks that could derail its ambitions. At more than 300 pages, there's a lot to […]",
+        "source": "The Verge AI",
+        "published": "2026-10-26T17:10:23+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Microsoft offers buyouts to 60,000 employees",
+        "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+        "normalized_url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+        "summary": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and career planning resources\" as the company looks to trim staff without another […]",
+        "source": "The Verge AI",
+        "published": "2026-10-26T15:58:27+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Kevin Roose is AGI-pilled. Why aren’t you?",
+        "url": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
+        "normalized_url": "https://www.theverge.com/podcast/1018264/kevin-roose-the-agi-chronicles-machine-gods-podcast-youtube-openai-anthropic",
+        "summary": "Today, I’m talking to Kevin Roose, journalist and author of the new book The AGI Chronicles, which details the recent and explosive transformation of the AI industry. Kevin was a longtime New York Times reporter and host of the popular podcast Hard Fork, but he and friend of the show Casey Newton just left the […]",
+        "source": "The Verge AI",
+        "published": "2026-10-26T14:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+        "summary": "Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO. In a filing with the SEC, Anthropic said it plans to list on the Nasdaq exchange under the ticker symbol \"ANT.\" The AI company confidentially filed with the SEC […]",
+        "source": "The Verge AI",
+        "published": "2026-10-26T13:32:49+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Can AI help solve the COBOL code crisis?",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+        "summary": "What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come crashing down. OpenAI thinks it may have a solution. On October 19th, the company touted \"substantial improvements\" in its latest AI models' […]",
+        "source": "The Verge AI",
+        "published": "2026-10-26T13:15:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "r/opensource just banned AI, non-English speakers, and more",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+        "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source […]",
+        "source": "The Verge AI",
+        "published": "2026-10-25T13:25:32+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google’s AI search changes upended online publishing",
+        "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+        "normalized_url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+        "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on […]",
+        "source": "The Verge AI",
+        "published": "2026-10-25T12:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
+        "url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
+        "normalized_url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers",
+        "summary": "Anthropic’s S-1 filing is hundreds of pages long—and it leaves out quite a few financial details. “Anthropic owes investors more information,” one analyst tells WIRED.",
+        "source": "Wired AI",
+        "published": "2026-10-26T21:27:15+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The Anthropic S-1 Filing Is Also an AI Doomsday Primer",
+        "url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer/",
+        "normalized_url": "https://www.wired.com/story/the-anthropic-ipo-is-also-a-doomsday-primer",
+        "summary": "Anthropic thinks “closing the loop” is the best path to AI triumph—and a recipe for “existential” threats to humanity.",
+        "source": "Wired AI",
+        "published": "2026-10-26T16:01:55+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic’s IPO Prospectus Reveals What’s Under the Hood",
+        "url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy/",
+        "normalized_url": "https://www.wired.com/story/anthropic-ipo-filings-reveal-finances-risks-strategy",
+        "summary": "Anthropic on Monday filed documents ahead of a blockbuster IPO that offers insight into the company’s financials, risk factors, and views on the future of AI.",
+        "source": "Wired AI",
+        "published": "2026-10-26T14:50:47+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meet the AI Agents Trying to Be Real-Life Journalists",
+        "url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+        "normalized_url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now",
+        "summary": "Jayden, Sam, and Zack are eagerly pitching editors on reported stories and investigative features. The catch? They're all AI agents.",
+        "source": "Wired AI",
+        "published": "2026-10-26T09:30:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "This AI Radio Host Speaks Spanish and Backs Immigrants. It’s Winning Over Listeners",
+        "url": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners/",
+        "normalized_url": "https://www.wired.com/story/this-ai-radio-hosts-speaks-spanish-and-backs-immigrants-its-winning-over-listeners",
+        "summary": "Coyotec is bilingual, swears, and tells listeners how to defend themselves against ICE. Its popularity comes as more broadcasters are experimenting with artificial personalities.",
+        "source": "Wired AI",
+        "published": "2026-10-26T09:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+        "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+        "normalized_url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else",
+        "summary": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ireland to New Zealand.",
+        "source": "Wired AI",
+        "published": "2026-10-25T10:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "IEEE Xplore Digital Library Adds AI Assistant",
+        "url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+        "normalized_url": "https://spectrum.ieee.org/ieee-xplore-digital-library-ai",
+        "summary": "IEEE recently released the IEEE Xplore AI Research Suite , built on the full text of millions of peer-reviewed publications in the IEEE Xplore Digital Library . The library offers full-text access to IEEE standards , journals, magazines, conference proceedings, and more. Researchers who use the AI suite to search the digital library receive answers grounded in verified scientific results, ensuring a high level of accuracy and trust. The suite is available as an optional subscription upgrade to a",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-10-26T18:00:03+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Poetry for Engineers: Of Code and Shortleaf Pine",
+        "url": "https://spectrum.ieee.org/poetry-for-engineers-of-code-and-shortleaf-pine",
+        "normalized_url": "https://spectrum.ieee.org/poetry-for-engineers-of-code-and-shortleaf-pine",
+        "summary": "I step into the warm moist air among the columns of the pines, their net of twigs and roots complex as any lines of code. The trees purify and anchor. Their branches balance my restlessness. Their calling is to be present, mine to develop apps. Our tasks verge toward a common logic: living filaments of root, of interface.",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-10-25T12:00:02+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "30 Months on the Exponential (in Charts)",
+        "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
+        "normalized_url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
+        "summary": "My new book is out today... what happened since the last one",
+        "source": "One Useful Thing (Mollick)",
+        "published": "2026-10-20T15:57:59+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.oneusefulthing.org/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+        "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-26T15:00:53+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+        "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+        "normalized_url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+        "summary": "Watch now (30 mins) | 🎙️ Reddit’s principal UX engineer shows how a custom Figma MCP and Cursor pipeline takes any designer from blank slate to shareable, production-shaped prototype in minutes—no Git required",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-26T12:04:20+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
+        "url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
+        "normalized_url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
+        "summary": "Listen now (86 mins) | The founder who helped over 50 startups hit $1M ARR shares his PULL framework for finding real product-market fit",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-25T12:31:34+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: Negotiating a lowball offer, designers earning a seat in product decisions, resources for building an MCP server, and more",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-negotiating-a-lowball",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-negotiating-a-lowball",
+        "summary": "Community Wisdom 303",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-24T15:11:42+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Claude Duet is beautiful. I still forgot to use it",
+        "url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
+        "normalized_url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
+        "summary": "Watch now (16 mins) | 🎙️ I tested Claude Duet, Anthropic's beautifully designed new personal agent, on real work to see if it can beat my personal agent fatigue and make the cut",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-21T20:25:18+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
