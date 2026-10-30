@@ -1,0 +1,848 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T09:31:17.759509+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 44
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "PreView: Enhancing GUI Grounding with Preprocessed Views and Cues",
+        "url": "https://huggingface.co/papers/2610.33645",
+        "normalized_url": "https://huggingface.co/papers/2610.33645",
+        "summary": "GUI grounding requires locating small controls in cluttered screenshots and identifying which control a natural-language instruction refers to. Cropping and enlargement can expose local detail, but the resulting image may still leave ambiguity about the intended target. We propose PreView, an auxiliary preprocessor that improves the inputs to an existing grounding model without further training that model. PreView prepares two complementary types of input features: task-relevant views for locali",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.33645"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "PersonaCUABench: Benchmarking Computer-Use Agents Serving Diverse Personas",
+        "url": "https://huggingface.co/papers/2610.22990",
+        "normalized_url": "https://huggingface.co/papers/2610.22990",
+        "summary": "Computer-use agents (CUAs) are commonly evaluated against fixed task specifications, but users may omit requirements, add constraints, or require approval before consequential actions. Completing the benchmark instruction does not guarantee serving the person who asked. We introduce PersonaCUABench, which holds 74 tasks across 11 domains fixed and varies only who asks. A persona agent, playing one of 44 personas in four groups, rewrites each instruction in that user's own words and answers the C",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.22990"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "LOB-Impact Benchmark: Emergent Market Impact in Generative Limit Order Book Models",
+        "url": "https://huggingface.co/papers/2610.27100",
+        "normalized_url": "https://huggingface.co/papers/2610.27100",
+        "summary": "Realistic market impact is essential for generative limit order book (LOB) models to serve as world models for trading agents. If a simulator misprices this mechanism, agents learn policies that are optimal in the simulator but wrong in the real market. Existing metrics assess generated streams purely through distributional comparison with historical data, leaving counterfactual response to an agent's own orders largely unexplored. Here, we show that market impact emerges naturally in neural LOB",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.27100"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Know, then Draw: A New Learning Paradigm for Visual Generation",
+        "url": "https://huggingface.co/papers/2610.37626",
+        "normalized_url": "https://huggingface.co/papers/2610.37626",
+        "summary": "Visual generation requires both high-level semantic knowledge and fine-grained pixel details. We propose a learning paradigm that assigns these roles to autoregressive pretraining for knowledge acquisition and diffusion post-training for high-fidelity rendering. Within this framework, we study the objective, representation, and scaling of knowledge acquisition and rendering. Controlled comparisons identify autoregression as the stronger pretraining objective for downstream rendering, improving b",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-27T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.37626"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Instruction Capacity: Behavior and Degradation of Language Models under Controlled Load",
+        "url": "https://huggingface.co/papers/2610.36095",
+        "normalized_url": "https://huggingface.co/papers/2610.36095",
+        "summary": "The quality with which language models follow instructions falls as the load grows, yet there is still no quantity that expresses the limit of a model in units of load with an uncertainty. We propose an instrument in which the load consists of rules that replace single-token words in a text without meaning: such an instruction is atomic, the rules are independent by the construction of the task, and the outcome of every application of a rule is determined by a computable reference answer. Every ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-26T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.36095"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks",
+        "url": "https://huggingface.co/papers/2610.35671",
+        "normalized_url": "https://huggingface.co/papers/2610.35671",
+        "summary": "As frontier language models grow increasingly capable and autonomous, independent third-party evaluations are critical for characterizing their systemic safety risks. While closed-source releases are routinely accompanied by comprehensive system cards, open-weight models receive less scrutiny regarding frontier risks. To address this gap, we present an independent safety evaluation of DeepSeek V4.1 Flash-1017, the latest version of V4.1 Flash that departs from V4 with a new architecture, scaled-",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-26T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.35671"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Amortizing Sequential Experimental Design in Reasoning LLMs",
+        "url": "https://huggingface.co/papers/2610.20832",
+        "normalized_url": "https://huggingface.co/papers/2610.20832",
+        "summary": "Despite their extensive pretraining knowledge and strong reasoning capabilities, large language models (LLMs) struggle to adaptively gather information in experimental design tasks. We study how to amortize sequential Bayesian experimental design (BED) into an LLM by explicitly training the reasoning that guides action selection using information-gain rewards. Our approach specifies the experimental generative model independently of the LLM's own beliefs, allowing us to optimize expected informa",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-14T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.20832"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
+        "url": "https://huggingface.co/papers/2610.22507",
+        "normalized_url": "https://huggingface.co/papers/2610.22507",
+        "summary": "Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume that user instructions remain fixed throughout execution or evaluate task outcomes without capturing runtime collaboration quality. In this paper, we present REALCLI, a paired benchmark that unifies the evaluation of task execution and human-agent collaboration quality on realistic CLI tasks. To comprehensively measure collaboration, REALCLI builds a five-dimensional framework, op",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-15T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.22507"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+        "url": "https://huggingface.co/papers/2610.30132",
+        "normalized_url": "https://huggingface.co/papers/2610.30132",
+        "summary": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation of such data is expensive, naturally occurring data are too scarce to sustain RL, and existing synthesis methods depend on external corpora or stronger teacher models, which become harder to obtain as the trained models get stronger. Recently, RL from zero data, in which a model l",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-21T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.30132"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents",
+        "url": "https://huggingface.co/papers/2610.30161",
+        "normalized_url": "https://huggingface.co/papers/2610.30161",
+        "summary": "Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could respond faster and carry out requests such as blocking a card, but only if they give correct information and follow the bank's rules. These rules prescribe a procedure, a set of required steps, such as obtaining a closure quote before closing a deposit. Adapting models to this domain requires measuring how well they follow the procedure, before and after training. Benchmarks usual",
+        "source": "HuggingFace Papers",
+        "published": "2026-09-30T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.30161"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "CausGround: Causal Interaction Grounding for Adaptive Embodied Planning",
+        "url": "https://huggingface.co/papers/2610.29702",
+        "normalized_url": "https://huggingface.co/papers/2610.29702",
+        "summary": "Multimodal large language models (MLLMs) show promising reasoning capabilities, but reliable physical interaction requires planning that accounts for when actions are executable and how they change the world. These preconditions and effects are environment-dependent and often not captured by MLLMs, making adaptation challenging. Yet existing approaches either require costly environment-specific training or rely on unstructured interaction experience that is difficult to reuse. Therefore, we intr",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-21T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.29702"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience",
+        "url": "https://huggingface.co/papers/2610.34186",
+        "normalized_url": "https://huggingface.co/papers/2610.34186",
+        "summary": "Extending Vision-Language-Action models (VLAs) to humanoid robots requires coordinated whole-body control and diverse demonstrations that are costly to collect in real-world scenarios. Although egocentric human demonstrations provide a complementary source of task experience, differences in visual embodiment and missing robot proprioception complicate transfer to humanoid policies. To address these challenges, we introduce HuGe, a family of Humanoid Generalist VLAs pre-trained on over 2,000 hour",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.34186"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "OmniSpectra: A Unified Foundation Model for Universal Spectra Representation Learning",
+        "url": "https://huggingface.co/papers/2601.15351",
+        "normalized_url": "https://huggingface.co/papers/2601.15351",
+        "summary": "Standard sequence models encode position by token rank rather than physical coordinate, typically forcing practitioners to destructively resample continuous physical signals such as spectra observed across heterogeneous instruments. We identify this coordinate mismatch as a structural limitation in cross-instrument representation learning, and propose OmniSpectra, a wavelength-native foundation model for spectral representation learning: a continuous-coordinate masked autoencoder that discards t",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2601.15351"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+        "url": "https://huggingface.co/papers/2610.31670",
+        "normalized_url": "https://huggingface.co/papers/2610.31670",
+        "summary": "Robot foundation models are typically evaluated through costly closed-loop rollouts, motivating low-cost offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality: as embodied models become more capable, should their sensory representations converge toward the structure of phy",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.31670"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
+        "url": "https://huggingface.co/papers/2610.37230",
+        "normalized_url": "https://huggingface.co/papers/2610.37230",
+        "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware joint scheduling framework for LLM-based agentic serving. Its value interface combines near-term too",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-27T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.37230"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+        "url": "https://huggingface.co/papers/2610.35684",
+        "normalized_url": "https://huggingface.co/papers/2610.35684",
+        "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing more information about the subject from different viewpoints. However, they do n",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-26T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.35684"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
+        "url": "https://huggingface.co/papers/2610.32749",
+        "normalized_url": "https://huggingface.co/papers/2610.32749",
+        "summary": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Second, high-performance causal architectures are too heavy for edge deployment. Lightweight alternatives try to reclaim capacity by repeatedly invoking a small separator, which offsets",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.32749"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "AdaPRA: Process Reward Agents with Adaptive Rubrics for Data Science",
+        "url": "https://huggingface.co/papers/2610.33245",
+        "normalized_url": "https://huggingface.co/papers/2610.33245",
+        "summary": "Data science agents can automate end-to-end machine learning workflows, yet they remain far from competitive on human leaderboards. Agents make process errors such as insufficient exploration, unsound validation, coding bugs, and poor use of a fixed budget (re-running the same exploratory data analysis and baseline models in every attempt). We propose AdaPRA to address these issues: a persistent coding agent harness that accumulates knowledge across attempts on the same task, with rubric-guided ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.33245"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Self-Assessment Reinforcement Learning for Search-State Awareness in Retrieval-Augmented Large Language Models",
+        "url": "https://huggingface.co/papers/2610.30435",
+        "normalized_url": "https://huggingface.co/papers/2610.30435",
+        "summary": "Recent advances in search agents have enabled large language models to tackle complex tasks by retrieving and synthesizing external information. However, existing search agents often lack search-state awareness, i.e., the ability to recognize what information has been obtained and what remains missing, leading to hallucinated reasoning and prematurely terminated search. To address this limitation, we propose Self-Assessment Reinforcement Learning (SARL), a reinforcement learning framework in whi",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-21T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.30435"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection",
+        "url": "https://huggingface.co/papers/2509.05512",
+        "normalized_url": "https://huggingface.co/papers/2509.05512",
+        "summary": "This paper introduces Quaternion Approximate Networks (QUAN), a novel deep learning framework that leverages quaternion algebra for rotation equivariant image classification and object detection. Unlike conventional quaternion neural networks attempting to operate entirely in the quaternion domain, QUAN approximates quaternion convolution through Hamilton product decomposition using real-valued operations. This approach preserves geometric properties while enabling efficient implementation with ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-27T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2509.05512"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "文远知行001号员工带队，景烁科技首轮融资数千万美元",
+        "url": "https://www.qbitai.com/2026/10/506281.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/506281.html",
+        "summary": "10月29日，文远知行披露旗下子公司景烁科技首次融资进展",
+        "source": "量子位",
+        "published": "2026-10-29T03:27:50+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "小雨智造与国家钢结构质检中心共建实验室，乔忠良：具身智能新质生产力已成事实",
+        "url": "https://www.qbitai.com/2026/10/506273.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/506273.html",
+        "summary": "2026年10月27日，“工业具身智能焊接与检测技术联合实验室”正式揭牌成立。",
+        "source": "量子位",
+        "published": "2026-10-29T02:51:45+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
+        "url": "https://www.qbitai.com/2026/10/505934.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/505934.html",
+        "summary": "用扩散模型怎么做做Agent？",
+        "source": "量子位",
+        "published": "2026-10-29T02:18:28+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "24万开卖！理想重造i6，李想：目标全球畅销",
+        "url": "https://www.qbitai.com/2026/10/506246.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/506246.html",
+        "summary": "理想今年最后一场发布会，自研电池芯片全部上车",
+        "source": "量子位",
+        "published": "2026-10-29T00:59:26+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "刚刚，Gemini 4 Carbon全面超越Opus 5.5！首发Token半价",
+        "url": "https://www.qbitai.com/2026/10/506227.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/506227.html",
+        "summary": "能连肝数日修Bug，免疫提示词注入",
+        "source": "量子位",
+        "published": "2026-10-29T00:03:58+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "【图片中转测试，未发布】工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
+        "url": "https://www.qbitai.com/2026/10/506194.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/506194.html",
+        "summary": "让基建作为常驻buff",
+        "source": "量子位",
+        "published": "2026-10-28T11:09:10+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
+        "url": "https://www.qbitai.com/2026/10/506098.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/506098.html",
+        "summary": "让基建作为常驻buff",
+        "source": "量子位",
+        "published": "2026-10-28T10:32:39+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "威卡：用数据集链接具身智能和工程机械",
+        "url": "https://www.qbitai.com/2026/10/506063.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/506063.html",
+        "summary": "威卡：为工程机械的智能化与少人化，提供一条被验证的路径",
+        "source": "量子位",
+        "published": "2026-10-28T09:01:27+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "19个项目18个成功，6个GPCR靶点全获命中！国产AI制药再破技术天花板",
+        "url": "https://www.qbitai.com/2026/10/506055.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/506055.html",
+        "summary": "精度达AlphaFold 3两倍，分子之心拿下高难度抗体设计",
+        "source": "量子位",
+        "published": "2026-10-28T08:59:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "0营收估值200亿美元，具身版OpenAI又融10亿美元",
+        "url": "https://www.qbitai.com/2026/10/506042.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/506042.html",
+        "summary": "斯坦福伯克利宗师组团，贝索斯红杉抢着送钱",
+        "source": "量子位",
+        "published": "2026-10-28T08:55:26+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+        "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+        "normalized_url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work",
+        "summary": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-30T01:20:48+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+        "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+        "normalized_url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big",
+        "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-29T23:42:22+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+        "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+        "normalized_url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience",
+        "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-29T20:08:31+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Rivian expands joint venture with VW to include AI assistant",
+        "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+        "normalized_url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant",
+        "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-29T20:05:47+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI-backed Thrive Holdings acquires ADT",
+        "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+        "normalized_url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt",
+        "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-29T19:56:19+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta quietly launches an AI fashion app called Style Sketch",
+        "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+        "normalized_url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch",
+        "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-29T19:14:36+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Granola crunches up a dictation feature to compete with Wispr",
+        "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+        "normalized_url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr",
+        "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-29T17:54:38+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+        "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+        "normalized_url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+        "summary": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-29T17:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+        "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+        "normalized_url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo",
+        "summary": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-29T16:42:32+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+        "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+        "normalized_url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction",
+        "summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-29T16:21:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+        "summary": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in […]",
+        "source": "The Verge AI",
+        "published": "2026-10-29T18:45:31+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Microsoft’s AI future has fewer jobs",
+        "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+        "normalized_url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+        "summary": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering voluntary buyouts to around 60,000 employees across the US, UK, Canada, and […]",
+        "source": "The Verge AI",
+        "published": "2026-10-29T16:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The NYT Cooking app is testing AI recipe modifications",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+        "summary": "The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it has sparked some drama among users. Last Friday, NYT Cooking senior editor Genevieve Ko announced the feature, which can be used to recommend substitutions for ingredients and cooking equipment, scale recipes to any […]",
+        "source": "The Verge AI",
+        "published": "2026-10-29T14:39:37+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic is asking Wall Street to believe in AGI",
+        "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+        "normalized_url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+        "summary": "Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1. Anthropic just filed its S-1 to go public on the Nasdaq, and it could start […]",
+        "source": "The Verge AI",
+        "published": "2026-10-29T14:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic’s business plan: Build God or die trying",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+        "summary": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the business of selling IT […]",
+        "source": "The Verge AI",
+        "published": "2026-10-29T13:30:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI has come for Arizona’s water",
+        "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+        "normalized_url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+        "summary": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by the mountains that surround it, and it is endless. I drive past one […]",
+        "source": "The Verge AI",
+        "published": "2026-10-29T10:00:04+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+        "summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the launch of widescreen and […]",
+        "source": "The Verge AI",
+        "published": "2026-10-28T23:05:39+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Akai is embracing vibe-coded mods with an open-source MPC",
+        "url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
+        "normalized_url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
+        "summary": "The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device, which will have open-source firmware. It will likely run […]",
+        "source": "The Verge AI",
+        "published": "2026-10-28T21:34:04+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+        "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+        "normalized_url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+        "summary": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-6 Astra trailing behind. The new Gemini 4 Carbon model offers improvements over […]",
+        "source": "The Verge AI",
+        "published": "2026-10-28T20:03:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Microsoft is ending Copilot support on smart TVs",
+        "url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+        "normalized_url": "https://www.theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+        "summary": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, according to a report by Windows Central. The news comes not from an official announcement from LG, Samsung, […]",
+        "source": "The Verge AI",
+        "published": "2026-10-28T18:36:26+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
+        "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+        "normalized_url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system",
+        "summary": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched.",
+        "source": "Wired AI",
+        "published": "2026-10-29T18:39:43+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The ‘Pain in the Ass’ Math That Could Save Vibe Coding From Itself",
+        "url": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
+        "normalized_url": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis",
+        "summary": "A new startup called &Truth is joining the race to automate formal verification, a painstaking process that uses math to prove software works as intended.",
+        "source": "Wired AI",
+        "published": "2026-10-29T15:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
+        "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
+        "normalized_url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity",
+        "summary": "The French AI lab claims its latest release matches or outperforms even the best models from DeepSeek and Z.ai in coding and cybersecurity.",
+        "source": "Wired AI",
+        "published": "2026-10-29T14:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "I Gave My Blood to the AI Death Clock",
+        "url": "https://www.wired.com/story/i-gave-an-ai-death-clock-my-blood/",
+        "normalized_url": "https://www.wired.com/story/i-gave-an-ai-death-clock-my-blood",
+        "summary": "Death Clock promises to predict when you’re going to die and help you extend your time on Earth. After a month, I felt like it was sucking the life out of me.",
+        "source": "Wired AI",
+        "published": "2026-10-29T10:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet",
+        "url": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
+        "normalized_url": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team",
+        "summary": "To experiment with AI’s predictive skills, I let Codex loose on a fantasy team. It tried to bench Erling Haaland at first, but it soon learned the error of its ways.",
+        "source": "Wired AI",
+        "published": "2026-10-28T18:30:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Macmillan Staff Say the Publisher Threw a Party for a Workplace AI Assistant That Was Later Killed",
+        "url": "https://www.wired.com/story/macmillan-staff-say-the-publisher-threw-a-party-for-a-workplace-ai-assistant-that-was-later-killed/",
+        "normalized_url": "https://www.wired.com/story/macmillan-staff-say-the-publisher-threw-a-party-for-a-workplace-ai-assistant-that-was-later-killed",
+        "summary": "Workers tell WIRED that NOA—or “No Ordinary Assistant”—was unhelpful. Bestselling authors also say AI is ruining their relationships with Big Five publishers.",
+        "source": "Wired AI",
+        "published": "2026-10-28T10:15:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
+        "url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/",
+        "normalized_url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready",
+        "summary": "Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.",
+        "source": "Wired AI",
+        "published": "2026-10-28T08:30:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Should AI Decide Your Court Case? This Judge Says Yes",
+        "url": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
+        "normalized_url": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges",
+        "summary": "One of England’s top judges, Geoffrey Vos, believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.",
+        "source": "Wired AI",
+        "published": "2026-10-28T06:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Systems Thinking Is Vital in the Age of AI",
+        "url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+        "normalized_url": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+        "summary": "Modern engineering projects increasingly combine human judgment with machine capability. An engineer can define a problem, then ask an artificial intelligence tool to search relevant research and technical standards, generate design options, test them in simulation, and compare the results. The engineer can then bring the results to specialists who understand the parts AI cannot judge on its own, such as whether a design can be built safely, whether it makes sense in a particular setting, or how",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-10-28T18:00:02+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
+        "url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
+        "normalized_url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
+        "summary": "Listen now | 🎙️ I ranked Grok Bot, Dot, Muse, and Claude Duet across 9 real tasks—and the scores told me which agent runs my work and which runs my life",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-28T12:04:22+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+        "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-26T15:00:53+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+        "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+        "normalized_url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+        "summary": "Watch now (30 mins) | 🎙️ Reddit’s principal UX engineer shows how a custom Figma MCP and Cursor pipeline takes any designer from blank slate to shareable, production-shaped prototype in minutes—no Git required",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-26T12:04:20+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
+        "url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
+        "normalized_url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
+        "summary": "Listen now (86 mins) | The founder who helped over 50 startups hit $1M ARR shares his PULL framework for finding real product-market fit",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-25T12:31:34+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: Negotiating a lowball offer, designers earning a seat in product decisions, resources for building an MCP server, and more",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-negotiating-a-lowball",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-negotiating-a-lowball",
+        "summary": "Community Wisdom 303",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-24T15:11:42+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
