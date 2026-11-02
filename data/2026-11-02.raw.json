@@ -1,0 +1,640 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T09:13:29.037546+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 28
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "EPSBench: Benchmarking LLM Agents for Earnings Forecasting",
+        "url": "https://huggingface.co/papers/2610.38293",
+        "normalized_url": "https://huggingface.co/papers/2610.38293",
+        "summary": "Quarterly earnings forecasting requires an agent to connect financial evidence to the income-statement line items that produce a company's reported earnings. We introduce EPSBench, a benchmark for studying this ability across 149 firm-quarters from 86 US companies. Agents read a fixed collection of filings, earnings-call transcripts, and news, then estimate company-specific income-statement drivers with cited evidence. A shared accounting calculator converts these estimates into GAAP diluted ear",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-28T05:24:11.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.38293"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models",
+        "url": "https://huggingface.co/papers/2610.38681",
+        "normalized_url": "https://huggingface.co/papers/2610.38681",
+        "summary": "Self-distillation offers a way to improve reasoning models when a suitable external teacher is unavailable. However, common approaches rely on privileged information to construct a stronger self-teacher, limiting their use when only unlabeled prompts are available. In this paper, we introduce Weakening-Induced On-Policy Self-Distillation (WISD), which instead constructs a weaker counterpart of the original model and uses the contrast between the two as a training signal without requiring privile",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.38681"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Unlocking Any-Order Generation in Pretrained Autoregressive Image Models",
+        "url": "https://huggingface.co/papers/2610.39293",
+        "normalized_url": "https://huggingface.co/papers/2610.39293",
+        "summary": "Autoregressive (AR) image generators are powerful in principle but inflexible in practice: training with a fixed raster-scan order hardcodes a single factorization of the image distribution into the model, leaving it unable to inpaint, outpaint, or edit at inference time. Existing solutions, including the modern discrete-diffusion family, train from scratch on a mixture of token orderings, paying roughly 3x the compute of standard raster-scan training; discrete diffusion further sacrifices compa",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-29T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.39293"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents",
+        "url": "https://huggingface.co/papers/2610.34298",
+        "normalized_url": "https://huggingface.co/papers/2610.34298",
+        "summary": "Language agents increasingly act through external tools and interactive environments, making the interface between the model and its executable capabilities part of the decision process. Model Context Protocol (MCP) and command-line interfaces (CLI) can expose the same semantic operations through markedly different model-facing representations. We study whether these representational differences change agent behavior when executable capabilities are matched. We introduce Matched Interface Compar",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.34298"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Broken on Arrival: Non-Functional Quantized LLM Artifacts in Public Model Registries and How to Catch Them",
+        "url": "https://huggingface.co/papers/2609.05881",
+        "normalized_url": "https://huggingface.co/papers/2609.05881",
+        "summary": "Developers download quantized large language models (LLMs) from public registries to run them locally. None of the registries we examined documented functional testing of their files. We tested all 305 eligible code-capable GGUF tags (the llama.cpp format) across 15 model lines in the official Ollama library, plus 22 popular Hugging Face community files. A 15-task code screen identified suspects, which we retested on all 164 HumanEval+ tasks. Seven official tags (2.3%) solved at most six of them",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2609.05881"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Training Foundation Models with a Single Algorithm",
+        "url": "https://huggingface.co/papers/2610.40564",
+        "normalized_url": "https://huggingface.co/papers/2610.40564",
+        "summary": "Foundation models are typically trained in stages: pretraining, midtraining, supervised fine-tuning (SFT), and reinforcement learning (RL), with changes in both data and learning algorithms. We show that this algorithmic separation is not fundamental. By deriving suitable RL objectives as maximum-likelihood fitting to model-generated target distributions, we place all of these stages under a single likelihood-based training algorithm, unified training. This perspective turns the foundation-model",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-29T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.40564"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "ABF-Bench: A Verifiable Benchmark for Agentic Blockchain Forensics",
+        "url": "https://huggingface.co/papers/2610.23656",
+        "normalized_url": "https://huggingface.co/papers/2610.23656",
+        "summary": "Blockchain forensics is adversarial and open-ended: money launderers split, swap, and bridge funds, cut their trail at mixers or custodial services, and change tactics from one incident to the next. Investigators must keep adapting their tracing in response. Yet the immutability of public ledgers preserves every recorded movement in public view, making much of the investigation independently verifiable. We introduce ABF-Bench, an interactive benchmark that makes evidence-backed fund tracing a ve",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.23656"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+        "url": "https://huggingface.co/papers/2610.39302",
+        "normalized_url": "https://huggingface.co/papers/2610.39302",
+        "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained separately on any number of modalities learn the same representation up to one rotation wh",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-29T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.39302"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Scaling Lean Theorem Proving for Real-World Code Verification",
+        "url": "https://huggingface.co/papers/2610.38174",
+        "normalized_url": "https://huggingface.co/papers/2610.38174",
+        "summary": "We present EasyProver, a Lean proving system built from recursive agents with isolated contexts, asynchronous search, parallel tactic probing, and an elastic elaboration service. Using an off-the-shelf frontier model with no additional training, it proves 669/672 PutnamBench problems and all six IMO 2026 formalizations and resolves 597/600 NTP4VC verification conditions and all 189 VERINA tasks by proof or refutation. Because these benchmarks are close to saturation, we also introduce Aegis, whi",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.38174"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "FDSML: Formula-Driven Supervised Metric Learning with Parameter-Aware Triplet Loss",
+        "url": "https://huggingface.co/papers/2610.39423",
+        "normalized_url": "https://huggingface.co/papers/2610.39423",
+        "summary": "Formula-Driven Supervised Learning (FDSL) enables vision pre-training without real images, but existing methods cast pre-training as classification on discretized labels, discarding continuity in the generative process. We propose Formula-Driven Supervised Metric Learning (FDSML), which derives relational supervision from image-generation parameters beyond discrete class labels. FDSML combines FineFractalDB, our refined fractal dataset with higher intra-class variation and more stable structures",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-29T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.39423"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Holo4D: Holistic 4D Reconstruction as Geometric Control for Video Diffusion",
+        "url": "https://huggingface.co/papers/2610.25276",
+        "normalized_url": "https://huggingface.co/papers/2610.25276",
+        "summary": "Synthesizing a monocular video from a new camera trajectory requires preserving the observed scene geometry and motion while completing regions that become newly visible. Feed-forward 4D reconstructors recover the structure of the observed scene, whereas video diffusion models provide a generative prior for completing unseen content. We introduce Holo4D, a video reshooting framework that uses reconstructed 3D trajectories as a holistic source-view 4D scaffold. We project these trajectories into ",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-18T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.25276"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+        "url": "https://huggingface.co/papers/2610.39301",
+        "normalized_url": "https://huggingface.co/papers/2610.39301",
+        "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to strengthen text reading, encodes all modalities with shared weights in a unified space-time coordin",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-29T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.39301"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "OpenFlyV2: An onboard vision-language-action model for aerial perception and navigation",
+        "url": "https://huggingface.co/papers/2610.39287",
+        "normalized_url": "https://huggingface.co/papers/2610.39287",
+        "summary": "Human cognition flexibly draws on a shared perceptual foundation to understand environments, attend to referenced entities, reason about spatial relationships, and act. Endowing aerial robots with an analogous functional organization remains challenging, as existing systems are often specialized for individual capabilities, dependent on offboard computation, or unable to sustain closed-loop operation on resource-constrained platforms. We present OpenFlyV2, a unified onboard vision-language-actio",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-29T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.39287"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "PhysInsert: Physically Plausible Object Insertion with Geometric Priors and Bidirectional Object-Scene Interactions",
+        "url": "https://huggingface.co/papers/2610.40453",
+        "normalized_url": "https://huggingface.co/papers/2610.40453",
+        "summary": "We present PhysInsert, a framework for physically plausible reference-based object insertion that jointly adapts objects and their surrounding scenes. Existing methods often rely on masked inputs, generation-based pairs, or training pairs with limited viewpoint variation, leaving pose and illumination adaptation and bidirectional object-scene interactions insufficiently constrained. We construct the Insert World dataset with strictly aligned Blender-rendered counterfactual pairs and object refer",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-29T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2610.40453"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "AB-Attention: Accurate Block Attention for Accelerating Video Diffusion Transformers",
+        "url": "https://huggingface.co/papers/2610.39663",
+        "normalized_url": "https://huggingface.co/papers/2610.39663",
+        "summary": "Video diffusion transformers generate high-quality videos, but the quadratic cost of 3D full attention dominates their inference. Dynamic block-sparse attention reduces this cost by computing exact attention only on key/value blocks selected from current activations. However, its fidelity degrades under aggressive sparsity: blocks are scored from coarse summaries or formed by costly global clustering, pruned blocks vanish from the softmax, and whole tiles are kept or dropped even when only a few",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-29T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.39663"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Multi-Token Prediction Done Right",
+        "url": "https://huggingface.co/papers/2610.38331",
+        "normalized_url": "https://huggingface.co/papers/2610.38331",
+        "summary": "Multi-Token Prediction (MTP) is now a common ingredient in language-model pre-training, as it improves downstream performance and enables faster inference through speculative decoding. We identify a flaw in standard MTP training, in which a residual component of the MTP gradient interferes with both next-token and multi-token learning, increasingly so with scale. Specifically, the MTP cross-entropy gradient can be decomposed exactly into a KL self-distillation term that pulls each MTP head towar",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.38331"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+        "url": "https://huggingface.co/papers/2610.40647",
+        "normalized_url": "https://huggingface.co/papers/2610.40647",
+        "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length o",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-29T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.40647"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+        "url": "https://huggingface.co/papers/2610.40614",
+        "normalized_url": "https://huggingface.co/papers/2610.40614",
+        "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation. In this paper, we introd",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-29T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.40614"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Investor's Last Exam: Can AI Agents Do Equity Investment Without Seeing the Future?",
+        "url": "https://huggingface.co/papers/2610.38342",
+        "normalized_url": "https://huggingface.co/papers/2610.38342",
+        "summary": "Financial agents must form forecasts and investment judgments from decision-time evidence, with predictions evaluated against subsequent outcomes. Existing benchmarks assess financial knowledge, research workflows, or forecasting, but evaluating the full research process requires a strictly frozen information set and professional evaluation criteria. We introduce Investor's Last Exam (ILE), an equity-research benchmark led by experienced buy-side investors and fund managers. Its three components",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-28T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.38342"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps",
+        "url": "https://huggingface.co/papers/2610.39264",
+        "normalized_url": "https://huggingface.co/papers/2610.39264",
+        "summary": "While frontier vision-language models demonstrate strong capabilities in user interface (UI) navigation, their high inference costs prohibit everyday use. Conversely, smaller models trained via supervised fine-tuning (SFT) or offline reinforcement learning often memorize static trajectories, leading to brittle execution and an inability to recover from errors. To address these limitations, we propose a novel online reinforcement learning framework that trains UI navigation agents directly on liv",
+        "source": "HuggingFace Papers",
+        "published": "2026-10-29T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2610.39264"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "三年前布局，今年爆火丨西湖大学成立新中心",
+        "url": "https://www.qbitai.com/2026/11/507076.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/507076.html",
+        "summary": "西湖世界模型研究中心成立",
+        "source": "量子位",
+        "published": "2026-11-01T13:28:10+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+        "url": "https://www.qbitai.com/2026/11/507038.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/507038.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-11-01T13:09:55+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+        "url": "https://www.qbitai.com/2026/11/507031.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/507031.html",
+        "summary": "让AI像牛顿一样思考",
+        "source": "量子位",
+        "published": "2026-11-01T08:02:37+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子",
+        "url": "https://www.qbitai.com/2026/11/506990.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/506990.html",
+        "summary": "这事还是想得太简单了",
+        "source": "量子位",
+        "published": "2026-11-01T07:50:57+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jev新成果，再次引爆开源",
+        "url": "https://www.qbitai.com/2026/11/506922.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/506922.html",
+        "summary": "再次“性价比屠夫”",
+        "source": "量子位",
+        "published": "2026-11-01T04:18:37+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+        "url": "https://www.qbitai.com/2026/10/506904.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/506904.html",
+        "summary": "AI已经自己找到Bug并提交PR",
+        "source": "量子位",
+        "published": "2026-10-31T13:49:44+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "你的8G iPad里有12G内存！库克走了但他的刀法追着我砍",
+        "url": "https://www.qbitai.com/2026/10/506884.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/506884.html",
+        "summary": "苹果“牛奶倒河里”式操作翻红",
+        "source": "量子位",
+        "published": "2026-10-31T05:17:50+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "世界模型首次指导设计芯片！超大核NPU700TOPS，99%算力可用",
+        "url": "https://www.qbitai.com/2026/10/506866.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/506866.html",
+        "summary": "AI算力利用“九九成”",
+        "source": "量子位",
+        "published": "2026-10-31T05:11:19+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "刚刚，Claude宣布取消5小时限制！首批Ultra用户已「解封」",
+        "url": "https://www.qbitai.com/2026/10/506855.html",
+        "normalized_url": "https://www.qbitai.com/2026/10/506855.html",
+        "summary": "200美元Ultra用户先用",
+        "source": "量子位",
+        "published": "2026-10-31T05:05:29+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Python 潮流周刊#173（附第 123 期全文）：Guido 保荐的 PEP 823 拟给 3.16 加 ?. 与 ?[]",
+        "url": "https://sspai.com/post/118025",
+        "normalized_url": "https://sspai.com/post/118025",
+        "summary": "本周刊由 Python猫 出品，精心筛选国内外的 400+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 温馨提示： 在微信关注 Python猫 ，发送数字“ 9 ”，即可领取 9 折优惠码，订阅专栏可享 15 元优惠。 去专栏阅读全文： 全文链接 分享了 12 篇文章，12 个开源项目，2 则热门讨论 以下是本期标题摘要： 🦄文章&教程 ① PEP 823 提案为 Python 3.16 加入 None 感知访问运算符 ② Python 3.15 新增 frozendict 内置类型 ③ Python 3.15 自带的采样分析器 Tachyon ④ DuckDB 2.0 为什么更快 ⑤ uv 换上的新 tar 解析器，速度翻倍也更安全 ⑥ Brotli 漏洞 CVSS 9.2，波及 requests 等 Python 包 ⑦ 用 Python 从零搭一套 RAG 系统：40 行跑通，再谈优化 ⑧ 让 LLM 输出不再失控，用 Pydantic 校验大模型输出 ⑨ Claud",
+        "source": "SSPAI AI",
+        "published": "2026-10-31T14:38:58+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+        "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+        "normalized_url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+        "summary": "Data centers are deeply unpopular. But what if we called them something else?",
+        "source": "TechCrunch AI",
+        "published": "2026-11-01T21:55:23+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+        "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+        "normalized_url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else",
+        "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-01T20:57:58+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+        "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+        "normalized_url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+        "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-31T21:41:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+        "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+        "normalized_url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale",
+        "summary": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-31T21:36:07+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+        "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+        "normalized_url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward",
+        "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-31T21:17:03+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI reportedly lowers funding target for new round",
+        "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+        "normalized_url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round",
+        "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-31T16:12:55+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+        "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+        "normalized_url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
+        "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+        "source": "TechCrunch AI",
+        "published": "2026-10-31T01:20:05+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "I built an AI Tamagotchi before Meta could",
+        "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+        "normalized_url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+        "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It […]",
+        "source": "The Verge AI",
+        "published": "2026-10-31T16:05:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
+        "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
+        "normalized_url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences",
+        "summary": "Outsourcing planning to AI can lead people to surrender their own critical thinking, which can have potentially deadly results in places like the backcountry.",
+        "source": "Wired AI",
+        "published": "2026-11-01T10:30:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+        "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+        "normalized_url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware",
+        "summary": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
+        "source": "Wired AI",
+        "published": "2026-10-31T12:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+        "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+        "normalized_url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet",
+        "summary": "Companies have spent the past several weeks trying to reassure investors that Muse and other AI agents pose more of an opportunity than a threat.",
+        "source": "Wired AI",
+        "published": "2026-10-31T10:30:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+        "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+        "normalized_url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse",
+        "summary": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+        "source": "Wired AI",
+        "published": "2026-10-31T10:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Guarding the Gates of Knowledge",
+        "url": "https://spectrum.ieee.org/ai-slop-trust-science",
+        "normalized_url": "https://spectrum.ieee.org/ai-slop-trust-science",
+        "summary": "A recent scroll through social media got me thinking about trust. About half my feed was filled with AI slop that astute users would call out as being machine-generated, often to the embarrassment of the rube who unknowingly spread it and sometimes to the delight of the poster who shared it deliberately because they found it amusing or useful for sowing confusion. Remember the good old days of GPT-3 when we could ask the chatbot anything and it would almost instantly and very confidently spit ba",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-11-01T14:00:01+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "How a 19-year-old intern built the growth engine behind this $2B AI company | Hector Serrano",
+        "url": "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+        "summary": "Listen now (88 mins) | Hector Serrano on building Wispr Flow’s paid-UGC machine, hiring young talent over polished resumes, and why the best marketers are “allergic to AI”",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-01T13:31:36+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: The biggest sources of interruptions for PMs, hiring junior PMs with case studies vs. behavioral interviews, building a product harness for AI-driven development, and more",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-the-biggest-sources",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-the-biggest-sources",
+        "summary": "Community Wisdom 304",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-31T16:14:41+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
+        "url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
+        "normalized_url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
+        "summary": "Listen now | 🎙️ I ranked Grok Bot, Dot, Muse, and Claude Duet across 9 real tasks—and the scores told me which agent runs my work and which runs my life",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-28T12:04:22+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+        "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-26T15:00:53+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+        "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+        "normalized_url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+        "summary": "Watch now (30 mins) | 🎙️ Reddit’s principal UX engineer shows how a custom Figma MCP and Cursor pipeline takes any designer from blank slate to shareable, production-shaped prototype in minutes—no Git required",
+        "source": "Lenny's Newsletter",
+        "published": "2026-10-26T12:04:20+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
