@@ -1,0 +1,939 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T09:29:35.041668+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 51
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+        "url": "https://huggingface.co/papers/2611.10439",
+        "normalized_url": "https://huggingface.co/papers/2611.10439",
+        "summary": "Self-evolving agents improve their own skills, memory, and harness code from experience without retraining the base LLM, and group-evolving agents go further by sharing these lessons across agents. Yet most such systems overlook that sharing across users and heterogeneous agents requires deciding who can benefit from each lesson and what information must remain private. We present MixUA, a memory system that distills independent user-agent trajectories into lessons and assigns each lesson to a u",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-07T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.10439"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
+        "url": "https://huggingface.co/papers/2611.16728",
+        "normalized_url": "https://huggingface.co/papers/2611.16728",
+        "summary": "Generalist manipulation policies can benefit from the complementary experience of humans, real robots, and simulated agents. However, differences in morphology, sensing, and control interfaces make it difficult to learn effectively from their combined demonstrations. We introduce EgoX, an egocentric cross-embodiment learning framework that organizes heterogeneous demonstrations through semantically corresponding observation and action modalities. EgoX pretrains a Modularized Cross-Embodiment Tra",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-12T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.16728"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+        "url": "https://huggingface.co/papers/2611.17336",
+        "normalized_url": "https://huggingface.co/papers/2611.17336",
+        "summary": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block. We present PixVid, a simple yet effective method that lifts a pretrained latent video model to dire",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-12T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.17336"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+        "url": "https://huggingface.co/papers/2611.17190",
+        "normalized_url": "https://huggingface.co/papers/2611.17190",
+        "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable. The registration pipelines it relies on are selected on feature-matching benchmarks in which only the camera moves. Over a busy intersection, vehicles moving together supply mutually consistent correspondences that can draw the robust homography estimate toward their motion: consensus capture, which inlier statistics cannot flag. A two-part benchmark measur",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-12T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.17190"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
+        "url": "https://huggingface.co/papers/2611.09567",
+        "normalized_url": "https://huggingface.co/papers/2611.09567",
+        "summary": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows. We introduce TurtLES, a 14 TB dataset of 3D turbulent cylinder wakes in the shear-layer transition regime, computed via high-fidelity implicit large-eddy simulations. The dataset contains 400 trajectories of 400 time steps each, with 3-11 million points per frame, spanning variations in geometry, Reyno",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-06T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.09567"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
+        "url": "https://huggingface.co/papers/2611.16961",
+        "normalized_url": "https://huggingface.co/papers/2611.16961",
+        "summary": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token. Rather than deciding how much to think, we explore a different paradigm, zero-or-T thinking: a single model either answers from the implicit thinking inside one forward pass, generating no token, or performs full autoregressive reasoning at a cost of T tokens when that is worth paying. We realise it in a hybrid decision model",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-12T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.16961"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
+        "url": "https://huggingface.co/papers/2611.12750",
+        "normalized_url": "https://huggingface.co/papers/2611.12750",
+        "summary": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that differ across languages and regions, especially on contested topics. Supporting diverse information seeking requires models to help users navigate competing narratives across languages and information streams. We define six capabilities necessary for diverse multilingual information seeking: three foundational capabilities for narrative inclusion, narrative exclusion, and missing na",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-09T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.12750"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "A frontier machine intelligence for human neuroimaging",
+        "url": "https://huggingface.co/papers/2611.15094",
+        "normalized_url": "https://huggingface.co/papers/2611.15094",
+        "summary": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although artificial intelligence has advanced image interpretation, existing medical models often address restricted tasks, while general-purpose proprietary models lack access to private clinical imaging required to achieve medical expertise. Developing models that can interpret complex examinations and communicate their findings in the context of clinical decisions remains a major challeng",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-11T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.15094"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Unbundling Multimodal Vision Encoding",
+        "url": "https://huggingface.co/papers/2611.17334",
+        "normalized_url": "https://huggingface.co/papers/2611.17334",
+        "summary": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder, while some recent recipes train the encoder from scratch with the language model or remove it entirely. Vision encoders bundle together three design choices: a visual prior from upstream pretraining, dedicated vision capacity, and pre-fusion placement of that capacity (i.e., before the multimodal backbone). Because published models also differ in data, architecture, and c",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-12T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.17334"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Experience-Handoff Reinforcement Learning for Recursive Self-Improvement",
+        "url": "https://huggingface.co/papers/2611.16409",
+        "normalized_url": "https://huggingface.co/papers/2611.16409",
+        "summary": "It is common to train Large Language Models (LLMs) for agentic tasks with Reinforcement Learning (RL) from scalar rewards. However, this throws away the fine-grained information about the environment that the agent experienced during the trial (e.g., error logs). To utilize this rich information, recent works wrap the agent in a harness that refines its own inputs through reflection or compaction and hands past experience to future rollouts, but the construction of the handed-off artifacts (e.g.",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-12T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.16409"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "JustRUA: A Controlled Study of GPT-6 Robot-Use Agents",
+        "url": "https://huggingface.co/papers/2611.16009",
+        "normalized_url": "https://huggingface.co/papers/2611.16009",
+        "summary": "GPT-6 Astra can drive a robot arm directly through a fixed harness, and scores of such robot-use agents on RoboDojo have risen quickly since. Reported systems differ in harness and test subset and often change several designs at once, so it is hard to tell which choices produce the gains. We take these designs apart and test them in one framework, along the harness around the model, the action interface, the reuse of experience and the scene geometry given to the model. A lean harness that keeps",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-11T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.16009"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
+        "url": "https://huggingface.co/papers/2611.15844",
+        "normalized_url": "https://huggingface.co/papers/2611.15844",
+        "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-task perception systems. Our analyses identify the design choices that matter most for generalization",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-11T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2611.15844"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
+        "url": "https://huggingface.co/papers/2611.14256",
+        "normalized_url": "https://huggingface.co/papers/2611.14256",
+        "summary": "Recent work shows that multimodal agents increasingly self-improve without recurring human annotation. However, each self-improvement mechanism is designed and evaluated within a single scenario, leaving its preconditions unverified under cross-scenario transfer. This survey investigates the structural source of asymmetric mechanism transfer across four scenarios: multimodal reasoning, multimodal generation, GUI and Web navigation, and embodied manipulation. We first formalize the self-evolving ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-10T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.14256"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement",
+        "url": "https://huggingface.co/papers/2611.08318",
+        "normalized_url": "https://huggingface.co/papers/2611.08318",
+        "summary": "Self-improving embodied agents are increasingly being developed and compared on robot simulation benchmarks. Several recent works expose the benchmark's success criteria to the learning agent, a practice we call Criteria Exposure (CE). These criteria, originally written to verify policies trained by imitation learning, often demand more than the corresponding language instructions, so a score from such a verifier may not faithfully reflect whether the instructed task was completed, especially fo",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.08318"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "DeepStress: Stress-Testing Deep Search Agents",
+        "url": "https://huggingface.co/papers/2607.13920",
+        "normalized_url": "https://huggingface.co/papers/2607.13920",
+        "summary": "While search agents demonstrate impressive capabilities in multi-step question answering, their robustness to poor-quality evidence remains under-explored. Such evidence is rare in benchmark corpora, and resulting failures are hard to reproduce. We propose DeepStress, a dynamic stress-testing framework that subjects agents to degraded evidence at controlled rates. It replaces the retrieval module with a synthetic environment where documents are generated dynamically for each query, under indepen",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-12T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2607.13920"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Structured Confidence Perturbation via Fisher Geometry for Adversarial Training",
+        "url": "https://huggingface.co/papers/2611.14046",
+        "normalized_url": "https://huggingface.co/papers/2611.14046",
+        "summary": "Adversarial training is often plagued by \"pseudo-attacks\", perturbations that significantly increase the loss value but fail to truly alter the model's confidence structure. To address this, we propose two complementary approaches to directly attack and defend against confidence structure deformation. First, building upon the traditional loss maximization perspective, we introduce a hybrid objective that integrates cross-entropy and KL divergence, encouraging adversarial examples to simultaneous",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-10T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.14046"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+        "url": "https://huggingface.co/papers/2611.12872",
+        "normalized_url": "https://huggingface.co/papers/2611.12872",
+        "summary": "As multimodal agents accumulate increasingly long interaction histories, effectively retrieving and utilizing past information becomes critical for long-term interaction. Existing memory systems typically rely on semantic retrieval over compressed memories and expose predefined representations, which may miss relevant memories and overlook heterogeneous evidence needs across queries. We introduce \\hivemem, a multimodal memory framework that interleaves \\textsc{H}or\\textsc{i}zontal Memory Expansi",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-09T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.12872"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+        "url": "https://huggingface.co/papers/2611.17331",
+        "normalized_url": "https://huggingface.co/papers/2611.17331",
+        "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP, enabling fast and high-fidelity novel-view decoding. The first key is to repurpose the ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-12T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.17331"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Agent-R^2: Scaling Agents for Realistic Productivity Work via Real-Source Data Synthesis",
+        "url": "https://huggingface.co/papers/2611.08219",
+        "normalized_url": "https://huggingface.co/papers/2611.08219",
+        "summary": "Large language models have made rapid progress in agentic reasoning and tool use, raising expectations for agents that can take over realistic productivity work from humans. However, current agents still struggle to finish such tasks, where success requires following long-horizon professional workflows, understanding heterogeneous file contexts, and producing usable deliverables under fine-grained requirements. A key bottleneck is the lack of scalable post-training data that reflects real work i",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-05T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.08219"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+        "url": "https://huggingface.co/papers/2611.17060",
+        "normalized_url": "https://huggingface.co/papers/2611.17060",
+        "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human behavior that supervise how tasks are performed, and interactive environments in which policies can be rolled out, evaluated, and improved in closed loop. Language models have adv",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-12T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.17060"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "大动脉辞职了怎么办",
+        "url": "https://www.36kr.com/p/4069227046360201",
+        "normalized_url": "https://www.36kr.com/p/4069227046360201",
+        "summary": "现在后悔还来得及。",
+        "source": "36Kr AI",
+        "published": "2026-11-15T01:05:13+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“史上最严”湿实验预测基准发布：推理拉满、算力翻5倍也白搭",
+        "url": "https://www.36kr.com/p/4069313243174025",
+        "normalized_url": "https://www.36kr.com/p/4069313243174025",
+        "summary": "斯坦福、哈佛、康奈尔......十余家顶尖团队齐坐一桌了",
+        "source": "36Kr AI, 量子位",
+        "published": "2026-11-14T09:52:13+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "在联合国气候变化大会，乐其创新SmallRig以影像力量参与全球气候行动",
+        "url": "https://www.36kr.com/p/4069402806915974",
+        "normalized_url": "https://www.36kr.com/p/4069402806915974",
+        "summary": "在活动期间，SmallRig斯莫格全球影像创作者气候保护宣言发布、SmallRig斯莫格全球气候影视支持计划正式发布。",
+        "source": "36Kr AI",
+        "published": "2026-11-14T09:30:45+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "黄仁勋离职，有家公司做梦都能笑醒",
+        "url": "https://www.36kr.com/p/4069303772222345",
+        "normalized_url": "https://www.36kr.com/p/4069303772222345",
+        "summary": "黄仁勋这一走，AMD的天都亮了。",
+        "source": "36Kr AI",
+        "published": "2026-11-14T08:36:18+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "美国大学新生人数血崩，哪些高校能活下来？",
+        "url": "https://www.36kr.com/p/4069261964137605",
+        "normalized_url": "https://www.36kr.com/p/4069261964137605",
+        "summary": "美国东北部与中西部高校的新生入学人数持续下滑，南部和西部院校的新生规模则稳步增长。",
+        "source": "36Kr AI",
+        "published": "2026-11-14T07:19:11+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "手机壳的下一程：从保护手机，到支持创造",
+        "url": "https://www.36kr.com/p/4069252262187909",
+        "normalized_url": "https://www.36kr.com/p/4069252262187909",
+        "summary": "图拉斯以“无感支架+气囊防护”的支点壳打造出支持人们随时行动与创造的体验系统，定义了支点壳3.0的时代价值。",
+        "source": "36Kr AI",
+        "published": "2026-11-14T06:57:53+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Claude破译哥德尔天书，80年笔记震撼数学界",
+        "url": "https://www.36kr.com/p/4069178330764161",
+        "normalized_url": "https://www.36kr.com/p/4069178330764161",
+        "summary": "人类读不完的手稿被AI翻成定理",
+        "source": "36Kr AI",
+        "published": "2026-11-14T06:09:45+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "《后会友期》商务断层登顶：绝味999感冒灵赢麻了，厉娜",
+        "url": "https://www.36kr.com/p/4068316076479617",
+        "normalized_url": "https://www.36kr.com/p/4068316076479617",
+        "summary": "无心插柳、精准共鸣比没活硬整，效果更好。",
+        "source": "36Kr AI",
+        "published": "2026-11-14T05:34:33+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "马斯克又要用筷子夹火箭了？",
+        "url": "https://www.36kr.com/p/4068971565044613",
+        "normalized_url": "https://www.36kr.com/p/4068971565044613",
+        "summary": "这一次，他要从太空抓回一艘飞船。",
+        "source": "36Kr AI",
+        "published": "2026-11-14T04:12:07+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "米兰EICMA上的中国电摩：九号赛格威首秀，中国两轮出海进入下半场",
+        "url": "https://www.36kr.com/p/4069048951739522",
+        "normalized_url": "https://www.36kr.com/p/4069048951739522",
+        "summary": "携三款新品首秀米兰，九号以硬核整车与AI赋能电摩出海。",
+        "source": "36Kr AI",
+        "published": "2026-11-14T03:33:23+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
+        "url": "https://www.qbitai.com/2026/11/510297.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/510297.html",
+        "summary": "马斯克也签名了",
+        "source": "量子位",
+        "published": "2026-11-14T10:08:08+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "程序员集体沉迷折纸飞机！最长滞空31.2秒",
+        "url": "https://www.qbitai.com/2026/11/510150.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/510150.html",
+        "summary": "童年的纸飞机，现在终于飞回我手里～",
+        "source": "量子位",
+        "published": "2026-11-14T09:48:34+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "绿电进Token出！联想重新定义词元工厂",
+        "url": "https://www.qbitai.com/2026/11/510094.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/510094.html",
+        "summary": "年产2000万亿Token，成本狂降70%",
+        "source": "量子位",
+        "published": "2026-11-14T09:41:02+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "中专生拍出《哈利·波特》爆款！欧美明星、好莱坞制片人集体点赞",
+        "url": "https://www.qbitai.com/2026/11/510013.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/510013.html",
+        "summary": "狂揽3000万播放量",
+        "source": "量子位",
+        "published": "2026-11-14T02:59:35+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "突发！DeepSeek开放全家桶API",
+        "url": "https://www.qbitai.com/2026/11/510003.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/510003.html",
+        "summary": "官方App功能均可自由组合调用",
+        "source": "量子位",
+        "published": "2026-11-14T02:39:56+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
+        "url": "https://www.qbitai.com/2026/11/509995.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/509995.html",
+        "summary": "一个时代结束了",
+        "source": "量子位",
+        "published": "2026-11-13T09:02:39+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
+        "url": "https://www.qbitai.com/2026/11/509827.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/509827.html",
+        "summary": "12.9 北京，来MEET2027现场",
+        "source": "量子位",
+        "published": "2026-11-13T07:51:08+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
+        "url": "https://www.qbitai.com/2026/11/509796.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/509796.html",
+        "summary": "250名国内顶尖三甲医院医生联合评测",
+        "source": "量子位",
+        "published": "2026-11-13T07:43:03+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "比亚迪第1900万辆新能源汽车下线，科技新奢旗舰SUV方程豹钛9开启预订",
+        "url": "https://www.qbitai.com/2026/11/509730.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/509730.html",
+        "summary": "比亚迪第1900万辆新能源汽车在西安工厂正式下线",
+        "source": "量子位",
+        "published": "2026-11-13T07:17:54+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Python 潮流周刊#175（附第 125 期全文）：AI 为 CPython 写出 61 万行 Lean 证明",
+        "url": "https://sspai.com/post/119043",
+        "normalized_url": "https://sspai.com/post/119043",
+        "summary": "本周刊由 Python猫 出品，精心筛选国内外的 400+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 去专栏阅读全文： 全文链接 分享了 12 篇文章，12 个开源项目，1 则音视频，2 则热门讨论 以下是本期标题摘要： 🦄文章&教程 ① PEP 852：C API 中的异步函数 ② 用 Python 3.15 惰性导入把 CLI 提速 4 倍 ③ gilguard：揪出悄悄把 GIL 重新打开的导入语句 ④ 用 yk 给 CPython 加上元追踪 JIT ⑤ Muru 导入一次分叉多进程 ⑥ 带依赖的 Python 脚本也能随拷随跑 ⑦ mizu 让 R 与 Python 共享内存零拷贝并行 ⑧ 用 Python 从零打造 AI 智能体沙箱 ⑨ 密歇根大学教授为 AI 智能体创造类 Python 语言 Jac ⑩ uv 在哪些场景下会变慢 ⑪ Django 上太空，ESA 望远镜项目的软件工程实践 ⑫ 用 Lean 形式化验证 CPython 源码 🐿️项目&资源 ①",
+        "source": "SSPAI AI",
+        "published": "2026-11-14T14:13:09+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+        }
+      },
+      {
+        "category": "news",
+        "title": "研究生如何用 AI 辅助完成一篇综述：我的科研写作工具与实践经验",
+        "url": "https://sspai.com/post/118153",
+        "normalized_url": "https://sspai.com/post/118153",
+        "summary": "Matrix 首页推荐 Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。 文章代表作者个人观点，少数派仅对标题和排版略作修改。 摘要 ：从确定选题、检索文献，到整理研究证据、撰写正文、绘制机理图，再到投稿前的格式检查，完成一篇综述涉及许多重复而繁琐的工作。本文结合我参与完成的一篇已获期刊录用的综述，分享如何利用 AI、Zotero、Keynote 和 AI Agent 辅助科研写作，并展示各个环节的实际操作、使用经验与需要人工核验的地方。重点不是让 AI 代替我们写论文，而是探索如何利用数字工具减少重复劳动，同时保留必要的科研判断。 图片来源 ：封面图来自 Unsplash 的 Beku Kanomi ；正文图片主要来自我个人 Keynote 创作以及软件截图。 如果你目前正在读研，面临着「必须发表一篇小论文才能毕业」的硬性指标，却处于没人指导、没有方向的迷茫期，空有心气却不知从何下手——这篇文章或许能帮到你。 我自己也经历过这样的过程。后来，我开始尝试将 AI 工具引",
+        "source": "SSPAI AI",
+        "published": "2026-11-13T07:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Where was Nvidia’s security team?",
+        "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+        "normalized_url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team",
+        "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-15T00:08:07+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+        "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+        "normalized_url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
+        "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-14T21:41:22+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+        "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+        "normalized_url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+        "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-14T17:30:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+        "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+        "normalized_url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
+        "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-14T16:34:15+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+        "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+        "normalized_url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
+        "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-13T22:43:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI agent startup LangChain hits $3B valuation",
+        "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+        "normalized_url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
+        "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-13T19:37:57+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+        "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+        "normalized_url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+        "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-13T18:40:30+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+        "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+        "normalized_url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
+        "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-13T16:00:12+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The unfolding Jensen Huang scandal: a timeline",
+        "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+        "normalized_url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+        "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-13T15:58:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+        "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+        "normalized_url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams",
+        "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-13T14:44:48+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+        "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+        "normalized_url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+        "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on […]",
+        "source": "The Verge AI",
+        "published": "2026-11-14T15:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+        "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+        "normalized_url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+        "summary": "On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that […]",
+        "source": "The Verge AI",
+        "published": "2026-11-14T12:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Amazon has a plan to index the world’s online shopping data",
+        "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+        "normalized_url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+        "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their […]",
+        "source": "The Verge AI",
+        "published": "2026-11-13T23:49:11+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+        "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card […]",
+        "source": "The Verge AI",
+        "published": "2026-11-13T20:45:10+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "What’s really at stake in the Jensen Huang saga",
+        "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+        "normalized_url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+        "summary": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China, about the US government's willingness […]",
+        "source": "The Verge AI",
+        "published": "2026-11-13T14:47:16+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+        "summary": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple […]",
+        "source": "The Verge AI",
+        "published": "2026-11-13T14:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Let’s talk about Jensen Huang’s many affairs!",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+        "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity. If […]",
+        "source": "The Verge AI",
+        "published": "2026-11-13T12:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Beware the New AI-Fueled Ransomware Boom",
+        "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+        "normalized_url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom",
+        "summary": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc.",
+        "source": "Wired AI",
+        "published": "2026-11-14T13:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "No Pilots. Few Air Traffic Controllers. What Could Go Wrong?",
+        "url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+        "normalized_url": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong",
+        "summary": "Normally, aviation is slow to embrace new technology—but AI has come for the skies.",
+        "source": "Wired AI",
+        "published": "2026-11-14T11:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
+        "url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
+        "normalized_url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage",
+        "summary": "The company says a bad update—not a cyberattack or AI—caused its servers around the world to crash.",
+        "source": "Wired AI",
+        "published": "2026-11-13T19:08:57+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang and the End of the Founder Fairy Tale",
+        "url": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
+        "normalized_url": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale",
+        "summary": "The former tech CEO is obsessed with the power of storytelling. But he hasn't spun his way out of his sex scandals.",
+        "source": "Wired AI",
+        "published": "2026-11-13T16:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
+        "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+        "normalized_url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back",
+        "summary": "Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out.",
+        "source": "Wired AI",
+        "published": "2026-11-13T11:45:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "How Microcredentials Help Engineers Build Trustworthy AI",
+        "url": "https://spectrum.ieee.org/microcredentials-trustworthy-ai",
+        "normalized_url": "https://spectrum.ieee.org/microcredentials-trustworthy-ai",
+        "summary": "Engineering teams are moving at breakneck speed to integrate artificial intelligence, but they are running into a formidable new barrier: compliance issues. Translating high-level AI ethics , governance , and auditing into daily operational workflows has become one of the industry’s toughest challenges. “AI ethics” refers to the principles developers use to govern and operate workflows. “Governance” refers to the rules and procedures an organization establishes for AI workflows and how they inte",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-11-13T19:00:03+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+        "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+        "normalized_url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights",
+        "summary": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
+        "source": "Ars Technica AI",
+        "published": "2026-11-13T16:26:32+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Fable 5.2 and Jagged AGI",
+        "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+        "normalized_url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+        "summary": "General, often expert, and sometimes jagged",
+        "source": "One Useful Thing (Mollick)",
+        "published": "2026-11-09T19:04:26+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.oneusefulthing.org/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: When you become the bottleneck for your AI agents, the PULL framework for PMs, product growth vs. growth marketing, boosting feedback response rates, and more",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
+        "summary": "Community Wisdom 305",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-14T21:15:46+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+        "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+        "normalized_url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+        "summary": "Watch now (34 mins) | 🎙️ Scott Farrar walks through the Claude Code and Obsidian system he built to track appliances, chase insurance quotes, and keep household projects moving",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-11T13:04:09+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "State of the tech job market: late 2026",
+        "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+        "normalized_url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+        "summary": "PMs are winning, engineers are plateauing, designers are hurting, and the biggest AI hiring boom isn’t in software",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-10T15:04:03+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Claude Fable 5.2 review: fast, creative, and finally not annoying",
+        "url": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
+        "normalized_url": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
+        "summary": "Watch now (25 mins) | 🎙️ My first-look at Fable 5.2: what it built for me, where it fell down, and whether it belongs in your daily AI stack",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-09T20:37:49+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: How this founder built a better Duolingo with Codex",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
+        "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-09T16:01:20+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
