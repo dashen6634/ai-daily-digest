@@ -1,0 +1,913 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T11:17:33.665223+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 49
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "ResWAM: Learning What Changes, Not What Stays, for World-Action Models",
+        "url": "https://huggingface.co/papers/2611.19559",
+        "normalized_url": "https://huggingface.co/papers/2611.19559",
+        "summary": "World-action models (WAMs) augment vision-language-action policies (VLAs) with future prediction so that the policy can anticipate how its actions will affect the physical world. Existing WAMs supervise complete future observations. However, observations typically change little over an action chunk, so the future loss is dominated by copying static background content rather than learning task-relevant robot and object motion, limiting policy learning. Moreover, existing WAMs rely on large video ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-14T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.19559"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Breath-Dx: A Time Series Classification Benchmark for Disease Screening with eNose",
+        "url": "https://huggingface.co/papers/2611.15348",
+        "normalized_url": "https://huggingface.co/papers/2611.15348",
+        "summary": "Electronic nose (eNose) technology offers a portable, non-invasive route for disease screening via exhaled breath analysis. However, progress in the field is hindered by the lack of systematic benchmarks that compare machine learning methods under realistic conditions, particularly sensor drift, a known but rarely quantified failure mode. Most existing studies rely on small, private datasets with inconsistent protocols, rendering results non-comparable and slowing progress. We introduce Breath-D",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-11T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.15348"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Weight-Space Programming Doesn't Need Transformers",
+        "url": "https://huggingface.co/papers/2611.22055",
+        "normalized_url": "https://huggingface.co/papers/2611.22055",
+        "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on multiple-choice questions, we task three frontier LLMs with either generating the weights of a fixed archite",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.22055"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Multi-Branch Transformer",
+        "url": "https://huggingface.co/papers/2611.19800",
+        "normalized_url": "https://huggingface.co/papers/2611.19800",
+        "summary": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shared initial layers, executes independently parameterized branches of sequential blocks in parallel, and fuses their outputs before shared final layers. At comparable training compute, we study three MB",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-15T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.19800"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding",
+        "url": "https://huggingface.co/papers/2611.20992",
+        "normalized_url": "https://huggingface.co/papers/2611.20992",
+        "summary": "Medical image understanding with vision-language models (VLMs) typically relies on autoregressively generating reasoning and answer tokens. These unnecessary tokens make the inference cost scale with the response length and force the answer to be parsed from free-form text, incurring avoidable latency and decision errors. To this end, we introduce MedJev, a system one vision-language decision model that maps medical images, questions, and candidate answers directly to decisions in a single multi",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.20992"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
+        "url": "https://huggingface.co/papers/2611.21099",
+        "normalized_url": "https://huggingface.co/papers/2611.21099",
+        "summary": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must close the loop on force beneath the model. Second, a frozen model cannot interpret raw force streams, so force must be returned in a form the model can reason about. Therefore, we present ForceHarnes",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.21099"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Abstention Direction in Large Language Models: Mechanistic Interpretability of Abstention Across Query Ambiguity, Knowledge Limits, and Safety Alignment",
+        "url": "https://huggingface.co/papers/2611.20441",
+        "normalized_url": "https://huggingface.co/papers/2611.20441",
+        "summary": "Abstention, the withholding of a response by a large language model (LLM) under uncertainty or safety risks, is essential for trustworthy models. The causes of abstention fall into three perspectives: ambiguity in the Query (Q), limits of Model Knowledge (MK), and misalignment with Human Values (HV). However, prior analyses of internal representations have focused on HV, using a refusal direction computed from harmful and harmless queries. No study has analyzed the three perspectives jointly. We",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.20441"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Inside the Trading Loop: Markets, Models, and Moves with LLM Agents",
+        "url": "https://huggingface.co/papers/2611.11657",
+        "normalized_url": "https://huggingface.co/papers/2611.11657",
+        "summary": "We built a hybrid multi-agent trading system that combines large language model (LLM) analysts with momentum-based portfolio construction and rule-based execution. Company-news and macroeconomic agents return structured reports to a coordinator that sets stock weights and cash reserves. We evaluate the portfolio engine using its broker-recorded paper account, which operated with deterministic fallbacks, and compare LLM-enabled configurations through retrospective replays. From March 11 to August",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-08T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.11657"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior",
+        "url": "https://huggingface.co/papers/2611.04395",
+        "normalized_url": "https://huggingface.co/papers/2611.04395",
+        "summary": "Fine-tuning data can include metadata that predicts the correct answer, such as a reward-model score or a quality label. We ask whether a model learns to rely on this metadata even when every training label is correct. We fine-tune 7-9B open-weight models from three families on multiple-choice questions in which (Reward: 5) always marks the correct option; when this annotation is moved to a wrong option at test time, models select that option on 97-100% of CommonsenseQA items. Removing it leaves",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-03T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.04395"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+        "url": "https://huggingface.co/papers/2611.08977",
+        "normalized_url": "https://huggingface.co/papers/2611.08977",
+        "summary": "Looping is a powerful inductive bias for reasoning. By repeatedly iterating a recurrent block, looped models can scale their effective depth and enable multi-step reasoning in latent space. However, existing looped models are not inherently guided by an explicit measure of progress, making it difficult to determine when to stop looping and how to improve upon the current state. To enable this, we introduce Energy-Based Reasoners (EBRs), which learn an energy function over latent reasoning states",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-06T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.08977"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Flexible Multi-Stack Super-Resolution of Clinical Brain MRI Using Hetero-Orientation Variational Encoding: Expert Reader Evaluation in a Nigerian Cohort",
+        "url": "https://huggingface.co/papers/2611.21412",
+        "normalized_url": "https://huggingface.co/papers/2611.21412",
+        "summary": "High-resolution brain MRI is important for neuroradiological assessment, yet routine clinical protocols often rely on fast, anisotropic 2D acquisitions, particularly in resource-constrained settings. These acquisitions may differ in orientation, alignment and anatomical coverage, resulting in partially overlapping image stacks. Existing learning-based super-resolution methods typically rely on single, under-constrained inputs or fixed multi-stack configurations with idealised acquisition geometr",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.21412"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+        "url": "https://huggingface.co/papers/2611.17610",
+        "normalized_url": "https://huggingface.co/papers/2611.17610",
+        "summary": "Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This practice confounds coordination with sample multiplicity and inference compute. We synthesize nine primary empirical evaluations comprising 516 unique multi-agent configurations organized along a resource vector R with six dimensions and a baseline ladder with four categories. Against baselines with a single pass (Category A), multi-agent accuracy differences are negative overa",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-13T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.17610"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Marimba: A System One Model for Speech",
+        "url": "https://huggingface.co/papers/2611.18330",
+        "normalized_url": "https://huggingface.co/papers/2611.18330",
+        "summary": "Speech applications require decisions about term presence, turn completion, and language within an audio window. We present Marimba, an interface for typed speech decisions built on frozen Qwen3-ASR 0.6B features. Lexical questions use zero-shot scoring of ASR transcripts; non-lexical questions use a question-conditioned head and a separate layer-18 turn-end readout. Language identification uses the ASR model's own language scores. On private conversational test sets, decoder AUROC is 0.80-0.92;",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-13T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.18330"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures",
+        "url": "https://huggingface.co/papers/2611.20595",
+        "normalized_url": "https://huggingface.co/papers/2611.20595",
+        "summary": "LLM agents answer questions by calling APIs and trusting the results. An API can fail silently. It ignores part of a request, such as a misnamed filter, yet returns HTTP 200 and a plausible but wrong result. Current fixes, such as checklists, reviewer models and LLM judges, ask the model to catch it. But models often see the problem and answer anyway. We present SilentGuard, which moves the decision from the model to the harness running tool calls. It tests each result against invariants that an",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.20595"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "When Expert Disagreement Hurts: Prestige and Selectivity in LLM Decision Revision",
+        "url": "https://huggingface.co/papers/2611.16694",
+        "normalized_url": "https://huggingface.co/papers/2611.16694",
+        "summary": "When language models revise a decision after another agent disagrees, neither reversal counts nor final accuracy shows whether they are fixing mistakes or abandoning correct answers. We introduce a controlled two-pass audit that holds the question, the evidence, and the model's initial answer fixed and varies only the revision context: neutral reflection, anonymous disagreement, or disagreement attributed to a domain expert. For binary decisions the accounting is exact: revision raises accuracy ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-12T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.16694"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+        "url": "https://huggingface.co/papers/2611.21605",
+        "normalized_url": "https://huggingface.co/papers/2611.21605",
+        "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward as reading. We propose Cross-Input Relative Policy Optimization (CrossRPO), which trains agents on contrast sets. A contrast set asks one question about several versions of an image that differ only i",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.21605"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "GPBam: A Retrieval-Aware German Public Law Exam Benchmark",
+        "url": "https://huggingface.co/papers/2611.18981",
+        "normalized_url": "https://huggingface.co/papers/2611.18981",
+        "summary": "Legal reasoning in civil-law systems is not rule-lookup: the German state examination asks for a structured opinion (Gutachten) that names the governing norms, applies them to the facts, and argues to a conclusion. We introduce GPBam (German Public Law Bar-style Exam), 81 public-law examination cases with reference solutions, paired with a recitation task over 200 statutory provisions. Drawn from state examination preparation, the cases are broad and rarely repeat, and are not publicly available",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-13T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.18981"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
+        "url": "https://huggingface.co/papers/2611.09825",
+        "normalized_url": "https://huggingface.co/papers/2611.09825",
+        "summary": "The key-value (KV) cache dominates memory capacity and bandwidth in long-context LLM serving. While 4-bit microscaling formats (NVFP4, MXFP4) shrink the cache and run attention on FP4 Tensor Cores, a fundamental gap remains between algorithmic quantization and system-aware acceleration: existing FP4 KV systems use vanilla quantization that causes severe accuracy drops, whereas accuracy-oriented 4-bit algorithms rely on vector codebooks whose lookup overhead degrades decoding throughput. We prese",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-06T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2611.09825"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Termination Lag: Coding Agents Solve Early but Stop Late",
+        "url": "https://huggingface.co/papers/2611.14960",
+        "normalized_url": "https://huggingface.co/papers/2611.14960",
+        "summary": "Coding agents can solve a task well before they stop working on it. We characterize termination lag--the number of steps between an agent's first correct patch and the end of its run--across five models, two agent frameworks, and three SWE-bench datasets by recording and testing every distinct repository patch generated during execution. Our analysis reveals that 38--82% of successful runs achieve a correct solution on their initial source-code edit. However, agents continue to expend substantia",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-11T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.14960"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "JEPA4R: Embodied JEPA World Models with 4D Point Planning",
+        "url": "https://huggingface.co/papers/2611.19771",
+        "normalized_url": "https://huggingface.co/papers/2611.19771",
+        "summary": "Joint-embedding predictive architecture (JEPA) world models predict future embeddings instead of pixels and plan in latent space. Two challenges remain: 2D images leave the metric geometry that manipulation acts on implicit and entangled with appearance, and what these models imagine stays hidden, as they are mostly judged in simulation by short-horizon latent planning. We present JEPA4R, a JEPA world model that observes single-depth-camera point clouds, predicts and plans in their latent space,",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-15T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.19771"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "黄仁勋不再沉默：我愿重掌英伟达！董事会：不考虑",
+        "url": "https://www.qbitai.com/2026/11/510726.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/510726.html",
+        "summary": "英伟达公布了老黄离职后的首份财报",
+        "source": "量子位",
+        "published": "2026-11-18T01:03:42+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "GPT-6.2 Astra和Sol王炸双发！3D又危了",
+        "url": "https://www.qbitai.com/2026/11/510707.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/510707.html",
+        "summary": "Sol逼近旗舰性能",
+        "source": "量子位",
+        "published": "2026-11-18T00:49:14+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "并购完成，李飞飞正式率队加入AMD！苏妈亲自欢迎",
+        "url": "https://www.qbitai.com/2026/11/510695.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/510695.html",
+        "summary": "82亿美元股票，46天闪电交割",
+        "source": "量子位",
+        "published": "2026-11-17T14:15:20+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "李沐加盟的Aimotion，是一家什么AI公司？",
+        "url": "https://www.qbitai.com/2026/11/510688.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/510688.html",
+        "summary": "瞄准「产业级世界模型」",
+        "source": "量子位",
+        "published": "2026-11-17T11:40:37+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "材料科学智能体MatOS正式开源！大幅提高材料研发任务成功率",
+        "url": "https://www.qbitai.com/2026/11/510652.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/510652.html",
+        "summary": "筛材料、找配方、开发新模型…拿下多项科研任务",
+        "source": "量子位",
+        "published": "2026-11-17T06:09:40+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "真勇啊！00后团队参加具身挑战赛，仅48小时竟敢从零手搓数据，还夺冠了！",
+        "url": "https://www.qbitai.com/2026/11/510610.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/510610.html",
+        "summary": "斩获80000元奖金",
+        "source": "量子位",
+        "published": "2026-11-17T04:35:03+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "奥特曼共情黄仁勋，“英雄也有缺陷”，但支持他重返英伟达CEO嘛…",
+        "url": "https://www.qbitai.com/2026/11/510592.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/510592.html",
+        "summary": "奥特曼首谈黄仁勋离职",
+        "source": "量子位",
+        "published": "2026-11-17T02:33:13+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "物理AI的强化学习仿真环境来了，光轮智能推出RoboFinals RL Envs",
+        "url": "https://www.qbitai.com/2026/11/510561.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/510561.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-11-17T02:03:22+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准",
+        "url": "https://www.qbitai.com/2026/11/510542.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/510542.html",
+        "summary": "具身智能的真正价值是“把人的经验、技能复刻出来”",
+        "source": "量子位",
+        "published": "2026-11-16T10:57:31+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "2026甲子引力年终盛典即将启幕，AI的无限游戏进入「第二序章」｜甲子引力",
+        "url": "https://www.qbitai.com/2026/11/510526.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/510526.html",
+        "summary": "12月1日，细数AI的未竟之问。",
+        "source": "量子位",
+        "published": "2026-11-16T08:45:17+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+        "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+        "normalized_url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
+        "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-18T01:44:21+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia promises that revenue will keep soaring — for now",
+        "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+        "normalized_url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now",
+        "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-18T00:16:50+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+        "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+        "normalized_url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster",
+        "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+        "source": "TechCrunch AI",
+        "published": "2026-11-17T23:37:48+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+        "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+        "normalized_url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit",
+        "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-17T23:04:35+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+        "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+        "normalized_url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo",
+        "summary": "The former CEO offered to return to his top role at the company after his resignation last week.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-17T22:42:27+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+        "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+        "normalized_url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
+        "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-17T22:29:05+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "SEC reportedly investigating Nvidia amid Huang exit",
+        "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+        "normalized_url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit",
+        "summary": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-17T21:48:07+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google joins the tech outage trend by announcing it’s not having one",
+        "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+        "normalized_url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one",
+        "summary": "With tech outages seemingly everywhere, Google took the unusual step of announcing that Gmail is working just fine, actually.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-17T21:34:50+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Model ML raises $250M to automate investment banking grunt work",
+        "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+        "normalized_url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+        "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-17T19:32:11+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+        "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+        "normalized_url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+        "summary": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-17T19:02:20+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Satya Nadella says he’s AGI-pilled now",
+        "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+        "normalized_url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+        "summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI-pilled in the sense that at an economy level, what is the political economy's organization around AGI?\" he asked at […]",
+        "source": "The Verge AI",
+        "published": "2026-11-17T23:41:18+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+        "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+        "normalized_url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+        "summary": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return. On the earnings call accompanying the release, board chair Harvey Jones kicked things off by saying the board \"does not intend to reinstate Huang […]",
+        "source": "The Verge AI",
+        "published": "2026-11-17T21:40:59+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+        "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+        "normalized_url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+        "summary": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent. In the AI-generated clip, Wang, Meta CEO Mark Zuckerberg, OpenAI CEO Sam Altman, and […]",
+        "source": "The Verge AI",
+        "published": "2026-11-17T21:00:55+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+        "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+        "normalized_url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+        "summary": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US […]",
+        "source": "The Verge AI",
+        "published": "2026-11-17T18:58:01+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The DOJ says it’s investigating Megaspeed",
+        "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+        "normalized_url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+        "summary": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year. \"While we don't typically comment on ongoing investigations, it is in the public interest to provide the facts and address […]",
+        "source": "The Verge AI",
+        "published": "2026-11-17T16:19:03+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
+        "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
+        "normalized_url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
+        "summary": "Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement reported on by The Wall Street Journal. \"Since my departure, I've seen an outpouring of calls from Nvidia's employees, investors, business partners, and customers for me […]",
+        "source": "The Verge AI",
+        "published": "2026-11-17T16:09:57+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+        "url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+        "normalized_url": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+        "summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result of a plot against the former CEO. At the […]",
+        "source": "The Verge AI",
+        "published": "2026-11-16T23:17:34+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "California sues OpenAI over rogue AI hacking incidents",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+        "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the […]",
+        "source": "The Verge AI",
+        "published": "2026-11-16T20:46:01+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+        "summary": "OpenAI CEO Sam Altman is once again addressing his controversial comments on PC RAM purchases. \"I want to be clear, I want people to have a lot of RAM, I think everybody should be able to buy a lot of RAM for their own computer,\" Altman said today. \"I think the home tinkering is great.\" […]",
+        "source": "The Verge AI",
+        "published": "2026-11-16T20:41:28+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
+        "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+        "normalized_url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+        "summary": "Constellation Energy - America's largest operator of nuclear power plants - does not share Wall Street's concerns that the Democrats will slow down data center development. On the company's third-quarter earnings call last week, CEO Joe Dominguez was, for lack of a better word, unbothered as he addressed the blue wave. \"I do think we've […]",
+        "source": "The Verge AI",
+        "published": "2026-11-16T20:29:37+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang",
+        "url": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/",
+        "normalized_url": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang",
+        "summary": "Despite pressure from President Trump, Elon Musk, and Silicon Valley executives, Nvidia’s board says it “does not intend” to reinstate the company’s ousted CEO.",
+        "source": "Wired AI",
+        "published": "2026-11-17T22:19:19+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
+        "url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
+        "normalized_url": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue",
+        "summary": "The French CEO of Hugging Face, a mega-hub of open-source AI software, says the attack by OpenAI models earlier this year proved one thing: Humanity can’t let AI be controlled by the few.",
+        "source": "Wired AI",
+        "published": "2026-11-17T11:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The Apple Watch’s Live Rewind Can Record and Rewind Spoken Conversations. It’s Pretty Awkward",
+        "url": "https://www.wired.com/story/apple-watch-audio-intelligence-live-rewind-siri-recap/",
+        "normalized_url": "https://www.wired.com/story/apple-watch-audio-intelligence-live-rewind-siri-recap",
+        "summary": "Live Rewind and Siri Recap can transcribe missed moments and summarize your day—if you don’t mind a little social clumsiness.",
+        "source": "Wired AI",
+        "published": "2026-11-17T11:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI Told These Ex-Google Guys How to Build a Billion-Dollar Weapons Business",
+        "url": "https://www.wired.com/story/ai-told-these-ex-google-guys-how-to-build-a-billion-dollar-weapons-business/",
+        "normalized_url": "https://www.wired.com/story/ai-told-these-ex-google-guys-how-to-build-a-billion-dollar-weapons-business",
+        "summary": "Google and Apple alumni Chad Steelberg and Andy Baynes are applying what they learned running software companies and designing iPhones to manufacturing lethal munitions.",
+        "source": "Wired AI",
+        "published": "2026-11-17T10:47:45+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang Is Gone. Now What?",
+        "url": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
+        "normalized_url": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang",
+        "summary": "After a shocking downfall, Nvidia’s CEO is out of a job. WIRED’s Lauren Goode explains what that means for the world’s most critical chip company, the AI industry, and Jensen Huang himself.",
+        "source": "Wired AI",
+        "published": "2026-11-16T16:12:51+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia Was Already in Trouble Before the Jensen Huang Mess",
+        "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+        "normalized_url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess",
+        "summary": "AI competitors are catching up to Nvidia—and poised to take advantage of the chaos.",
+        "source": "Wired AI",
+        "published": "2026-11-16T11:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+        "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+        "normalized_url": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+        "summary": "Policymakers, technologists, and members of the public have raised concerns about the harm AI’s rapid advancement might cause to society. Their concerns include bias, data privacy violations, the spread of misinformation, and losing control of AI agents. Those issues are relatively new to many people, but the IEEE Standards Association has been working for the past decade on ways to prioritize the responsible development of AI systems. In 2016 IEEE SA launched the IEEE Global Initiative for Ethi",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-11-17T19:00:03+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI Is Giving Optical Computing Another Shot",
+        "url": "https://spectrum.ieee.org/optical-computing-ai",
+        "normalized_url": "https://spectrum.ieee.org/optical-computing-ai",
+        "summary": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research. Over the past few years, though, optical computing has emerged as a fast-growing industry: Market valuation of companies in this sector now totals US $2.22 billion, up from $0.4 billion in 2022. One projection suggests that the market will continue to grow exponentially in the coming years. The reason for this sudden surge will surprise no one: AI. In particular,",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-11-17T14:00:03+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Understand How Satellite Links Shape IoT Device Design and Testing",
+        "url": "https://content.knowledgehub.wiley.com/5g-nr-ntn-design-and-test-challenges-for-satellite-connected-iot/",
+        "normalized_url": "https://content.knowledgehub.wiley.com/5g-nr-ntn-design-and-test-challenges-for-satellite-connected-iot",
+        "summary": "How 3GPP Releases 15, 16, and 17 brought satellite access into 5G NR, NB-IoT, and eMTC. Why satellite links suit IoT devices that send small, infrequent, and delay-tolerant messages. Where non-terrestrial networks (NTN) add value, including asset tracking, agriculture, public safety, and offshore operations. How power efficiency, RF signaling, and antenna design shape satellite-connected device development. Why long propagation delay, Doppler shift, and intermittent coverage make static test met",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-11-17T11:00:04+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI Companies Develop Decision Models to Avoid Hallucinations",
+        "url": "https://spectrum.ieee.org/typesafe-ai-hallucination-decision-models",
+        "normalized_url": "https://spectrum.ieee.org/typesafe-ai-hallucination-decision-models",
+        "summary": "On 15 September, a startup called TypeSafe AI released a new AI model called Jev . The company’s broad, disruptive claims about Jev that turned heads: The company claimed that Jev, which it calls a “System One model” is cheaper, faster, and can’t hallucinate. TypeSafe AI’s marketing is an obvious shot across the bow of other AI companies and their large language models (LLMs), which, despite their capabilities in math and coding, are infamous for their cost and tendency to “hallucinate” factuall",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-11-16T17:00:54+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?",
+        "url": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
+        "normalized_url": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
+        "summary": "This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and Meta, among others. Based on initial validation, all 28 findings are classified as zero-day vulnerabilities. The count may change following vendor and vulnerability-authority review, and some findings do not yet have ",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-11-16T10:00:01+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
+        "url": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
+        "normalized_url": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites",
+        "summary": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
+        "source": "Ars Technica AI",
+        "published": "2026-11-17T22:32:16+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+        "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+        "normalized_url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+        "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+        "source": "Ars Technica AI",
+        "published": "2026-11-17T14:00:29+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
+        "url": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
+        "normalized_url": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day",
+        "summary": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
+        "source": "Ars Technica AI",
+        "published": "2026-11-16T20:37:47+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
+        }
+      },
+      {
+        "category": "news",
+        "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
+        "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+        "normalized_url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+        "summary": "Over $40,000 in value, exclusively for Lenny’s Newsletter subscribers",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-17T18:02:02+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+        "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-16T16:02:55+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "How I fight token fraud as a solo founder",
+        "url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+        "summary": "Watch now (40 mins) | 🎙️ After losing tens of thousands of dollars to token fraud, I walk through six attack patterns, the defenses I built, and why I killed free trials",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-16T13:04:09+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
+        "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+        "normalized_url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+        "summary": "Listen now | Mona Sarantakos on going from a weekend with OpenClaw to shipping the fastest-growing consumer AI product in history",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-15T13:31:28+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: When you become the bottleneck for your AI agents, the PULL framework for PMs, product growth vs. growth marketing, boosting feedback response rates, and more",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
+        "summary": "Community Wisdom 305",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-14T21:15:46+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
