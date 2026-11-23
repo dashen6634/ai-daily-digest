@@ -1,0 +1,679 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T10:11:51.964393+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 31
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "Time Series Structure Learning with Local Causal Parent Discovery",
+        "url": "https://huggingface.co/papers/2611.26232",
+        "normalized_url": "https://huggingface.co/papers/2611.26232",
+        "summary": "Learning and inference on time series can pose significant statistical challenges, including autocorrelated observations, distribution shift over time, and the curse of dimensionality. These challenges complicate the practical application of causal discovery algorithms, which already suffer from high computational and sample complexity in the general case. To mitigate these issues, this work introduces Iterative Temporal Parent Discovery (ITPD): a sound and complete constraint-based procedure fo",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.26232"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Teaching Vision-Language-Action Models to Stop Safely",
+        "url": "https://huggingface.co/papers/2611.26239",
+        "normalized_url": "https://huggingface.co/papers/2611.26239",
+        "summary": "Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physical response remain challenging. Our evaluation reveals that policies which suppress a task from its initial state can still complete it when taking over partway through execution. Even when the task remains unfinished, th",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.26239"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "PAD: Policy-Aware Data Valuation for Autonomous Driving",
+        "url": "https://huggingface.co/papers/2611.25604",
+        "normalized_url": "https://huggingface.co/papers/2611.25604",
+        "summary": "End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarantee proportional gains. However, additional data do not guarantee better policies: a demonstration that benefits one planner may be redundant or harmful to another. Existing curation methods typically infer data value from intrinsic sample properties or training-dependent proxies that do not measure downstream policy utility. To address this, we introduce Policy-Aware Data Valuat",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2611.25604"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Lang-SVG: Hierarchical Image Vectorization with Language Priors",
+        "url": "https://huggingface.co/papers/2611.15941",
+        "normalized_url": "https://huggingface.co/papers/2611.15941",
+        "summary": "Image vectorization reconstructs raster images as compact scalable vector graph- ics (SVG), providing a structured and editable code representation of images. However, most existing vectorization methods optimize for pixel-level render- ing fidelity, often producing SVGs that lack alignment with human-perceived object-part hierarchies, making them difficult to manipulate. To address this, we propose Lang-SVG, which introduces an explicit tree structure to organize SVG primitives with semantic la",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-11T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2611.15941"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
+        "url": "https://huggingface.co/papers/2611.25200",
+        "normalized_url": "https://huggingface.co/papers/2611.25200",
+        "summary": "Experimentation teams must decide which proposed website changes to test with live traffic. We evaluated whether forecasts from simulated shoppers could inform that choice. We screened 412 historical website A/B tests and evaluated four systems on the 318 that ran longer than 21 days. Each system predicted an original win, a variant win, or an inconclusive result. Page roles were masked and recorded outcomes were withheld during inference. Squoosh UX-1, a model fine-tuned on human browsing data,",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-18T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.25200"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+        "url": "https://huggingface.co/papers/2611.26627",
+        "normalized_url": "https://huggingface.co/papers/2611.26627",
+        "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations. To isolate how much of these gains an input-independent shift explains, we probe each RL-tuned model with a deliberately sim",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.26627"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "In Situ Training of Optical Neural Networks by Coding Agents",
+        "url": "https://huggingface.co/papers/2611.23875",
+        "normalized_url": "https://huggingface.co/papers/2611.23875",
+        "summary": "Optical neural networks promise fast, energy-efficient computing, but every device departs from its design and must be trained with the hardware. In situ training relies on an expert-built calibrated digital model of each device or on gradient-free trial and error. Coding agents, large language models that write and run programs, have shown an emergent ability to understand and edit the weights of digital neural networks. Here we introduce optics as code, a method in which a coding agent trains ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-18T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.23875"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Language Models Can Rewrite Their Own Weights",
+        "url": "https://huggingface.co/papers/2611.21885",
+        "normalized_url": "https://huggingface.co/papers/2611.21885",
+        "summary": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much smaller one. We ask whether a model can rewrite its own weights to make itself better, and find that it can, by its own reasoning, with no gradients and no training; we call this self-rewriting. Given its weights, graded answers and the ability to ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.21885"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "System 1 agents: a method for local, reliable and fast agentic AI",
+        "url": "https://huggingface.co/papers/2611.21053",
+        "normalized_url": "https://huggingface.co/papers/2611.21053",
+        "summary": "Agentic artificial intelligence could automate analyses of sensitive clinical data, but current agents depend on large language models (LLMs). Cloud LLMs expose patient data. Local LLMs hallucinate, and an invented value in a tool call propagates through every later step. Here we present a method to build System 1 agents: local agents that call tools without generating text. A deterministic compiler turns each tool's schema and the request into multiple-choice questions whose options come from t",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.21053"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
+        "url": "https://huggingface.co/papers/2611.25567",
+        "normalized_url": "https://huggingface.co/papers/2611.25567",
+        "summary": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover. This requires judging actions against task instructions as the video unfolds, identifying the attempted step, locating it in time, and assessing its execution. Existing online detectors do not use the instruction text, while instruction-conditioned methods operate offline. In this paper, we study online, instruction-conditioned mistake detection in egocentric v",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2611.25567"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "AURA: AUdio-dRiven streaming Avatar",
+        "url": "https://huggingface.co/papers/2611.26540",
+        "normalized_url": "https://huggingface.co/papers/2611.26540",
+        "summary": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generation are required properties. AURA generates video chunk by chunk with a rolling KV cache, requiring only the audio of the current chunk to start generating, rather than a multi-secon",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.26540"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+        "url": "https://huggingface.co/papers/2611.26211",
+        "normalized_url": "https://huggingface.co/papers/2611.26211",
+        "summary": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference. Existing speculative methods combine their strengths through fast draft generation and selective target regeneration guided by rewards on decoded frames. However, verification covers only the external scorer's evaluation dimensions and adds decoding and scoring costs. Moreover, these scores provide no correction, requiring costly target regene",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.26211"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
+        "url": "https://huggingface.co/papers/2611.26511",
+        "normalized_url": "https://huggingface.co/papers/2611.26511",
+        "summary": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels. Despite their architectural differences, these methods all share the same premise: geometry is first compressed into a latent space and only then modeled by the generator. We take a different route and propose Direct3D-V3, a latent-free diffusion ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.26511"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+        "url": "https://huggingface.co/papers/2611.26450",
+        "normalized_url": "https://huggingface.co/papers/2611.26450",
+        "summary": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero training examples and zero runtime hooks, while bounding per-layer normalization drift and preserving natural-language (NL) competence. Our construction combines three analytical mechanisms: (1) two-laye",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.26450"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Phantom Success, Silent Failure: Auditing the Success Checkers of Simulated Manipulation Benchmarks",
+        "url": "https://huggingface.co/papers/2611.25179",
+        "normalized_url": "https://huggingface.co/papers/2611.25179",
+        "summary": "Simulated manipulation benchmarks measure policy performance using hand-written success checkers that label each episode as a success or failure. Passing an expert demonstration shows that a checker accepts one way of completing the task. Learned policies, however, may stop after partial progress or complete the task in a different way. A checker may then accept an incomplete execution (phantom success) or reject an execution that satisfies the instruction (silent failure). In this paper, we int",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-18T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.25179"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Do Probing and Steering Favor the Same Directions Within and Across Language Models?",
+        "url": "https://huggingface.co/papers/2611.19499",
+        "normalized_url": "https://huggingface.co/papers/2611.19499",
+        "summary": "A direction in a language model's hidden state can be used to probe whether a concept is present or to steer the model toward it. Although probe directions are often reused for steering, the direction that best detects a concept need not be the one that best changes it. We study this distinction in three instruction-tuned models from different families. We construct a one-parameter family of directions ranging from a covariance-adjusted discriminant to the mean difference, and evaluate probing a",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-14T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.19499"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
+        "url": "https://huggingface.co/papers/2611.26286",
+        "normalized_url": "https://huggingface.co/papers/2611.26286",
+        "summary": "Peer review relies on several readers finding different problems. We measure critique overlap in conference and journal reviews. At ICLR, measured overlap rose from 12.0% in 2026 to 21.3% in 2027, in reviews from the same stage of the review process, with year-on-year rises at NeurIPS, ICML and the F1000 and PLOS journals. A third ICLR review of a paper added 5.46 new problems to the other two in 2027, against 6.12 in 2026. We apply MELD, a detector of LLM-generated text, to all reviews. Within ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2611.26286"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
+        "url": "https://huggingface.co/papers/2611.26408",
+        "normalized_url": "https://huggingface.co/papers/2611.26408",
+        "summary": "It has been demonstrated that, in certain settings, large language models can perform weight-space programming to directly modify the weights of neural networks. However, it is unknown how dedicated training of these networks can contribute to the successes of weight-space programming. We present a benchmark of LLM-driven weight-space programming on vision models, in which five LLMs edit convolutional networks and vision transformers on relabeling and error-correction tasks on Waterbirds, CIFAR-",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.26408"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
+        "url": "https://huggingface.co/papers/2611.25935",
+        "normalized_url": "https://huggingface.co/papers/2611.25935",
+        "summary": "Facial deepfake detectors are usually trained on blending fakes, where a generated face is pasted back into a real frame. Recent generators synthesize the entire face and leave no traces of blending. On a benchmark of 19 datasets released from 2019 to 2026, the best prior facial deepfake detector reaches a mean AUROC of 96.2% on ten blending datasets, but none exceeds 78.1% on five datasets of entire face synthesis (EFS). AI-generated content (AIGC) detectors do not close this gap. We propose Tw",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.25935"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
+        "url": "https://huggingface.co/papers/2611.26073",
+        "normalized_url": "https://huggingface.co/papers/2611.26073",
+        "summary": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. To support such decisions, the Alternative Annotator Test (Alt-Test) was introduced for dense settings where all items are annotated by the same annotators. However, in many large-scale annotation settings, items are annotated by different subsets of annotators. We therefore propose the Alternative Annotator Test with Resa",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.26073"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖",
+        "url": "https://www.qbitai.com/2026/11/511904.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/511904.html",
+        "summary": "用葡萄糖发电控制血糖。",
+        "source": "量子位",
+        "published": "2026-11-22T06:21:47+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
+        "url": "https://www.qbitai.com/2026/11/511870.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/511870.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-11-22T06:03:54+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI给乐队现场搓MV，这是黑客松还是音乐节啊",
+        "url": "https://www.qbitai.com/2026/11/511855.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/511855.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-11-21T14:14:09+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "中国计算，走出新的登峰之路",
+        "url": "https://www.qbitai.com/2026/11/511849.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/511849.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-11-21T14:09:59+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准",
+        "url": "https://www.qbitai.com/2026/11/511841.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/511841.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-11-21T11:40:11+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "全网疯传！Grok一姐教你如何月提交3000个PR",
+        "url": "https://www.qbitai.com/2026/11/511830.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/511830.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-11-21T11:34:18+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+        "url": "https://www.qbitai.com/2026/11/511791.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/511791.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-11-21T11:24:29+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
+        "url": "https://www.qbitai.com/2026/11/511779.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/511779.html",
+        "summary": "还实现可变形物体操控全球首通",
+        "source": "量子位",
+        "published": "2026-11-21T06:35:59+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
+        "url": "https://www.qbitai.com/2026/11/511570.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/511570.html",
+        "summary": "专为本地部署而生",
+        "source": "量子位",
+        "published": "2026-11-21T06:32:31+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+        "url": "https://www.qbitai.com/2026/11/511757.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/511757.html",
+        "summary": "还透露了不少训练背后的秘诀",
+        "source": "量子位",
+        "published": "2026-11-21T06:30:55+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Python 潮流周刊#176：Python 之禅作者 Tim Peters 逝世、微软官方包两版遭投毒",
+        "url": "https://sspai.com/post/119419",
+        "normalized_url": "https://sspai.com/post/119419",
+        "summary": "本周刊由 Python猫 出品，精心筛选国内外的 400+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 去专栏阅读全文： 全文链接 分享了 12 篇文章，12 个开源项目，1 则音视频，2 则热门讨论 以下是本期标题摘要： 🦄文章&教程 ① 微软官方包 agent-framework 连续两版遭投毒 ② 哪些 PyPI 项目会因标准库移除在 Python 3.12/3.13 报错 ③ CPython 是如何处理 Python 源码的 ④ 用 pdb 走一遍 asyncio 内部机制 ⑤ ty 如何判定变量未被使用 ⑥ Wagtail 8.1 为何弃 DRF 选 Django Ninja ⑦ 用子协议而非 URL 传递 JWT 鉴权 Django Channels WebSocket ⑧ Django 与 Celery 跑 Playwright 截图 ⑨ 如何在一台服务器上部署多个 Django 项目 ⑩ 用 Python 接管记账，AI 只管读 PDF ⑪ 我如何管理我的智",
+        "source": "SSPAI AI",
+        "published": "2026-11-23T00:39:21+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
+        }
+      },
+      {
+        "category": "news",
+        "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+        "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+        "normalized_url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+        "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-23T01:25:53+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+        "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+        "normalized_url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development",
+        "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-22T21:14:07+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Why data centers are at the center of the Big Tech backlash",
+        "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+        "normalized_url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash",
+        "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+        "source": "TechCrunch AI",
+        "published": "2026-11-22T18:08:43+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+        "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+        "normalized_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+        "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-21T21:37:10+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "A tale of two Nvidias",
+        "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+        "normalized_url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias",
+        "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-21T21:07:42+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Here are the top AI agents that can live in your text messages",
+        "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+        "normalized_url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+        "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-21T17:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+        "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+        "normalized_url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+        "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-21T16:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "We haven’t seen the last of the major tech outages",
+        "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+        "normalized_url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+        "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be […]",
+        "source": "The Verge AI",
+        "published": "2026-11-22T22:48:02+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+        "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+        "normalized_url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+        "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to […]",
+        "source": "The Verge AI",
+        "published": "2026-11-22T17:25:20+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The vibe-coding revolution is coming to all the gadgets",
+        "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+        "normalized_url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+        "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not […]",
+        "source": "The Verge AI",
+        "published": "2026-11-22T13:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The UN fails to agree on rules regulating ‘killer robots’",
+        "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+        "normalized_url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+        "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the […]",
+        "source": "The Verge AI",
+        "published": "2026-11-21T20:03:37+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Can Anthropic afford to put safety first?",
+        "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+        "normalized_url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+        "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to […]",
+        "source": "The Verge AI",
+        "published": "2026-11-21T15:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+        "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+        "normalized_url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+        "summary": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part of Chess's new Classic Games platform, which is launching […]",
+        "source": "The Verge AI",
+        "published": "2026-11-21T14:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Banks Have Had It Up to Here With Your AI Agent",
+        "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+        "normalized_url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents",
+        "summary": "Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem.",
+        "source": "Wired AI",
+        "published": "2026-11-22T11:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The Outages Are Just Getting Started",
+        "url": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+        "normalized_url": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos",
+        "summary": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell.",
+        "source": "Wired AI",
+        "published": "2026-11-21T13:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+        "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+        "normalized_url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+        "summary": "Sherif Mansour on why PMs are thriving in the AI era, the artist PM advantage, and why juniors are your secret weapon now",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-22T13:31:53+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+        "summary": "Community Wisdom 306",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-21T16:49:56+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
+        "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+        "normalized_url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+        "summary": "Over $40,000 in value, exclusively for Lenny’s Newsletter subscribers",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-17T18:02:02+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+        "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-16T16:02:55+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "How I fight token fraud as a solo founder",
+        "url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+        "summary": "Watch now (40 mins) | 🎙️ After losing tens of thousands of dollars to token fraud, I walk through six attack patterns, the defenses I built, and why I killed free trials",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-16T13:04:09+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
