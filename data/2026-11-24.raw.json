@@ -1,0 +1,822 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T13:43:31.644157+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 42
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation",
+        "url": "https://huggingface.co/papers/2611.27689",
+        "normalized_url": "https://huggingface.co/papers/2611.27689",
+        "summary": "Vision-language model (VLM)-based agents offer a promising approach to robotic manipulation, yet remain limited by inadequate memory organization, uncertain failure attribution, and limited reuse of execution experience. We propose Embodied-Harness, a dual-agent framework that improves manipulation by refining the execution harness without updating model parameters. The Actor interacts with the environment through a robot-control interface, while the Reflector converts execution evidence into re",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.27689"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
+        "url": "https://huggingface.co/papers/2611.30013",
+        "normalized_url": "https://huggingface.co/papers/2611.30013",
+        "summary": "Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and trajectory constraints. With large language models, we systematically compare th",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.30013"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Fast-JEPA: Advancing the Success-Latency Frontier for Latent World Models",
+        "url": "https://huggingface.co/papers/2611.25927",
+        "normalized_url": "https://huggingface.co/papers/2611.25927",
+        "summary": "Latent world models predict the outcomes of action sequences, but comparing candidate plans through recursive rollout remains expensive at test time. We introduce Fast-JEPA, a latent world model planning framework that advances the success-latency Pareto frontier of predictive search. Fast-JEPA reorganizes predictive computation to support effective action-sequence search at low planning cost. It constructs a goal-directed plan to guide search and directly predicts the outcomes of complete candi",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.25927"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+        "url": "https://huggingface.co/papers/2611.29897",
+        "normalized_url": "https://huggingface.co/papers/2611.29897",
+        "summary": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present Motion Mamba 2.0, a Mamba-based root-body diffusion architecture that integrates loc",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.29897"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Beyond Attention Maps: Understanding and Improving Medical MLLMs via Visual Values",
+        "url": "https://huggingface.co/papers/2611.29361",
+        "normalized_url": "https://huggingface.co/papers/2611.29361",
+        "summary": "Current MLLM methods largely focus on whether models attend to the right visual regions, implicitly treating spatial attention map as the primary key of effective visual perception. To examine this assumption, we introduce a medical VQA dataset with paired non-contrast (NC) and contrast-enhanced (CE) images that share corresponding anatomy while providing different cues. We show that this view is incomplete: across paired NC and CE medical images, MLLMs often exhibit similar attention patterns d",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.29361"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "SAVIOR: Sample-efficient Adaptation of Vision-Language Models for OCR Representation",
+        "url": "https://huggingface.co/papers/2611.27319",
+        "normalized_url": "https://huggingface.co/papers/2611.27319",
+        "summary": "Optical Character Recognition (OCR) pipelines and vision-language models exhibit high accuracy on standard OCR and document-understanding benchmarks, yet they systematically underperform on document patterns that are operationally critical in financial workflows. These patterns include vertical or rotated text, logo-embedded vendor names, fine-print regulatory clauses, degraded scans, and complex multi-column layouts. While underrepresented in public datasets, they constitute a substantial porti",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.27319"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "GameAnything: From Any Inspirations to Playable Game Worlds",
+        "url": "https://huggingface.co/papers/2611.29238",
+        "normalized_url": "https://huggingface.co/papers/2611.29238",
+        "summary": "AI-driven game development holds the potential to transform diverse human inspirations into interactive experiences. However, existing systems and benchmarks primarily focus on explicit development specifications, with limited support for adapting multimodal references and evaluating actual gameplay experiences. We introduce GameAnything, an open-source agentic platform that transforms multimodal inspirations into playable extensions of existing games through iterative development. GameAnything ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.29238"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
+        "url": "https://huggingface.co/papers/2611.29338",
+        "normalized_url": "https://huggingface.co/papers/2611.29338",
+        "summary": "Recently, GPT-6 Astra demonstrates strong generalization in robot control, yet limited disclosure of its training leaves open how such capabilities can be reproduced. We introduce nanoAstra, an approach to training vision-language models (VLMs) for generalizable manipulation that combines semantic action modeling with capability-preserving supervised fine-tuning (CP-SFT). nanoAstra represents robot behavior as semantic steps composed of reusable, parameterized action primitives, guided by explic",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.29338"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+        "url": "https://huggingface.co/papers/2611.28202",
+        "normalized_url": "https://huggingface.co/papers/2611.28202",
+        "summary": "Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running. We find that much of this gap lies in the harness, which decides what the model sees, what it remembers, and how its outputs become actions over time. Existing harnesses such as VISTA improve the first two, yet turn each model call into at most one action, so the agent acts only as often as its model thinks. We introduce AutoPILOT, which changes the third: in each model call",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.28202"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Self-WSP: Can Language Models Improve Themselves Through Weight-Space Programming?",
+        "url": "https://huggingface.co/papers/2611.28833",
+        "normalized_url": "https://huggingface.co/papers/2611.28833",
+        "summary": "Frontier language models can now read and edit the weights of a neural network much like code and thereby improve a small model, an approach known as Weight-Space Programming (WSP). We further explore applying WSP to a language model itself, which we call Self-WSP. Specifically, Qwen3.5-0.8B reads its own weights, proposes an edit, and then continues with the edited weights as both problem solver and editor. We find many cases of genuine self-improvement. Self-edits can raise GSM8K accuracy from",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-21T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.28833"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming",
+        "url": "https://huggingface.co/papers/2611.25476",
+        "normalized_url": "https://huggingface.co/papers/2611.25476",
+        "summary": "Neural networks encode learned capabilities in their weights, yet extending those capabilities with explicit task knowledge remains a fundamental challenge. Here we show that Weight-Space Programming (WSP), in which executable programs read, construct or modify a network's weights directly, can install new capabilities within trained neural networks. WeightCode, a WSP framework, uses a frozen language model to write executable weight programs that install new computations into trained neural net",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.25476"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Plan4D: Generative Plannable 4D Worlds",
+        "url": "https://huggingface.co/papers/2611.26516",
+        "normalized_url": "https://huggingface.co/papers/2611.26516",
+        "summary": "Most world models for future prediction prioritize aestetic quality of generated videos, but offer only weak physical grounding and limited geometric consistency over time, due to the lack of explicit 4D modeling. In this paper, we introduce plan4d, a possible next milestone towards building a generative plannable 4D world model that predicts future RGB videos together with dense 4D geometry, including depth, cameras, point clouds, and scene flow from an observed scene context and text-specified",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.26516"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Seeing the Invisible: How Vision-Language Models Read, Predict and Trace Radio Fields",
+        "url": "https://huggingface.co/papers/2611.28123",
+        "normalized_url": "https://huggingface.co/papers/2611.28123",
+        "summary": "Operating in the physical world requires reasoning beyond what cameras directly capture. In a city, radio signals are invisible to the lens, yet their strength is governed by the buildings and streets an image does show. Given only these visible structures, can vision-language models (VLMs) infer the invisible radio field they shape? Probing true physical reasoning requires exact fields in real cities, alongside controlled interventions where a single physical factor changes. We build a label-fr",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-18T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.28123"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "From Points to Trajectories: Rethinking Multimodal Alignment for Physical Events",
+        "url": "https://huggingface.co/papers/2611.24249",
+        "normalized_url": "https://huggingface.co/papers/2611.24249",
+        "summary": "Advancing physical artificial intelligence (Physical AI) requires moving beyond static object recognition to ground how real-world mechanics (e.g., impact, friction, and force transfer) unfold over time. While multimodal aligners seek to capture these interactions by matching multi-sensor streams, prevailing architectures compress each temporal sequence into a single pooled embedding. We show that this paradigm fails on twin events: distinct physical executions recorded under identical task cond",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-18T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.24249"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "How Feedback-Free Self-Evolution Reshapes Agent Skills: A Systematic Study",
+        "url": "https://huggingface.co/papers/2611.25534",
+        "normalized_url": "https://huggingface.co/papers/2611.25534",
+        "summary": "Agent skills are documents in which experts write down procedural knowledge, and models increasingly maintain them by rewriting them without feedback. Such rewriting could adapt a skill to the model that uses it or erode the expert knowledge that makes it useful, yet how skills evolve under this feedback-free self-evolution has not been studied. We let models rewrite expert skills round after round without any task, run or judgment and run agents built on the same models with the rewritten skill",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.25534"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval",
+        "url": "https://huggingface.co/papers/2611.27490",
+        "normalized_url": "https://huggingface.co/papers/2611.27490",
+        "summary": "Most established instance-retrieval benchmarks emphasise landmarks; small sculptures from visually similar series offer a complementary challenge. We introduce Doppeldwarf-306: 1,691 openly licensed photographs of 306 bronze dwarf statues in Wrocław, Poland, many made in themed series that share one style, with the photographer of each image recorded. With no training, nearest-neighbour search over frozen DINOv2 features names the right statue first for 93.1% of leave-one-out queries, and the be",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.27490"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
+        "url": "https://huggingface.co/papers/2611.26954",
+        "normalized_url": "https://huggingface.co/papers/2611.26954",
+        "summary": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos. Existing methods fit future captions, rationales, or full visual states, but face two limitations. First, they rely on annotations or external large models for supervision, limiting scalability. We address this with an on-policy self-distillation framework that turns past-future video pairs into a natural self-supervised signal without extra annotations or LLM sup",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.26954"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Autoregressive View Model",
+        "url": "https://huggingface.co/papers/2611.23417",
+        "normalized_url": "https://huggingface.co/papers/2611.23417",
+        "summary": "We present the Autoregressive View Model (AVM), which generates a scene as a stream of views without constructing an explicit 3D representation. Through a unified in-context interface, AVM conditions on images or videos to generate short clips along a requested camera path. Visual context grounds reconstruction and interpolation, while a learned prior enables extrapolation into unseen regions. AVM retrieves relevant views from inputs and generated history to form a bounded active context. We fin",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.23417"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Search From the Start: Search-Native Pretraining for Language Models",
+        "url": "https://huggingface.co/papers/2611.26809",
+        "normalized_url": "https://huggingface.co/papers/2611.26809",
+        "summary": "Modern language models (LMs) are increasingly deployed with access to search tools at inference. Yet pretraining remains predominantly focused on predicting static text, with search capabilities typically introduced during post-training. We propose Search-Native Pretraining as a practical route to teach search capability during pretraining from ordinary text corpora. Specifically, we augment pretraining corpus at scale with web-search queries and retrieve web response using a local index. Traini",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.26809"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Taking Apart and Putting Together: Tracking Objects Through Physical Transformations",
+        "url": "https://huggingface.co/papers/2611.27398",
+        "normalized_url": "https://huggingface.co/papers/2611.27398",
+        "summary": "We introduce Transformation Tracking and Understanding (TTU), extending video object tracking to environments where objects undergo physical assemblies and disassemblies. TTU requires continuously tracking objects through transformations, identifying new entities, maintaining a state graph of their relationships, and assigning semantic labels to transformations. While foundation models (e.g., SAM 2/3) maintain tracklets through appearance changes, they cannot update semantic identities as object",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-20T10:03:29.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.27398"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "报名从速｜来MEET2027！听AI前沿实践者交出“判断”",
+        "url": "https://www.qbitai.com/2026/11/512329.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512329.html",
+        "summary": "12.9 北京，来MEET2027现场",
+        "source": "量子位",
+        "published": "2026-11-24T03:33:48+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源",
+        "url": "https://www.qbitai.com/2026/11/512330.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512330.html",
+        "summary": "中国AI数据平台加速崛起",
+        "source": "量子位",
+        "published": "2026-11-24T03:30:46+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "释放AI与出海强预期，近1500人参与亿邦产业互联网年会暨首届产业智能体大会",
+        "url": "https://www.qbitai.com/2026/11/512305.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512305.html",
+        "summary": "2026年11月20日，第八届亿邦产业互联网年会与首届产业智能体大会在北京国贸大酒店首次合体举行。",
+        "source": "量子位",
+        "published": "2026-11-24T03:21:12+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“得Agent开发者，得天下”，70+技术大咖共探AI技术演进与生态变革，2026奇点智能技术大会圆满收官！",
+        "url": "https://www.qbitai.com/2026/11/512297.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512297.html",
+        "summary": "「2026 奇点智能技术大会」与「2026 C++ 及系统软件技术大会」在北京万达文华酒店成功举办。",
+        "source": "量子位",
+        "published": "2026-11-24T02:36:08+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "具身行业，终于等来了自己的通用智能时刻",
+        "url": "https://www.qbitai.com/2026/11/512264.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512264.html",
+        "summary": "行业苦等多年的预训练通用智能，终于有了答案",
+        "source": "量子位",
+        "published": "2026-11-24T01:51:56+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "老黄回归现场盛况空前！员工人山人海夹道欢迎，“哪里领入职电脑”",
+        "url": "https://www.qbitai.com/2026/11/512252.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512252.html",
+        "summary": "离职员工：我可能走早了",
+        "source": "量子位",
+        "published": "2026-11-24T01:32:37+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "实测：1450亿参数塞进笔记本，每秒狂飙80+Token！国产端侧大模型杀疯了",
+        "url": "https://www.qbitai.com/2026/11/512195.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512195.html",
+        "summary": "零Token成本，断网也能自由Vibe Coding",
+        "source": "量子位",
+        "published": "2026-11-23T11:01:15+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "XROGO郑随兵：机器人不能只在视频里，终究要进入工厂“真干活”",
+        "url": "https://www.qbitai.com/2026/11/512179.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512179.html",
+        "summary": "企业核心需求不是交付设备，而是能持续上岗的劳动力",
+        "source": "量子位",
+        "published": "2026-11-23T09:10:08+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了",
+        "url": "https://www.qbitai.com/2026/11/512017.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512017.html",
+        "summary": "阿福大升级：让模型像医生一样思考",
+        "source": "量子位",
+        "published": "2026-11-23T07:42:01+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“Agent版arXiv”来了！936个智能体12个星期狂发近千篇论文，连同行评议都整上了",
+        "url": "https://www.qbitai.com/2026/11/512004.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512004.html",
+        "summary": "一个完全由AI组成的科学家社会，是什么样？",
+        "source": "量子位",
+        "published": "2026-11-23T06:59:38+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+        "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+        "normalized_url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+        "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-23T22:05:50+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+        "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+        "normalized_url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
+        "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-23T22:02:05+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+        "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+        "normalized_url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal",
+        "summary": "\"The mistake has been corrected,\" Elon Musk chimed in.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-23T21:47:41+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+        "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+        "normalized_url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist",
+        "summary": "Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-23T21:25:42+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
+        "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+        "normalized_url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq",
+        "summary": "\"I'm going to be a better CEO the second time around,\" Huang told employees.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-23T20:38:53+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+        "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+        "normalized_url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses",
+        "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
+        "source": "TechCrunch AI",
+        "published": "2026-11-23T19:14:46+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+        "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+        "normalized_url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo",
+        "summary": "The public hearing follows bipartisan calls for Huang to testify about the affair with the suspected Chinese spy.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-23T18:12:22+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+        "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+        "normalized_url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips",
+        "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-23T17:14:23+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang isn’t out of the woods yet",
+        "url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+        "normalized_url": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet",
+        "summary": "Tech leaders should be clear-eyed about all the problems likely to come with Huang's reinstatement.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-23T16:57:40+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang’s return",
+        "url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return/",
+        "normalized_url": "https://techcrunch.com/2026/11/23/trump-reportedly-called-into-nvidia-board-meeting-to-advocate-for-huangs-return",
+        "summary": "\"I spoke to them, let me put it that way … And I convinced them,\" the president told CNBC.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-23T16:39:10+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Trump engineered a risky comeback for Jensen Huang",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+        "summary": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on Stephen A. Smith's radio show shortly after the news came out, Trump said that Huang would \"end up on his feet.\" […]",
+        "source": "The Verge AI",
+        "published": "2026-11-23T22:25:12+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+        "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported directly to him, a board meeting that night ended […]",
+        "source": "The Verge AI",
+        "published": "2026-11-23T22:10:32+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Welcome to elite impunity, Jensen Huang",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+        "summary": "I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia again, to the surprise of basically everyone except President Donald Trump and Vice President JD Vance, who made sure it happened. Now, those of us who had some kind of basic education on what a \"free market\" is might […]",
+        "source": "The Verge AI",
+        "published": "2026-11-23T22:09:26+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI data centers throw another wrench into chaotic UN climate talks",
+        "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+        "normalized_url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+        "summary": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate conference, called COP31, that came to a chaotic and unsatisfying close in Antalya, Turkey, on Sunday. Each year, attendees […]",
+        "source": "The Verge AI",
+        "published": "2026-11-23T21:09:37+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Claude AI can review pull requests and ship fixes on its own now",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+        "summary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was […]",
+        "source": "The Verge AI",
+        "published": "2026-11-23T20:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "How Jensen Huang ended up as Nvidia CEO again",
+        "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+        "normalized_url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+        "summary": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitted he had been \"unfaithful\" to his wife […]",
+        "source": "The Verge AI",
+        "published": "2026-11-23T19:57:18+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
+        "url": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
+        "normalized_url": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
+        "summary": "Nothing's new AI device is the Ear Note, a set of earbuds and their microphone-equipped charging case that can record and transcribe conversations, with a connected app to manage the recordings, transcriptions and AI-generated summaries, similar to Apple's new Watch feature and devices like Amazon's Bee wearable. Nothing CEO Carl Pei demonstrated the new device […]",
+        "source": "The Verge AI",
+        "published": "2026-11-23T19:04:52+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+        "summary": "In separate but similar lawsuits filed on Monday, Oregon Attorney General Dan Rayfield and Virginia Attorney General Jay Jones accused SpaceX of violating state consumer protection laws by ignoring industry-standard safeguards and falsely promoting the safety of its X social media platform and Grok AI features. The complaint filed in Virginia accuses Musk of willfully […]",
+        "source": "The Verge AI",
+        "published": "2026-11-23T18:26:47+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "White House brags that Trump was ‘totally involved’ in getting Jensen reinstated",
+        "url": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
+        "normalized_url": "https://www.theverge.com/policy/1040096/trump-nvidia-jensen-huang-reinstated",
+        "summary": "It sure looked like President Donald Trump played a role in Jensen Huang's reinstatement as Nvidia CEO - and now the White House is making sure everyone knows he was. \"President Trump was totally involved and this is a great decision by the NVIDIA board,\" White House communications director Steven Cheung said in a statement, […]",
+        "source": "The Verge AI",
+        "published": "2026-11-23T16:30:11+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Tech leaders are celebrating Jensen Huang’s return",
+        "url": "https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay",
+        "normalized_url": "https://www.theverge.com/tech/1040069/jensen-huang-return-elon-musk-sam-altman-yay",
+        "summary": "Let's say you're Jensen Huang. You (allegedly) cheated on your wife with an alleged Chinese spy, allegedly had an affair with not one, but two subordinates, and (allegedly!) \"terrorized\" your employees, a series of indiscretions that led to your ouster from what was once the world's most valuable company. (The stock price has recently taken […]",
+        "source": "The Verge AI",
+        "published": "2026-11-23T16:14:04+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang Is Back, and So Is Nvidia’s Stock",
+        "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
+        "normalized_url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure",
+        "summary": "Jensen Huang comes back, numbers go up. Maybe the reason behind the CEO’s return is just that simple?",
+        "source": "Wired AI",
+        "published": "2026-11-23T17:52:56+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang Is Back as Nvidia CEO",
+        "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+        "normalized_url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo",
+        "summary": "The company’s board of directors has reinstated Huang a little more than a week after the CEO resigned amid allegations of multiple affairs, including with a direct report.",
+        "source": "Wired AI",
+        "published": "2026-11-23T14:27:35+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
+        "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+        "normalized_url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now",
+        "summary": "Brain-computer interface company Paradromics is using Nvidia’s computing hardware and software to process brain data.",
+        "source": "Wired AI",
+        "published": "2026-11-23T13:11:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Submit Your Questions: Will Anyone Keep You Safe From AI?",
+        "url": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai/",
+        "normalized_url": "https://www.wired.com/story/livestream-will-anyone-keep-us-safe-from-ai",
+        "summary": "Experts agree that AI, in one way or another, poses real danger. Will the industry do anything about it? Join our livestream on December 2 to hear your questions answered.",
+        "source": "Wired AI",
+        "published": "2026-11-23T12:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "States Sue SpaceX Over Grok Deepfakes",
+        "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+        "normalized_url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes",
+        "summary": "The attorneys general of Oregon and Virginia are suing several of Elon Musk’s companies, alleging they implemented weak safeguards against sexualized imagery of real people, including children.",
+        "source": "Wired AI",
+        "published": "2026-11-23T11:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Goodbye, World: The End of Programmers",
+        "url": "https://www.wired.com/story/goodbye-world-the-end-of-programmers/",
+        "normalized_url": "https://www.wired.com/story/goodbye-world-the-end-of-programmers",
+        "summary": "The last thing you should ever read—and the last thing I may ever write—about the craft of coding.",
+        "source": "Wired AI",
+        "published": "2026-11-23T10:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Banks Have Had It Up to Here With Your AI Agent",
+        "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+        "normalized_url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents",
+        "summary": "Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem.",
+        "source": "Wired AI",
+        "published": "2026-11-22T11:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: OpenClaw for executives: Automate every 1% annoyance",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+        "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-23T16:01:48+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenClaw for executives: Automate every 1% annoyance | Ankit Maheshwari (Innovaccer)",
+        "url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+        "normalized_url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+        "summary": "Watch now (31 mins) | 🎙️ Ankit Maheshwari (CTO, Innovaccer) walks me through the OpenClaw Jarvis he runs on a Mac Mini to clear every 1% annoyance in his life",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-23T13:04:43+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+        "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+        "normalized_url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+        "summary": "Sherif Mansour on why PMs are thriving in the AI era, the artist PM advantage, and why juniors are your secret weapon now",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-22T13:31:53+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+        "summary": "Community Wisdom 306",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-21T16:49:56+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
+        "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+        "normalized_url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+        "summary": "Over $40,000 in value, exclusively for Lenny’s Newsletter subscribers",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-17T18:02:02+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
