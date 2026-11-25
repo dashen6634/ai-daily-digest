@@ -1,0 +1,978 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T12:45:25.423444+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 54
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "PINE: Point, Instance and Normal Estimation in One-Step Diffusion Model",
+        "url": "https://huggingface.co/papers/2611.29389",
+        "normalized_url": "https://huggingface.co/papers/2611.29389",
+        "summary": "Understanding a scene requires both geometry and semantics: geometry recovers its spatial structure, and semantics separates it into objects. Current models obtain the two from separate networks or separate passes. We present PINE, a one-step Omni Diffusion Transformer that predicts the point map, the surface normals, and the instance map of an image in one forward pass. PINE treats each map as a token stream, and a stream mask decides which streams interact. A camera-aware ray encoding position",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.29389"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "LoopDVR: Looped Transformer for Efficient Dense Visual Recognition",
+        "url": "https://huggingface.co/papers/2611.32067",
+        "normalized_url": "https://huggingface.co/papers/2611.32067",
+        "summary": "We propose LoopDVR, a framework for converting pretrained Transformer-based dense visual recognition models into parameter-efficient looped networks. Rather than reducing the network width or depth directly, LoopDVR reuses Transformer blocks across layers in both the ViT backbone and Transformer decoder, reducing the number of parameters while retaining the original computational structure. However, naively sharing parameters can disrupt the distinct transformations learned at different depths. ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.32067"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "PartAgent: Agentic 3D Part Segmentation via Expert Integration and Closed-Loop Refinement",
+        "url": "https://huggingface.co/papers/2611.32554",
+        "normalized_url": "https://huggingface.co/papers/2611.32554",
+        "summary": "Segmenting a 3D object into semantically meaningful parts requires joint reasoning about geometric structure and semantic context. Pretrained 3D experts provide spatially grounded region proposals, while 2D experts provide semantic cues for identifying object parts. The challenge is to integrate these complementary capabilities into a framework that can both produce meaningful part segmentations and progressively refine them. We present PartAgent, a training-free agentic framework for 3D part se",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.32554"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Align the Pair, Not the Sample: Representation Alignment for Faster and Better One-Step Generato",
+        "url": "https://huggingface.co/papers/2611.29547",
+        "normalized_url": "https://huggingface.co/papers/2611.29547",
+        "summary": "Representation alignment markedly accelerates diffusion training, but one-step generators raise a question that diffusion does not: which training path should receive the loss? A one-step generator sees two kinds of inputs. Corrupted real images come with their clean counterpart, which provides an instance-paired target. Samples generated from pure noise have no corresponding real image, yet this is where the final model operates. We study this question on Priming, which trains one-step generato",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.29547"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "On-Policy Codec Distillation for Efficient All-in-One Video Generation",
+        "url": "https://huggingface.co/papers/2611.31184",
+        "normalized_url": "https://huggingface.co/papers/2611.31184",
+        "summary": "Modern visual generative models operate on tokens, and every visual asset they receive, whether an identity, a scribble, a depth map, or a motion video, is tokenized and appended to the input token sequence. Consequently, conditioning quickly dominates the computation cost. Yet most of these tokens carry redundant spatiotemporal information. Our key insight is that identifying what is genuinely new is exactly the problem that classical video codecs have long solved. Thus, we first introduce a co",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.31184"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Self-Evolving Evaluation Environments for Computer-Use Agents",
+        "url": "https://huggingface.co/papers/2611.30962",
+        "normalized_url": "https://huggingface.co/papers/2611.30962",
+        "summary": "Computer-use agents (CUAs) are rapidly improving, yet their evaluation remains largely static. Existing benchmarks provide a strong foundation, but fixed difficulty ceilings, limited feature coverage, and coarse aggregate scores progressively weaken their discriminative and diagnostic value. We introduce CUA-SEE, a closed-loop evaluation environment that co-evolves tasks and executable verifiers from rollout evidence. It disentangles three objectives: benchmark evolution expands evaluation scope",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.30962"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Clinical3D-Bench: Evaluating and Improving Spatial Intelligence of Multimodal LLMs in Hospital Environments",
+        "url": "https://huggingface.co/papers/2611.32094",
+        "normalized_url": "https://huggingface.co/papers/2611.32094",
+        "summary": "Spatial reasoning in hospitals requires tracking look-alike equipment, interpreting patient-relative directions, and judging passage widths, yet existing benchmarks provide limited coverage of these abilities. We introduce Clinical3D-Bench, a simulated benchmark with 3,368 questions of eight types on egocentric walkthroughs of 373 hospital-room layouts. Layouts follow hospital design guidelines, answers are computed from the 3D scenes, and paired scene states test whether models change their ans",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.32094"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+        "url": "https://huggingface.co/papers/2611.31205",
+        "normalized_url": "https://huggingface.co/papers/2611.31205",
+        "summary": "Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents. Each member reasons and acts for a configurable control group, such as an arm with its gripper or the torso and chassis, enabling asynchronous reasoning and execution. However, different robot components often",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.31205"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "KMed-31B Technical Report",
+        "url": "https://huggingface.co/papers/2611.28719",
+        "normalized_url": "https://huggingface.co/papers/2611.28719",
+        "summary": "We present KMed-31B, a medical large language model post-trained from an open-weight model for on-premises deployment with limited hardware. Post-training a model for diverse medical tasks remains difficult, because improving one kind of task can lower performance on another. We attribute this to differences between tasks in expected output and available feedback. Medical question answering and diagnosis prediction have reference answers, whereas clinical inquiry has no single correct response a",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-21T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.28719"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Interpretable Prototype-Conditioned Adaptation for Weather Forecasting",
+        "url": "https://huggingface.co/papers/2611.25848",
+        "normalized_url": "https://huggingface.co/papers/2611.25848",
+        "summary": "Data-driven weather forecasting requires distinguishing local states and their temporal evolution. However, learned patterns remain implicit in neural forecasters, making their influence difficult to interpret. Failing to distinguish local evolution can lead to similar forecasts for locations that develop differently, increasing prediction error. This motivates explicit references for distinguishing and interpreting local patterns. Prototypes provide explicit pattern references, but sample- or t",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2611.25848"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents",
+        "url": "https://huggingface.co/papers/2611.28947",
+        "normalized_url": "https://huggingface.co/papers/2611.28947",
+        "summary": "Computer-use agents (CUAs) built on vision-language models are increasingly entrusted with long-horizon tasks in live desktop, web, and mobile environments, where the screen keeps changing on its own. However, current CUAs lack real-time situational awareness: they perceive the environment through discrete snapshots, and the substantial inference latency of VLMs, compounded by highly dynamic interfaces, opens a perception-action gap in which the observed state frequently becomes stale before the",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-21T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.28947"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Rewirable Circuits in Transformers with Loom Attention",
+        "url": "https://huggingface.co/papers/2611.30634",
+        "normalized_url": "https://huggingface.co/papers/2611.30634",
+        "summary": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the compressed head outputs and serves as a second residual stream. This yields LoomFormer, a dual-strea",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2611.30634"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Can an Agent Trust Its Own Zoom? Cross-Magnification Provenance Verification for Whole-Slide Images",
+        "url": "https://huggingface.co/papers/2611.29150",
+        "normalized_url": "https://huggingface.co/papers/2611.29150",
+        "summary": "Visual agents navigate whole-slide images through magnified observations associated with claimed locations. However, a visually plausible observation does not necessarily originate from its claimed location, particularly across magnifications and in regions with similar tissue structures. We formulate cross-magnification provenance verification (CMPV) to evaluate whether visual evidence supports a claimed spatial association, recover the source when possible, and abstain when evidence is insuffi",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.29150"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "EEGJev: A System One Decision Model and Benchmark for Multi-Task EEG Question Answering",
+        "url": "https://huggingface.co/papers/2611.32100",
+        "normalized_url": "https://huggingface.co/papers/2611.32100",
+        "summary": "A single electroencephalographic (EEG) recording can support multiple decoding tasks. Fixed-label tests cannot show how EEG foundation models handle changing questions or options. We introduce EEGJev, a fast decision model that scores candidate answers in one pass. Our benchmark, EEGJev-Bench, covers six question types across 19 public EEG sources. We held the recording and options fixed while switching between questions about attributes paired during training, such as facial expression and the ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.32100"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Antom 3-in-1 Transformer: A Payment Foundation Model",
+        "url": "https://huggingface.co/papers/2611.25403",
+        "normalized_url": "https://huggingface.co/papers/2611.25403",
+        "summary": "We report the development of Antom 3-in-1 Transformer, a payment foundation model that integrates sequence, tabular, and graph representations for payment risk detection. The model contains approximately 7B parameters, with approximately 1.7B activated per task route. Antom 3-in-1 Transformer is pretrained to learn reusable behavioral and relational representations, primarily on Ant International's internal payment data. In a cross-business transfer experiment, pretraining improves the target bu",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.25403"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Escriba-OCR: A 1B Vision-Language Model for Error-Preserving Transcription of Handwritten Portuguese Essays",
+        "url": "https://huggingface.co/papers/2611.29874",
+        "normalized_url": "https://huggingface.co/papers/2611.29874",
+        "summary": "Feedback tools and research on learner writing need transcriptions of handwritten essays that keep exactly what the student wrote: misspellings, line breaks, struck-through words and insertions. Vision-language models (VLMs) read handwriting well, but they also tend to rewrite it into correct language. We measure this on BRESSAY, 1,000 handwritten Brazilian Portuguese essays, with a benchmark that adds error preservation, invented errors, edit-markup precision and recall and line structure to th",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.29874"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "PhyCoVE: Benchmarking Physical Counterfactual Video Editing across Diverse Material Dynamics",
+        "url": "https://huggingface.co/papers/2611.29184",
+        "normalized_url": "https://huggingface.co/papers/2611.29184",
+        "summary": "Physical counterfactual video editing turns a source video and a language-specified physical edit at a given execution frame into a counterfactual video that shows how the scene would evolve after the edit. Existing evaluations with counterfactual target videos mainly cover object removal or specific rigid-body motions, although real scenes also involve elastic deformation, fluid flow, and interactions among rigid bodies, elastic solids, and fluids. We introduce PhyCoVE, a benchmark of 533 cases",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.29184"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "S-Mind: Internalizing Multi-View Geometry for Spatial Intelligence",
+        "url": "https://huggingface.co/papers/2611.28649",
+        "normalized_url": "https://huggingface.co/papers/2611.28649",
+        "summary": "Spatial intelligence, the ability to reason about 3D space from visual observations, becomes essential as multimodal large language models (MLLMs) move into the physical world. Beyond perceiving each view, it rests on two cornerstones of human cognition: fusing multiple views into one coherent 3D scene and mentally transforming that scene to new viewpoints as reasoning unfolds. Yet our spatial probes reveal that MLLMs largely lack both capabilities, even after spatial fine-tuning. We therefore p",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-21T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.28649"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "LoopedWAM: Looped World Action Models for Elastic Inference",
+        "url": "https://huggingface.co/papers/2611.25595",
+        "normalized_url": "https://huggingface.co/papers/2611.25595",
+        "summary": "World action models (WAMs) couple generative video modeling with robotic action prediction but typically require large video and action transformers, limiting deployment efficiency. We present LoopedWAM, a compact WAM that recurrently applies a shared six-block core in each expert, executing 30 transformer layers while storing only 12 blocks per expert. To account for their asymmetric inference costs, the video and action experts can operate at different depths: visual features are computed once",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.25595"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "RoomTokens: Masked Diffusion over Structured Tokens for Indoor Scene Synthesis",
+        "url": "https://huggingface.co/papers/2611.30219",
+        "normalized_url": "https://huggingface.co/papers/2611.30219",
+        "summary": "Generating 3D indoor scenes requires a representation that captures object semantics, instance identity, height structure, and orientation while respecting room geometry. Methods that model scenes as sequences of object vectors learn spatial constraints implicitly, leaving collisions and boundary violations to losses or post-processing; semantic-map methods make occupancy explicit, but collapse instance and directional structure. We introduce RoomTokens, a sliced structured-token representation ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.30219"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "AI进厂，先革企业的命",
+        "url": "https://www.36kr.com/p/4084571385796480",
+        "normalized_url": "https://www.36kr.com/p/4084571385796480",
+        "summary": "AI巨头的终极战场，是企业的工作流",
+        "source": "36Kr AI",
+        "published": "2026-11-25T04:10:31+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "港科大教授权龙又创业了，做空间物理AI，曾把公司卖给苹果",
+        "url": "https://www.36kr.com/p/4084644091750787",
+        "normalized_url": "https://www.36kr.com/p/4084644091750787",
+        "summary": "“法国华人视觉三剑客”之一的新公司来了。",
+        "source": "36Kr AI",
+        "published": "2026-11-25T04:09:59+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "GPT-6，能设计蛋白质了",
+        "url": "https://www.36kr.com/p/4084646296562055",
+        "normalized_url": "https://www.36kr.com/p/4084646296562055",
+        "summary": "OpenAI发布具蛋白质设计能力的GPT-6预印论文",
+        "source": "36Kr AI",
+        "published": "2026-11-25T04:09:48+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "好莱坞和Netflix，也快顶不住了",
+        "url": "https://www.36kr.com/p/4084596449318791",
+        "normalized_url": "https://www.36kr.com/p/4084596449318791",
+        "summary": "中国短剧模式正冲击重塑百年传统全球影视工业体系",
+        "source": "36Kr AI",
+        "published": "2026-11-25T03:55:05+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "中国游戏厂商，都有一个种田梦",
+        "url": "https://www.36kr.com/p/4084599167506312",
+        "normalized_url": "https://www.36kr.com/p/4084599167506312",
+        "summary": "种田游戏，大厂新宠？",
+        "source": "36Kr AI",
+        "published": "2026-11-25T03:53:21+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "破发，但这仅仅是Anthropic要填的七个大坑之一",
+        "url": "https://www.36kr.com/p/4084607975560841",
+        "normalized_url": "https://www.36kr.com/p/4084607975560841",
+        "summary": "游戏才刚刚开始",
+        "source": "36Kr AI",
+        "published": "2026-11-25T03:52:55+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“我比黄仁勋更早看到英伟达的未来”，AI 教父回击老黄，直言大规模失业是 AI 巨头赚钱的副作用",
+        "url": "https://www.36kr.com/p/4084627032074883",
+        "normalized_url": "https://www.36kr.com/p/4084627032074883",
+        "summary": "一边认错，一边反击黄仁勋！AI 教父再抛惊人判断：人类心智没有什么是机器无法复制的。",
+        "source": "36Kr AI",
+        "published": "2026-11-25T03:50:29+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "机器人上班、火箭卫星登场｜WISE把一座未来之城搬到了现场",
+        "url": "https://www.36kr.com/p/4084605857753478",
+        "normalized_url": "https://www.36kr.com/p/4084605857753478",
+        "summary": "WISE2026千平未来之城展区逛玩全攻略解锁",
+        "source": "36Kr AI",
+        "published": "2026-11-25T03:17:17+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI作弊引发韩国高考闹剧？查处111名学生，教育部长官引咎辞职",
+        "url": "https://www.36kr.com/p/4084569211939465",
+        "normalized_url": "https://www.36kr.com/p/4084569211939465",
+        "summary": "信任危机",
+        "source": "36Kr AI",
+        "published": "2026-11-25T03:17:08+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "马斯克背后“操盘的女人”，正面临最难一战",
+        "url": "https://www.36kr.com/p/4084559125309831",
+        "normalized_url": "https://www.36kr.com/p/4084559125309831",
+        "summary": "从第七名员工到SpaceX总裁",
+        "source": "36Kr AI",
+        "published": "2026-11-25T03:14:10+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google Cloud 出海峰会报名开启",
+        "url": "https://www.qbitai.com/2026/11/512370.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512370.html",
+        "summary": "2027 Google Cloud 出海峰会将于 1 月 14 日在北京中关村国际创新中心举行",
+        "source": "量子位",
+        "published": "2026-11-24T06:52:29+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
+        "url": "https://www.qbitai.com/2026/11/512362.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512362.html",
+        "summary": "端侧老炮辛米尔，打通物理AI规模化落地之路",
+        "source": "量子位",
+        "published": "2026-11-24T06:35:06+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议",
+        "url": "https://www.qbitai.com/2026/11/512354.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512354.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-11-24T06:22:28+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "八年研发，首搭方程豹钛9，全球首个折叠方向盘量产上车",
+        "url": "https://www.qbitai.com/2026/11/512348.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512348.html",
+        "summary": "11月19日，方程豹钛9上市，售价27.99万元起",
+        "source": "量子位",
+        "published": "2026-11-24T06:15:38+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "巴新总理见证，仰望U8交付巴布亚新几内亚市场",
+        "url": "https://www.qbitai.com/2026/11/512343.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512343.html",
+        "summary": "2026年11月18日，中国深圳——APEC会议期间，比亚迪仰望U8正式交付巴布亚新几内亚市场",
+        "source": "量子位",
+        "published": "2026-11-24T06:12:16+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "报名从速｜来MEET2027！听AI前沿实践者交出“判断”",
+        "url": "https://www.qbitai.com/2026/11/512329.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512329.html",
+        "summary": "12.9 北京，来MEET2027现场",
+        "source": "量子位",
+        "published": "2026-11-24T03:33:48+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源",
+        "url": "https://www.qbitai.com/2026/11/512330.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512330.html",
+        "summary": "中国AI数据平台加速崛起",
+        "source": "量子位",
+        "published": "2026-11-24T03:30:46+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "释放AI与出海强预期，近1500人参与亿邦产业互联网年会暨首届产业智能体大会",
+        "url": "https://www.qbitai.com/2026/11/512305.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512305.html",
+        "summary": "2026年11月20日，第八届亿邦产业互联网年会与首届产业智能体大会在北京国贸大酒店首次合体举行。",
+        "source": "量子位",
+        "published": "2026-11-24T03:21:12+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“得Agent开发者，得天下”，70+技术大咖共探AI技术演进与生态变革，2026奇点智能技术大会圆满收官！",
+        "url": "https://www.qbitai.com/2026/11/512297.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512297.html",
+        "summary": "「2026 奇点智能技术大会」与「2026 C++ 及系统软件技术大会」在北京万达文华酒店成功举办。",
+        "source": "量子位",
+        "published": "2026-11-24T02:36:08+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "具身行业，终于等来了自己的通用智能时刻",
+        "url": "https://www.qbitai.com/2026/11/512264.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512264.html",
+        "summary": "行业苦等多年的预训练通用智能，终于有了答案",
+        "source": "量子位",
+        "published": "2026-11-24T01:51:56+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+        "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+        "normalized_url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion",
+        "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-25T00:12:02+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+        "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+        "normalized_url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy",
+        "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-24T22:27:52+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+        "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+        "normalized_url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy",
+        "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-24T21:48:27+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Even the best AI agents struggle with everyday life",
+        "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+        "normalized_url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life",
+        "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-24T21:33:29+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+        "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+        "normalized_url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse",
+        "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-24T21:32:38+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+        "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+        "normalized_url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself",
+        "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-24T21:19:52+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+        "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+        "normalized_url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups",
+        "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-24T18:30:42+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+        "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+        "normalized_url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
+        "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-24T18:02:59+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+        "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+        "normalized_url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms",
+        "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-24T17:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+        "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+        "normalized_url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming",
+        "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-24T16:46:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+        "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+        "normalized_url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+        "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbasket's Marisa Kabas. During the meeting, Huang […]",
+        "source": "The Verge AI",
+        "published": "2026-11-24T20:02:03+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "David Fincher is being dragged for suspected use of AI in his latest film",
+        "url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+        "normalized_url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+        "summary": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People have claimed that the movie is chock-full of uncanny, inconsistent visuals that make it […]",
+        "source": "The Verge AI",
+        "published": "2026-11-24T18:15:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Tidal will start banning AI-generated music next month",
+        "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+        "normalized_url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+        "summary": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labeling and demonetizing tracks identified as 100 […]",
+        "source": "The Verge AI",
+        "published": "2026-11-24T17:17:09+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang deepfakes are the hot new AI slop",
+        "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+        "normalized_url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+        "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive and suspected spy he […]",
+        "source": "The Verge AI",
+        "published": "2026-11-24T16:30:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "The New York Times warns photographers not to update Photoshop over AI features",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+        "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and Josh […]",
+        "source": "The Verge AI",
+        "published": "2026-11-24T16:09:23+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Trump engineered a risky comeback for Jensen Huang",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+        "summary": "After Nvidia's board accepted Jensen Huang's resignation as CEO, following reports that Huang had an affair with an alleged Chinese spy, President Donald Trump, too, appeared to submit to the new reality. Appearing on Stephen A. Smith's radio show shortly after the news came out, Trump said that Huang would \"end up on his feet.\" […]",
+        "source": "The Verge AI",
+        "published": "2026-11-23T22:25:12+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia CEO Jensen Huang is back. What happens next?",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+        "summary": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation. However, after The New York Times reported there was evidence of another affair, this time with an Nvidia executive who reported directly to him, a board meeting that night ended […]",
+        "source": "The Verge AI",
+        "published": "2026-11-23T22:10:32+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Welcome to elite impunity, Jensen Huang",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+        "summary": "I suppose I must issue a hearty congratulations to Jensen Huang. Huang is CEO of Nvidia again, to the surprise of basically everyone except President Donald Trump and Vice President JD Vance, who made sure it happened. Now, those of us who had some kind of basic education on what a \"free market\" is might […]",
+        "source": "The Verge AI",
+        "published": "2026-11-23T22:09:26+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI data centers throw another wrench into chaotic UN climate talks",
+        "url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+        "normalized_url": "https://www.theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+        "summary": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate conference, called COP31, that came to a chaotic and unsatisfying close in Antalya, Turkey, on Sunday. Each year, attendees […]",
+        "source": "The Verge AI",
+        "published": "2026-11-23T21:09:37+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Claude AI can review pull requests and ship fixes on its own now",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+        "summary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was […]",
+        "source": "The Verge AI",
+        "published": "2026-11-23T20:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
+        "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
+        "normalized_url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks",
+        "summary": "Nvidia’s place at the center of the US economy may have outweighed concerns about its CEO’s ties to a suspected Chinese intelligence asset, national security and foreign policy experts say.",
+        "source": "Wired AI",
+        "published": "2026-11-24T23:39:04+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang Apologizes to Nvidia Employees in First All-Hands Since His Return",
+        "url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return/",
+        "normalized_url": "https://www.wired.com/story/jensen-huang-apologizes-to-nvidia-employees-in-first-all-hands-since-his-return",
+        "summary": "The Nvidia CEO opened up about his personal life, defended his reinstatement, and acknowledged that his intense management style had hurt his staff.",
+        "source": "Wired AI",
+        "published": "2026-11-24T17:44:53+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
+        "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+        "normalized_url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw",
+        "summary": "A new test assumes AI agents can go rogue—and asks whether they can resist temptation.",
+        "source": "Wired AI",
+        "published": "2026-11-24T16:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Don’t Bring Up AI if You Want to Enjoy Your Thanksgiving",
+        "url": "https://www.wired.com/story/dont-bring-up-ai-if-you-want-to-enjoy-your-thanksgiving/",
+        "normalized_url": "https://www.wired.com/story/dont-bring-up-ai-if-you-want-to-enjoy-your-thanksgiving",
+        "summary": "Young people anxious about their futures say they’re increasingly frustrated with their pro-AI parents. They’re worried it’s going to make holiday gatherings very tense.",
+        "source": "Wired AI",
+        "published": "2026-11-24T10:45:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It",
+        "url": "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
+        "normalized_url": "https://www.wired.com/story/ai-solved-maths-most-famous-problem",
+        "summary": "It will take mathematicians months to understand the “alien” 17-million-line solution an Anthropic researcher produced for the Riemann hypothesis.",
+        "source": "Wired AI",
+        "published": "2026-11-24T10:15:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang Is Back, and So Is Nvidia’s Stock",
+        "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/",
+        "normalized_url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure",
+        "summary": "Jensen Huang comes back, numbers go up. Maybe the reason behind the CEO’s return is just that simple?",
+        "source": "Wired AI",
+        "published": "2026-11-23T17:52:56+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang Is Back as Nvidia CEO",
+        "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+        "normalized_url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo",
+        "summary": "The company’s board of directors has reinstated Huang a little more than a week after the CEO resigned amid allegations of multiple affairs, including with a direct report.",
+        "source": "Wired AI",
+        "published": "2026-11-23T14:27:35+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
+        "url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now/",
+        "normalized_url": "https://www.wired.com/story/nvidia-is-powering-brain-computer-interfaces-now",
+        "summary": "Brain-computer interface company Paradromics is using Nvidia’s computing hardware and software to process brain data.",
+        "source": "Wired AI",
+        "published": "2026-11-23T13:11:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Why Does Voice AI Still Struggle With Kenyans’ Speech?",
+        "url": "https://spectrum.ieee.org/swahili-speech-recognition",
+        "normalized_url": "https://spectrum.ieee.org/swahili-speech-recognition",
+        "summary": "When people read prepared text aloud, AI can transcribe Swahili with remarkably few errors, and Swahili speech recognition looks close to solved. A March 2026 preprint by a team including a Harvard University researcher reports a 3.24 percent word-error rate on recordings from Mozilla’s Common Voice collection of volunteer-recorded speech. But Kenyans rarely talk like Common Voice volunteers. They switch between Swahili and English mid-sentence, drop in Sheng slang that changes by neighborhood, ",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-11-24T12:00:03+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+        "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+        "normalized_url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+        "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+        "source": "Ars Technica AI",
+        "published": "2026-11-24T12:30:05+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: OpenClaw for executives: Automate every 1% annoyance",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+        "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-23T16:01:48+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenClaw for executives: Automate every 1% annoyance | Ankit Maheshwari (Innovaccer)",
+        "url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+        "normalized_url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+        "summary": "Watch now (31 mins) | 🎙️ Ankit Maheshwari (CTO, Innovaccer) walks me through the OpenClaw Jarvis he runs on a Mac Mini to clear every 1% annoyance in his life",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-23T13:04:43+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+        "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+        "normalized_url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+        "summary": "Sherif Mansour on why PMs are thriving in the AI era, the artist PM advantage, and why juniors are your secret weapon now",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-22T13:31:53+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+        "summary": "Community Wisdom 306",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-21T16:49:56+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
