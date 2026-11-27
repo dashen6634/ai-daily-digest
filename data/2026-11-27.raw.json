@@ -1,0 +1,848 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T11:55:10.128736+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 44
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+        "url": "https://huggingface.co/papers/2611.34719",
+        "normalized_url": "https://huggingface.co/papers/2611.34719",
+        "summary": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode transferable detection knowledge, while further adaptation can impair generalization. This motivates a shift from backbone adaptation to knowledge readout. Conventional linear probing offers a direct way to read this knowledge but is limited to final-layer RGB features. Multi-cue detectors broaden the evidence",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.34719"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+        "url": "https://huggingface.co/papers/2611.34232",
+        "normalized_url": "https://huggingface.co/papers/2611.34232",
+        "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states. We introduce OS-Omni, a live cross-platform benchmark and execution environment for evaluating computer-using agents across Windows, Ubuntu,",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.34232"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+        "url": "https://huggingface.co/papers/2611.34852",
+        "normalized_url": "https://huggingface.co/papers/2611.34852",
+        "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them. We introduce DRBench Pro, a benchmark that makes structured knowledge coverage the primary evaluation target. Our automated pipeline builds local knowledge trees from Wikipedia ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.34852"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
+        "url": "https://huggingface.co/papers/2611.32993",
+        "normalized_url": "https://huggingface.co/papers/2611.32993",
+        "summary": "Structured clinical decisions from volumetric computed tomography (CT) require anatomically grounded predictions and calibrated confidence estimates. However, existing 3D medical multimodal models often suffer from uncalibrated autoregressive decoding and shortcut reliance on irrelevant anatomical regions. We introduce Radev, a decision-native multimodal model that integrates anatomy-guided visual compression, direct candidate prediction, and counterfactual confidence supervision. To bridge glob",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.32993"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+        "url": "https://huggingface.co/papers/2611.34290",
+        "normalized_url": "https://huggingface.co/papers/2611.34290",
+        "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited. We introduce StateWeaver, which combines Active States and Hierarchical Collaboration to connect review-driven visual reference updates with cross-shot state inheritance. Active ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.34290"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+        "url": "https://huggingface.co/papers/2611.34813",
+        "normalized_url": "https://huggingface.co/papers/2611.34813",
+        "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in fact the more reliable path to visual reasoning has not been tested against a symbolic alternative under",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.34813"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+        "url": "https://huggingface.co/papers/2611.34693",
+        "normalized_url": "https://huggingface.co/papers/2611.34693",
+        "summary": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action updates, and generation after input adds work to the response path. We introduce ShowNow, a fine-grained speculative streaming framework that uses computation available during playback to prepare action-conditioned futures before input arrives. Single-latent commitment enables frequent decisions, whi",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.34693"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+        "url": "https://huggingface.co/papers/2611.34457",
+        "normalized_url": "https://huggingface.co/papers/2611.34457",
+        "summary": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. However, these coarse inputs leave details unspecified and may contain artifacts that should not be reproduced. Successful proxy-guided generation must therefore Preserve intended structure, Complete missing content and correct proxy artifacts, and Bind tex",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.34457"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+        "url": "https://huggingface.co/papers/2611.34051",
+        "normalized_url": "https://huggingface.co/papers/2611.34051",
+        "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry between reading and modification directions during erasure, which yields non-normal erase operators whos",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.34051"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "DetourBench: Trajectory-Level Evaluation of Interactive Agents with Exact Minimum-Action Bounds",
+        "url": "https://huggingface.co/papers/2611.20844",
+        "normalized_url": "https://huggingface.co/papers/2611.20844",
+        "summary": "Benchmarks judge language-model agents mainly by whether they reach the correct final state, not by how they got there. Endpoint scoring cannot separate an agent that retrieved exactly the evidence a decision required from one that read most of the environment, nor an agent that never located the evidence from one that stopped a single action short. Settling this needs a reference cost, and authored solutions establish only that a task is solvable, not that no shorter route exists. We present De",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.20844"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Who Makes the Decision? Auditing an Agentic LLM Pipeline for Illicit Cryptocurrency Transaction Monitoring",
+        "url": "https://huggingface.co/papers/2611.29829",
+        "normalized_url": "https://huggingface.co/papers/2611.29829",
+        "summary": "Agentic pipelines that combine graph detectors, deterministic rules, retrieval-augmented generation and an LLM judge are being proposed to monitor illicit cryptocurrency flows and to write regulation-citing justifications for analysts. They are evaluated on end-to-end accuracy or on the quality of those justifications, and neither shows which component made a decision. We audit such a pipeline on the Elliptic++ Bitcoin dataset with decision-source attribution, a trace-level protocol with three l",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.29829"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
+        "url": "https://huggingface.co/papers/2611.29969",
+        "normalized_url": "https://huggingface.co/papers/2611.29969",
+        "summary": "Situated 3D reasoning requires embodied agents to interpret objects, scene geometry, and viewpoint dependent spatial relations. Existing methods learn grounded interactions from supervised traces, but largely imitate prescribed evidence acquisition patterns rather than optimizing the support that the returned evidence provides for the correct answer. Moreover, outcome rewards provide limited credit for intermediate tool choices and may leave infrequent tools underexplored. An effective agent sho",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.29969"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Evaluating Memanto on DolphinBench for AI Agents",
+        "url": "https://huggingface.co/papers/2611.28231",
+        "normalized_url": "https://huggingface.co/papers/2611.28231",
+        "summary": "Memory benchmarks built on question answering tell an agent which fact to recall. Workplace requests often leave that need implicit: to post an update in the team's channel, an agent must work out which channel from earlier interactions and use it in a tool call. We evaluate Memanto, a memory agent that ranks memories with an information-theoretic relevance score, on DolphinBench, which tests memory through 600 simulated workplace tasks, each validated as requiring memory. Running in the Hermes ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.28231"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Look Back: Reinforcement Learning with Counterfactual World Models",
+        "url": "https://huggingface.co/papers/2611.29259",
+        "normalized_url": "https://huggingface.co/papers/2611.29259",
+        "summary": "Agents in complex, stochastic environments must contend with dynamics that can exceed their world models' predictive capacity and randomness that obscure the consequences of their actions. We hypothesize that, compared to imagining entirely new trajectories in such complex environments, it can be easier to transform observed trajectories with alternative actions. Counterfactual world models condition on observations to predict alternative outcomes under the same underlying environmental randomne",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.29259"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Single-Database Rewards Are Hackable: Counterfactual Execution for Trustworthy Text-to-SQL RL",
+        "url": "https://huggingface.co/papers/2611.34363",
+        "normalized_url": "https://huggingface.co/papers/2611.34363",
+        "summary": "Reinforcement learning (RL) for text-to-SQL agents pays a query when its result matches the reference on one database. However, a wrong query can match by luck when the data lack the rows that expose its bug. We study a counterfactual-database (CF) reward that also runs the final query on a few hidden, code-generated copies of the database and pays only if all results match (strict form) or by the share matched (mean form). On 1,302 synthetic audit questions, the strict form lowers the share of ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.34363"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+        "url": "https://huggingface.co/papers/2611.28732",
+        "normalized_url": "https://huggingface.co/papers/2611.28732",
+        "summary": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two challenges: task-level human-robot pairs are not temporally aligned with robot actions, and standard action losses allow policies to rely on initial-scene or task-identity shortcuts rather than tracking t",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.28732"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+        "url": "https://huggingface.co/papers/2611.33093",
+        "normalized_url": "https://huggingface.co/papers/2611.33093",
+        "summary": "A language-model decoder carries state between decoding steps, and in hardware a wrong state update can leave the current token correct and corrupt the output several tokens later, so a design can pass output tests and still be wrong. AIChipBench asks what LLM coding agents need to build such hardware correctly. Agents implement quantized Qwen3.5, Gemma 3, Gemma 4, and Llama 3.2 decoders in synthesizable register-transfer-level (RTL) code against an executable integer reference that specifies th",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.33093"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
+        "url": "https://huggingface.co/papers/2611.34079",
+        "normalized_url": "https://huggingface.co/papers/2611.34079",
+        "summary": "Generating coherent and explorable 3D worlds from scattered images with little or no visual overlap is a fundamental and long-standing challenge in computer vision, which existing geometry-aware methods fail to address. Meanwhile, existing image- and video-based methods may generate unseen regions but produce inconsistent geometry across views. To bridge this gap, we present WorldBridge, a framework for coherent and controllable 3D world generation under scattered images with little or no visual",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2611.34079"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?",
+        "url": "https://huggingface.co/papers/2611.21155",
+        "normalized_url": "https://huggingface.co/papers/2611.21155",
+        "summary": "After a large language model (LLM) agent generates an artifact, users often send edit requests for it. This paper studies whether an LLM can anticipate these requests before they are sent. Such anticipation is useful in practice because it reduces the effort of user review and feedback. We formalize this task as edit recommendation and build EditRecBench, a benchmark for evaluating the performance of LLMs on this task, from real-world conversation logs in WildChat-4.8M. Through benchmarking and ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-16T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.21155"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "When Does Reasoning Help Entity Disambiguation? Small LLMs In-Domain and Under Shift",
+        "url": "https://huggingface.co/papers/2611.30334",
+        "normalized_url": "https://huggingface.co/papers/2611.30334",
+        "summary": "Entity disambiguation (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question answering, and information extraction. Recent work has applied LLMs to this problem, achieving stateof-the-art performance. Notably, reasoning LLMs have been shown to perform entity disambiguation in a true zero-shot fashion, generalizing across knowledge bases and domains. However, it is unclear whether this capability survives",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.30334"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "双十一散场，AI硬件挤进大众购物车为什么反而更难做了？",
+        "url": "https://www.36kr.com/p/4087405673879432",
+        "normalized_url": "https://www.36kr.com/p/4087405673879432",
+        "summary": "普通人的生活，正在参与下一代硬件的发明。",
+        "source": "36Kr AI",
+        "published": "2026-11-27T02:58:23+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "为入境就医搭建协议层，VitaBook 寻找可助力的投资人",
+        "url": "https://www.36kr.com/p/4079366618633096",
+        "normalized_url": "https://www.36kr.com/p/4079366618633096",
+        "summary": "VitaBook做入境医疗协议层平台，寻天使轮融资",
+        "source": "36Kr AI",
+        "published": "2026-11-27T02:57:11+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "阿里需要啥，马云就在哪，这次轮到平头哥",
+        "url": "https://www.36kr.com/p/4087414203873929",
+        "normalized_url": "https://www.36kr.com/p/4087414203873929",
+        "summary": "算力受限下，平头哥成阿里自研芯片关键筹码",
+        "source": "36Kr AI",
+        "published": "2026-11-27T02:54:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "钻进学者大脑：最值得借鉴的商学院案例研究系列",
+        "url": "https://www.36kr.com/p/4087390925863296",
+        "normalized_url": "https://www.36kr.com/p/4087390925863296",
+        "summary": "好的教学，同时就是一个好的研究现场",
+        "source": "36Kr AI",
+        "published": "2026-11-27T02:48:20+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "在看不见“真人”的红果，人怎么赚钱",
+        "url": "https://www.36kr.com/p/4087397781198468",
+        "normalized_url": "https://www.36kr.com/p/4087397781198468",
+        "summary": "资深影视人预测：它未来或会自主生成一切短剧",
+        "source": "36Kr AI",
+        "published": "2026-11-27T02:48:07+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Gemini 4 Carbon点亮8颗太阳，70年几何悬案告破，只用6页神级证明",
+        "url": "https://www.36kr.com/p/4087355247540614",
+        "normalized_url": "https://www.36kr.com/p/4087355247540614",
+        "summary": "69年后，第20号难题合上了：任何一颗凸星球，8颗太阳就能照遍。",
+        "source": "36Kr AI",
+        "published": "2026-11-27T02:33:32+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "曹操出行Robotaxi加快海外布局，与拉斯海马交通管理局达成合作",
+        "url": "https://www.36kr.com/p/4087394920102277",
+        "normalized_url": "https://www.36kr.com/p/4087394920102277",
+        "summary": "双方将围绕自动驾驶载人车辆开展测试与试点合作。",
+        "source": "36Kr AI",
+        "published": "2026-11-27T02:33:19+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "大模型涌入药物研发：闭环、物理卡点和押注验证",
+        "url": "https://www.36kr.com/p/4087373831371141",
+        "normalized_url": "https://www.36kr.com/p/4087373831371141",
+        "summary": "卡在物理世界",
+        "source": "36Kr AI",
+        "published": "2026-11-27T02:33:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "涨价、减配、挤牙膏：手机堆料战，被内存逼停",
+        "url": "https://www.36kr.com/p/4087375011272326",
+        "normalized_url": "https://www.36kr.com/p/4087375011272326",
+        "summary": "内存比芯片还贵，手机厂商集体“摆烂”？",
+        "source": "36Kr AI",
+        "published": "2026-11-27T02:32:38+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "36氪首发丨这家触觉手套公司对标Manus拿下数千万营收，获赛智伯乐、普华等投资",
+        "url": "https://www.36kr.com/p/4087367217363589",
+        "normalized_url": "https://www.36kr.com/p/4087367217363589",
+        "summary": "对标海外Manus触觉手套",
+        "source": "36Kr AI",
+        "published": "2026-11-27T02:05:12+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "陶哲轩下场验证黎曼猜想！“AI批量吐证明就像发电厂排核废料”",
+        "url": "https://www.qbitai.com/2026/11/513075.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/513075.html",
+        "summary": "担心课题被AI抢先，该怎么办？",
+        "source": "量子位",
+        "published": "2026-11-27T02:03:10+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+        "url": "https://www.qbitai.com/2026/11/513053.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/513053.html",
+        "summary": "Quickwit查询总耗时降31%，最高降87%",
+        "source": "量子位",
+        "published": "2026-11-27T01:16:10+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "381个AI直播冲刺证明P=NP！把GitHub干崩了",
+        "url": "https://www.qbitai.com/2026/11/513021.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/513021.html",
+        "summary": "已跑了超过一万次会话，在Lean4里验证通过了2400多条引理",
+        "source": "量子位",
+        "published": "2026-11-26T13:56:01+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用",
+        "url": "https://www.qbitai.com/2026/11/512981.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512981.html",
+        "summary": "还得是科班尖子生",
+        "source": "量子位",
+        "published": "2026-11-26T12:39:08+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "90 秒自动换装补能，具微科技“潘多拉”支撑机器人无人化值守",
+        "url": "https://www.qbitai.com/2026/11/512972.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512972.html",
+        "summary": "全栈方案破解工业机器人连续作业难题",
+        "source": "量子位",
+        "published": "2026-11-26T10:07:55+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "极客公园创新大会 2027 全议程公布！",
+        "url": "https://www.qbitai.com/2026/11/512952.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512952.html",
+        "summary": "今天，IF 2027 全议程揭晓。",
+        "source": "量子位",
+        "published": "2026-11-26T08:19:20+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "报名最后2天｜AI浪潮之中，来认识创造未来的人",
+        "url": "https://www.qbitai.com/2026/11/512942.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512942.html",
+        "summary": "12月6日，WAIC将携手第六届“海聚英才”全球创新创业峰会，把这场关于“人”的讨论带回现场。",
+        "source": "量子位",
+        "published": "2026-11-26T07:36:04+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "顶尖商用级AI视频每秒只要5毛！中国开源新势力拿下全球第一",
+        "url": "https://www.qbitai.com/2026/11/512916.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512916.html",
+        "summary": "30秒一镜到底，可自动编排镜头",
+        "source": "量子位",
+        "published": "2026-11-26T06:41:23+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "任少卿带着世界模型3.0来了！蔚来智驾训练提效5倍，座舱也用上强化学习",
+        "url": "https://www.qbitai.com/2026/11/512897.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512897.html",
+        "summary": "李斌坦言：不做AI变革可能活不下去",
+        "source": "量子位",
+        "published": "2026-11-26T03:23:35+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "沈向洋刚讲了好多AI非共识啊",
+        "url": "https://www.qbitai.com/2026/11/512840.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/512840.html",
+        "summary": "“灵巧手是人类最后的尊严”",
+        "source": "量子位",
+        "published": "2026-11-26T03:13:16+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+        "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+        "normalized_url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+        "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-26T20:03:54+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+        "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+        "normalized_url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+        "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-26T16:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+        "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+        "normalized_url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks",
+        "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-25T22:44:32+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+        "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+        "normalized_url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work",
+        "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-25T20:03:27+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+        "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+        "normalized_url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it",
+        "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-25T19:54:57+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+        "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+        "normalized_url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd",
+        "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-25T19:44:24+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+        "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+        "normalized_url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+        "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-25T18:11:46+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+        "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+        "normalized_url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
+        "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-25T17:35:58+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+        "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+        "normalized_url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it",
+        "summary": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck. ⁠Anita Verma-Lallian⁠ has been selling exactly that. […]",
+        "source": "TechCrunch AI",
+        "published": "2026-11-25T15:41:43+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+        "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+        "normalized_url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse",
+        "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-25T14:10:18+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+        "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+        "normalized_url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+        "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - […]",
+        "source": "The Verge AI",
+        "published": "2026-11-26T09:54:40+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+        "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+        "normalized_url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+        "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come […]",
+        "source": "The Verge AI",
+        "published": "2026-11-25T21:51:26+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+        "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+        "normalized_url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+        "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Google and Blue Origin, this is the first approval the agency […]",
+        "source": "The Verge AI",
+        "published": "2026-11-25T17:44:51+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nothing offers a full look at its AI earbuds and charging case",
+        "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+        "normalized_url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+        "summary": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes with a \"Talk\" button that you […]",
+        "source": "The Verge AI",
+        "published": "2026-11-25T16:00:59+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+        "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+        "normalized_url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+        "summary": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune, […]",
+        "source": "The Verge AI",
+        "published": "2026-11-25T14:12:33+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Has vibe coding made open source the new normal for synths?",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+        "normalized_url": "https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware",
+        "summary": "The emergence of powerful vibe-coding agents and tools like Reverse Engineer Anything has caused chaos in the music gear world, leaving companies scrambling to figure out how to respond. While some, like Roland, have remained silent for now, others have embraced the modding community. In the last several weeks, as it's become clear that no […]",
+        "source": "The Verge AI",
+        "published": "2026-11-25T13:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+        "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+        "normalized_url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains",
+        "summary": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.",
+        "source": "Wired AI",
+        "published": "2026-11-26T10:51:27+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long",
+        "url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
+        "normalized_url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid",
+        "summary": "The “hardest remaining problem in classical physics” gets a boost from terabytes of crowdsourced data and new ways of using machine learning and AI.",
+        "source": "Wired AI",
+        "published": "2026-11-25T11:30:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Backblaze explains why it's sharing customer information with advertisers",
+        "url": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
+        "normalized_url": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers",
+        "summary": "Backblaze tells Ars it won't share users' backup, storage files with advertisers.",
+        "source": "Ars Technica AI",
+        "published": "2026-11-25T18:38:29+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://feeds.arstechnica.com/arstechnica/technology-lab"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+        "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+        "normalized_url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+        "summary": "Watch now (32 mins) | 🎙️ My late-2026 How I AI bench: GPT-6.2 disappointed me, Opus 5.5 is my least annoying daily driver, and Gemini 4 Neon is now my top pick",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-25T13:04:21+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: OpenClaw for executives: Automate every 1% annoyance",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+        "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-23T16:01:48+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenClaw for executives: Automate every 1% annoyance | Ankit Maheshwari (Innovaccer)",
+        "url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+        "normalized_url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+        "summary": "Watch now (31 mins) | 🎙️ Ankit Maheshwari (CTO, Innovaccer) walks me through the OpenClaw Jarvis he runs on a Mac Mini to clear every 1% annoyance in his life",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-23T13:04:43+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+        "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+        "normalized_url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+        "summary": "Sherif Mansour on why PMs are thriving in the AI era, the artist PM advantage, and why juniors are your secret weapon now",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-22T13:31:53+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+        "summary": "Community Wisdom 306",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-21T16:49:56+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
