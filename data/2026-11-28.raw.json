@@ -1,0 +1,692 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T11:42:05.639446+08:00",
+  "counts": {
+    "papers": 20,
+    "projects": 0,
+    "news": 32
+  },
+  "items": {
+    "papers": [
+      {
+        "category": "papers",
+        "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+        "url": "https://huggingface.co/papers/2611.33885",
+        "normalized_url": "https://huggingface.co/papers/2611.33885",
+        "summary": "3D layout-controlled image editing gives users explicit control over object placement and camera viewpoint. In a sequence of edits, however, the latest image can lose the appearance of an object when it is occluded or leaves view. The target layout specifies where the object should reappear, while its appearance must be recovered from earlier observations. We introduce LayoutRecall, a multi-round editor that stores and reuses appearance in the local coordinate systems of 3D boxes. Box-Surface La",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2611.33885"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
+        "url": "https://huggingface.co/papers/2611.30025",
+        "normalized_url": "https://huggingface.co/papers/2611.30025",
+        "summary": "Conventional artificial neurons separate spatial feature aggregation from continuous physical time, limiting their ability to model irregular observations. We introduce the Damped Atomic Wave Integration Neuron (DAWIN), a continuous-time primitive for replacing standard neural layers in MLPs, Transformers, and graph neural networks. DAWIN couples spatial projection with elapsed-time-dependent wave excitation and integrates it into a local complex state through closed-form damped evolution, avoid",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.30025"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+        "url": "https://huggingface.co/papers/2611.30723",
+        "normalized_url": "https://huggingface.co/papers/2611.30723",
+        "summary": "Speech language models (LMs) generate speech as sequences of discrete tokens. Their tokenizer must therefore preserve both acoustic detail and linguistic content at a low bitrate. Semantic-enhanced tokenizers may lose acoustic detail, whereas acoustic-oriented tokenizers retain acoustic variation that makes language modeling harder. Unified tokenizers combine both, but representing acoustic detail and linguistic content within a single feature space can cause interference between the two objecti",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.30723"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+        "url": "https://huggingface.co/papers/2611.27112",
+        "normalized_url": "https://huggingface.co/papers/2611.27112",
+        "summary": "Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents rarely look up a repository's contribution rules. I asked the security question: what does a rules file do at a boundary, against a gate? I tested one 278-word rules file, with hypotheses and analysis code deposited first. Claude Code, Codex CLI, Gemini CLI and OpenCode with DeepSeek worked through 20 small repositories with hidden tests, 12 for three of them. Three agents met ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.27112"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Revisiting LLMs as Context Engineers",
+        "url": "https://huggingface.co/papers/2611.30494",
+        "normalized_url": "https://huggingface.co/papers/2611.30494",
+        "summary": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without intensive training. A growing number of LLM context engineering (LCE) approaches automate the task by casting the LLM itself as the engineer that draws generalizable instructions or experiences from offline trials as context. Although these methods resemble how humans learn from experiences, it rema",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.30494"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion",
+        "url": "https://huggingface.co/papers/2611.31516",
+        "normalized_url": "https://huggingface.co/papers/2611.31516",
+        "summary": "Initialization-free bundle adjustment (InitFree BA) aims to jointly recover camera poses and scene structure without requiring an initial global estimate. It is a very challenging problem, especially compared to traditional BA where a good estimation is assumed. While recent methods optimize surrogate Object Space Error (OSE) objectives from random initialization, a low objective value does not necessarily yield an accurate reconstruction, revealing a gap between optimization and reconstruction.",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2611.31516"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
+        "url": "https://huggingface.co/papers/2611.31155",
+        "normalized_url": "https://huggingface.co/papers/2611.31155",
+        "summary": "A publicly available dataset of 62029 rank-23 schemes for 3times3 matrix multiplication is presented. Every scheme in it has its own rank pattern, an invariant formed by the ranks of the factor matrices of a scheme, so all schemes are pairwise inequivalent. The schemes were obtained by a numerical method combining gradient descent with alternating least squares and by flip graph search, and have ternary, integer or rational coefficients. Rank 23 is the best known for this format and is optimal f",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2611.31155"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+        "url": "https://huggingface.co/papers/2611.31491",
+        "normalized_url": "https://huggingface.co/papers/2611.31491",
+        "summary": "Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, beyond what common risk factors explain. In recent years, tabular foundation models (TFMs) have matched or outperformed tuned gradient-boosted and bagged ensembles on small and medium-sized tabular benchmarks. Although their predictive performance is strong, these models reveal little about what they have learned, which limits their use in regulated financial applications that r",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.31491"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
+        "url": "https://huggingface.co/papers/2611.28849",
+        "normalized_url": "https://huggingface.co/papers/2611.28849",
+        "summary": "When visual context makes an ordinary request unsafe to answer as asked, a blanket refusal may leave the user's need unresolved. Choosing how to help requires distinguishing an established hazard from a condition that still needs verification, a distinction that binary safety labels leave unspecified. We formulate this decision through four actions: allow, warn, review, and refuse. To ground these decisions in verifiable evidence, we build a corpus of 20,126 training audits and the JudiBench ben",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-21T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.28849"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+        "url": "https://huggingface.co/papers/2611.31619",
+        "normalized_url": "https://huggingface.co/papers/2611.31619",
+        "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We call that quantity the resolution of a board and introduce Vernier, a tool that computes it from the files a board already publishes. Vernier also reports which entries a board can",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.31619"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Generation as Reverse Encoding",
+        "url": "https://huggingface.co/papers/2611.34782",
+        "normalized_url": "https://huggingface.co/papers/2611.34782",
+        "summary": "Pretrained visual representations accelerate generative learning by abstracting away appearance and spatial detail. Yet the same abstraction makes the return to pixels far harder, shifting much of the burden onto a larger decoder. We ask why the representation-to-pixel path should be learned independently when the encoder already provides a learned pixel-to-semantics path (the semantic encoding path). We introduce RevFlow, based on the principle of generation as reverse encoding. RevFlow uses in",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2611.34782"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+        "url": "https://huggingface.co/papers/2611.30483",
+        "normalized_url": "https://huggingface.co/papers/2611.30483",
+        "summary": "AI agents now run statements against production databases, and several of the incidents that followed deleted production data, which came back only through backups or the provider's help. We ask what decides the damage when such an agent makes a mistake: the model, a guard layer in front of the database, or the database engine itself. The study has two preregistered layers. In Layer A, a frozen library of 22 canonical mistakes is applied by script, with no model involved, to four relational engi",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-23T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.30483"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+        "url": "https://huggingface.co/papers/2611.32238",
+        "normalized_url": "https://huggingface.co/papers/2611.32238",
+        "summary": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the moment of handoff: a policy is reliable only from a limited set of start states, while the agent may invoke it outside this region. We call this region the policy's handoff boundary. Existing whole-task policies typically have handoff boundaries that are narrow and difficult for an agent to characterize",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.32238"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+        "url": "https://huggingface.co/papers/2611.34719",
+        "normalized_url": "https://huggingface.co/papers/2611.34719",
+        "summary": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode transferable detection knowledge, while further adaptation can impair generalization. This motivates a shift from backbone adaptation to knowledge readout. Conventional linear probing offers a direct way to read this knowledge but is limited to final-layer RGB features. Multi-cue detectors broaden the evidence",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.34719"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+        "url": "https://huggingface.co/papers/2611.34232",
+        "normalized_url": "https://huggingface.co/papers/2611.34232",
+        "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states. We introduce OS-Omni, a live cross-platform benchmark and execution environment for evaluating computer-using agents across Windows, Ubuntu,",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.34232"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+        "url": "https://huggingface.co/papers/2611.34852",
+        "normalized_url": "https://huggingface.co/papers/2611.34852",
+        "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them. We introduce DRBench Pro, a benchmark that makes structured knowledge coverage the primary evaluation target. Our automated pipeline builds local knowledge trees from Wikipedia ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.34852"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
+        "url": "https://huggingface.co/papers/2611.32993",
+        "normalized_url": "https://huggingface.co/papers/2611.32993",
+        "summary": "Structured clinical decisions from volumetric computed tomography (CT) require anatomically grounded predictions and calibrated confidence estimates. However, existing 3D medical multimodal models often suffer from uncalibrated autoregressive decoding and shortcut reliance on irrelevant anatomical regions. We introduce Radev, a decision-native multimodal model that integrates anatomy-guided visual compression, direct candidate prediction, and counterfactual confidence supervision. To bridge glob",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-24T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.32993"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+        "url": "https://huggingface.co/papers/2611.34290",
+        "normalized_url": "https://huggingface.co/papers/2611.34290",
+        "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited. We introduce StateWeaver, which combines Active States and Hierarchical Collaboration to connect review-driven visual reference updates with cross-shot state inheritance. Active ",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.34290"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+        "url": "https://huggingface.co/papers/2611.34813",
+        "normalized_url": "https://huggingface.co/papers/2611.34813",
+        "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in fact the more reliable path to visual reasoning has not been tested against a symbolic alternative under",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.34813"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+        "url": "https://huggingface.co/papers/2611.34693",
+        "normalized_url": "https://huggingface.co/papers/2611.34693",
+        "summary": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action updates, and generation after input adds work to the response path. We introduce ShowNow, a fine-grained speculative streaming framework that uses computation available during playback to prepare action-conditioned futures before input arrives. Single-latent commitment enables frequent decisions, whi",
+        "source": "HuggingFace Papers",
+        "published": "2026-11-25T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2611.34693"
+        }
+      }
+    ],
+    "projects": [],
+    "news": [
+      {
+        "category": "news",
+        "title": "现代最强？史上最强！为何《GTA》还是要败？",
+        "url": "https://www.36kr.com/p/4088096700414341",
+        "normalized_url": "https://www.36kr.com/p/4088096700414341",
+        "summary": "最后的晚餐",
+        "source": "36Kr AI",
+        "published": "2026-11-28T02:06:01+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "水面智能驾驶公司获数千万融资，加速近海无人作业平台落地｜硬氪首发",
+        "url": "https://www.36kr.com/p/4081887385817988",
+        "normalized_url": "https://www.36kr.com/p/4081887385817988",
+        "summary": "累计交付客户近百家。",
+        "source": "36Kr AI",
+        "published": "2026-11-28T02:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "从单机智能到场景智能，三一集团在矿山跑通智能工程装备机器人商业闭环",
+        "url": "https://www.36kr.com/p/4088769994586754",
+        "normalized_url": "https://www.36kr.com/p/4088769994586754",
+        "summary": "围绕“从无人矿卡到无人机群”的技术演进，36氪专访了三一智矿副总经理兼CTO黄立明。",
+        "source": "36Kr AI",
+        "published": "2026-11-28T01:54:08+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Claude暗中破坏AI研究，开发者怒了！",
+        "url": "https://www.36kr.com/p/4088741898058371",
+        "normalized_url": "https://www.36kr.com/p/4088741898058371",
+        "summary": "Claude暗中破坏AI研究，开发者怒了！",
+        "source": "36Kr AI",
+        "published": "2026-11-28T01:52:17+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "佳能时隔24年重返半导体ArF光刻机市场",
+        "url": "https://www.36kr.com/p/4088696154241410",
+        "normalized_url": "https://www.36kr.com/p/4088696154241410",
+        "summary": "可支持最小约65纳米线宽的电路形成，可用于部分存储器制造工序、功率半导体和传感器的量产……",
+        "source": "36Kr AI",
+        "published": "2026-11-28T01:48:46+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "9点1氪丨DeepSeek或将推出付费模式；广电正式禁播电视开机广告；李斌：“速成车”是对国产车的污名化",
+        "url": "https://www.36kr.com/p/4088718976268932",
+        "normalized_url": "https://www.36kr.com/p/4088718976268932",
+        "summary": "DeepSeek安卓App更新后新增对话资费查看功能，或为推出App付费模式铺路。",
+        "source": "36Kr AI",
+        "published": "2026-11-28T01:07:21+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "财务虚无主义者还是精明策略家，Z 世代的钱到底怎么花的",
+        "url": "https://www.36kr.com/p/4046560691360648",
+        "normalized_url": "https://www.36kr.com/p/4046560691360648",
+        "summary": "Z 世代既在传统金融账户中积极储蓄，也在加密货币、散户投资和体育博彩中冒险。",
+        "source": "36Kr AI",
+        "published": "2026-11-28T00:00:10+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "九方智投APP，一款入选WISE2026“年度焦点产品”的应用如何划定技术与服务边界",
+        "url": "https://www.36kr.com/p/4087956884765063",
+        "normalized_url": "https://www.36kr.com/p/4087956884765063",
+        "summary": "当大模型开始回答股票问题，投资者关心的不只是答案来得有多快，还有信息如何核验、风险如何约束，以及技术能否真正帮助自己理解市场。此次获奖，是对九方智投APP产品体验和AI落地实践的一次重要认可，也引出一个更具体的问题：一款股票投资助手，究竟应该如何为个人投资者服务？",
+        "source": "36Kr AI",
+        "published": "2026-11-27T13:12:24+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "微软想让电脑上的WiFi更安全，但代价是什么？",
+        "url": "https://www.36kr.com/p/4087908379179657",
+        "normalized_url": "https://www.36kr.com/p/4087908379179657",
+        "summary": "微软想出了解决方案，厂商可能不愿意改。",
+        "source": "36Kr AI",
+        "published": "2026-11-27T12:41:13+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "滴滴季报图解：营收657亿同比增12%，巴西外卖拓展至超150城市",
+        "url": "https://www.36kr.com/p/4087940086086016",
+        "normalized_url": "https://www.36kr.com/p/4087940086086016",
+        "summary": "滴滴2026年前9个月营收1870亿元，较上年同期的1682.56亿元增长11.1%。",
+        "source": "36Kr AI",
+        "published": "2026-11-27T12:40:27+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "人形机器人开发者集合！众擎开放大小脑，10亿产业级生态支持计划也来了",
+        "url": "https://www.qbitai.com/2026/11/513352.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/513352.html",
+        "summary": "一支团队在真机上验证的成果，可以成为下一支团队继续开发的起点。",
+        "source": "量子位",
+        "published": "2026-11-27T14:07:33+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "全国首批首家！商汤大装置获Token工厂智算能力最高评级",
+        "url": "https://www.qbitai.com/2026/11/513346.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/513346.html",
+        "summary": "商汤大装置Token工厂获得中国信通院Token工厂智算能力评估“全栈服务型·领先级”评级认证",
+        "source": "量子位",
+        "published": "2026-11-27T11:18:24+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "韦东奕再获大奖！攻克近140年数学难题，获两位院士共同提名",
+        "url": "https://www.qbitai.com/2026/11/513320.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/513320.html",
+        "summary": "淡泊名利，实至名归🎉",
+        "source": "量子位",
+        "published": "2026-11-27T07:39:18+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "DeepSeek APP突然更新账单，网友：要收费了？",
+        "url": "https://www.qbitai.com/2026/11/513305.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/513305.html",
+        "summary": "网页App双端亮出聊天账单",
+        "source": "量子位",
+        "published": "2026-11-27T07:29:10+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "刚刚，首个带跨任务空间记忆的原生基模开源！机器人端侧就能跑",
+        "url": "https://www.qbitai.com/2026/11/513227.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/513227.html",
+        "summary": "地图能随时修，记忆能跨任务用",
+        "source": "量子位",
+        "published": "2026-11-27T07:01:20+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "钛动科技 × 腾讯云达成战略合作，用AI打开企业全球增长新空间",
+        "url": "https://www.qbitai.com/2026/11/513194.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/513194.html",
+        "summary": "企业需要有用的 AI",
+        "source": "量子位",
+        "published": "2026-11-27T04:05:56+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "蚂蚁灵波发布LingBot-Map 2.0，模型自己修正“空间记忆”，把地图画更准",
+        "url": "https://www.qbitai.com/2026/11/513211.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/513211.html",
+        "summary": "11 月 27 日，蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2.0",
+        "source": "量子位",
+        "published": "2026-11-27T04:05:18+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+        "url": "https://www.qbitai.com/2026/11/513163.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/513163.html",
+        "summary": "Quickwit查询总耗时降31%，最高降87%",
+        "source": "量子位",
+        "published": "2026-11-27T03:53:49+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "腾讯混元发布 Hy3D 3.6：高模表面更整洁、结构更清晰、刻画更细腻",
+        "url": "https://www.qbitai.com/2026/11/513155.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/513155.html",
+        "summary": "3D生成的竞争重点正在从“能看”转向“能用”",
+        "source": "量子位",
+        "published": "2026-11-27T03:45:19+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "具身公司抱团回应：通用大模型跨维打击？没那么简单",
+        "url": "https://www.qbitai.com/2026/11/513125.html",
+        "normalized_url": "https://www.qbitai.com/2026/11/513125.html",
+        "summary": "",
+        "source": "量子位",
+        "published": "2026-11-27T03:33:11+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.qbitai.com/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+        "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+        "normalized_url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+        "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-26T20:03:54+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+        "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+        "normalized_url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+        "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+        "source": "TechCrunch AI",
+        "published": "2026-11-26T16:00:00+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+        "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+        "normalized_url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+        "summary": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and […]",
+        "source": "The Verge AI",
+        "published": "2026-11-27T14:00:00+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+        "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+        "normalized_url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+        "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - […]",
+        "source": "The Verge AI",
+        "published": "2026-11-26T09:54:40+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        }
+      },
+      {
+        "category": "news",
+        "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+        "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+        "normalized_url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light",
+        "summary": "German company Q.ANT is trying to cut the amount of energy required to run AI models by using light to perform the toughest calculations.",
+        "source": "Wired AI",
+        "published": "2026-11-27T07:00:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+        "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+        "normalized_url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains",
+        "summary": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.",
+        "source": "Wired AI",
+        "published": "2026-11-26T10:51:27+00:00",
+        "importance_hint": 5,
+        "metadata": {
+          "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "This ER Doctor Became a Hospital’s First Clinical AI Engineer",
+        "url": "https://spectrum.ieee.org/clinical-ai-engineer-dinesh-rai",
+        "normalized_url": "https://spectrum.ieee.org/clinical-ai-engineer-dinesh-rai",
+        "summary": "When Boston Children’s Hospital posted a job listing for a prompt engineer in 2023, Dinesh Rai decided to apply. He didn’t expect to get the job. At the time, prompt engineering was being touted as one of the hot new jobs created by generative AI. Companies wanted people who knew how to coax the best answers from large language models (LLMs) by carefully wording instructions, supplying examples, and giving the systems personas or other context. Dinesh Rai Employer: Boston Children’s Hospital Occ",
+        "source": "IEEE Spectrum AI",
+        "published": "2026-11-27T14:00:01+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"
+        }
+      },
+      {
+        "category": "news",
+        "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+        "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+        "normalized_url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+        "summary": "Watch now (32 mins) | 🎙️ My late-2026 How I AI bench: GPT-6.2 disappointed me, Opus 5.5 is my least annoying daily driver, and Gemini 4 Neon is now my top pick",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-25T13:04:21+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🎙️ How I AI: OpenClaw for executives: Automate every 1% annoyance",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+        "normalized_url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+        "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-23T16:01:48+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "OpenClaw for executives: Automate every 1% annoyance | Ankit Maheshwari (Innovaccer)",
+        "url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+        "normalized_url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+        "summary": "Watch now (31 mins) | 🎙️ Ankit Maheshwari (CTO, Innovaccer) walks me through the OpenClaw Jarvis he runs on a Mac Mini to clear every 1% annoyance in his life",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-23T13:04:43+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+        "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+        "normalized_url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+        "summary": "Sherif Mansour on why PMs are thriving in the AI era, the artist PM advantage, and why juniors are your secret weapon now",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-22T13:31:53+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      },
+      {
+        "category": "news",
+        "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+        "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+        "normalized_url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+        "summary": "Community Wisdom 306",
+        "source": "Lenny's Newsletter",
+        "published": "2026-11-21T16:49:56+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://www.lennysnewsletter.com/feed"
+        }
+      }
+    ]
+  }
+}
